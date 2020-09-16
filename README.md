@@ -1,16 +1,8 @@
-# Estructura para proyectos
-
-_Estructura flexible para proyectos de ciencia de datos._
-
-
-### Para iniciar un nuevo proyecto:
-------------
-
-    git clone This repo
+# Calidad del aire en corredor MacroPeriferico
     
 
 
-### Estructura mínima
+### Estructura
 ------------
 
 La estructura de los folders de este proyecto es:
