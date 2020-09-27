@@ -204,6 +204,3 @@ def database_clean (interval='hour'):
             
         df = df.drop(columns=0) #drops coloumn 0 which is created when stacking df
         df.to_csv('../gdl-aire/gdlaire/data/processed/'+file[6:10]+'_'+interval+'.csv') #saves data for all years, stations and parameters
-
-
-database_clean(interval='hour')
