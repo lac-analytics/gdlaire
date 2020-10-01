@@ -230,12 +230,11 @@ def database_clean(interval='hour'):
                   file[6:10]+'_'+interval+'.csv')
 
 
-def download_graph(polygon, city, network_type='walk'):
+def download_graph(polygon, network_type='walk'):
     """Download a graph from a bounding box, and saves it to disk
 
     Arguments:
             polygon {polygon} -- polygon to use as boundary to download the network
-            city {str} -- string with the name of the city
 
     Keyword Arguments:
             network_type {str} -- String with the type of network to download (drive, walk, bike, all_private, all) for more details see OSMnx documentation
