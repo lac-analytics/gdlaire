@@ -32,6 +32,7 @@ def sinaica_stations_csv():
     
     #calls datosgobmx function and gathers data
     parametros_request = client.makeCall('sinaica-estaciones',{'pageSize':200})
+    dir_raw = '../data/raw/'
 
     stations = [] #list which saves station information
 
@@ -45,10 +46,12 @@ def sinaica_stations_csv():
     #Removes stations that are out of Mexico
     mask = (stations.lat.between(14, 34.5)) & (stations.long.between(-120, -70))
     stations = stations[mask]
+
+    filename = dir_raw+'estaciones'
+
+    #stations.to_csv (r''+filename+'.csv', index = False, header=True) #saves to csv
     
     utils.log('CSV with stations coordinates downloaded')
-    
-    return stations
 
 
 def daterange(start_date, end_date, interval='hour', lapse=1):
