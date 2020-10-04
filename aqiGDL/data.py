@@ -16,9 +16,6 @@ from . import utils
 
 from datetime import datetime, timedelta
 
-import aqiGDL
-
-
 def sinaica_stations_csv():
     """Function that downloads csv with information for all Mexican air quality stations using SINAICA api
 
@@ -43,8 +40,8 @@ def sinaica_stations_csv():
     stations = pd.concat(stations, ignore_index=True)
 
     #Removes stations that are out of Mexico
-    mask = (stations.lat.between(14, 34.5)) & (stations.long.between(-120, -70))
-    stations = stations[mask]
+    #mask = (stations.lat.between(14, 34.5)) & (stations.long.between(-120, -70))
+    stations = stations[stations['redesid']==63]
     
     utils.log('CSV with stations coordinates downloaded')
     
