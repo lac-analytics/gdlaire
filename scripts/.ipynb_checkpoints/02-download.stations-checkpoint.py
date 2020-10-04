@@ -10,10 +10,11 @@ if module_path not in sys.path:
 
 
 def main(save=False):
-        s = aqiGDL.sinaica_stations_csv()
-        aqiGDL.log('Call SINAICA')
+    s = aqiGDL.sinaica_stations_csv()
+    aqiGDL.log('Call SINAICA')
     if save:
-        s.to_csv (r''+'../data/raw/estaciones.csv', index = False, header=True) #saves to csv
+        s.to_csv(r''+'../data/raw/estaciones.csv',
+                 index=False, header=True)  # saves to csv
 
 
 if __name__ == "__main__":
