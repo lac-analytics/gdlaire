@@ -11,3 +11,10 @@ log_file = True
 log_level = lg.INFO
 log_name = "aireGDL"
 log_filename = "aireGDL"
+
+# Database settings
+url = 'airegdlpip.cptlhu1n34ei.us-west-1.rds.amazonaws.com'
+user = 'postgres'
+pw = 'pipguadalajara'
+db = 'postgres'
+#access_key_id = 'AKIA3BSMXZ65WZYEI3AR'

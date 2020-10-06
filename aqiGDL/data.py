@@ -8,6 +8,7 @@ import os
 import osmnx as ox
 import pandas as pd
 import numpy as np
+import geopandas as gpd
 import xlrd
 import urllib.request
 import math
@@ -246,4 +247,46 @@ def download_graph(polygon, network_type='walk'):
     G = ox.graph_from_polygon(polygon, network_type=network_type,
                               simplify=True, retain_all=False, truncate_by_edge=False)
     utils.log('Graph downloaded')
+    return G
+
+
+def save_graph(G, city):
+    """Load the nodes/edges from a graph G to database
+
+    Args:
+        G (osmnx.Graph): Grpah created/retrived from OSMnx
+        city (str): name of the city, this is used to create the tables {city}_nodes and {city}_edges
+    """
+    utils.log('Getting nodes and edges')
+    nodes, edges = ox.graph_to_gdfs(G)
+    utils.log('Nodes and eges loaded')
+    engine = utils.db_engine()
+    utils.log('Uploading nodes')
+    nodes.to_postgis(name=f'{city.lower()}_nodes', con=engine,
+                     if_exists='fail', index=False)
+    utils.log('Nodes uploaded')
+    utils.log('Uploading edges')
+    edges.to_postgis(name=f'{city.lower()}_edges', con=engine,
+                     if_exists='fail', index=False)
+    utils.log('Edges uploaded')
+
+
+def graph_from_db(city):
+    """Download the graph from a city from the database
+
+    Args:
+        city (str): name of the city
+
+    Returns:
+        osmnx.Graph: multiDirected graph to work with osmnx
+    """
+    engine = utils.db_engine()
+    nodes = gpd.read_postgis(
+        f"SELECT * FROM {city.lower()}_nodes", engine, geom_col='geometry', index_col='osmid')
+    utils.log('Nodes loaded')
+    edges = gpd.read_postgis(
+        f"SELECT * FROM {city.lower()}_edges", engine, geom_col='geometry', index_col='osmid')
+    utils.log('Edges loaded')
+    G = ox.graph_from_gdfs(nodes, edges)
+    utils.log("Graph created")
     return G
