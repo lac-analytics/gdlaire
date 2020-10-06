@@ -11,3 +11,4 @@ tests/__pycache__/*
 *.geojson
 aqiGDL/settings.py
 aqiGDL/__pycache__
+*/__pycache__/*

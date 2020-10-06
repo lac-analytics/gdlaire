@@ -1,6 +1,6 @@
 ################################################################################
 # Module: Data gathering and treatment
-# updated: 01/10/2020
+# updated: 03/10/2020
 ################################################################################
 
 from pathlib import Path
@@ -12,9 +12,41 @@ import geopandas as gpd
 import xlrd
 import urllib.request
 import math
+from datosgobmx import client
 from . import utils
 
 from datetime import datetime, timedelta
+
+
+def sinaica_stations_csv():
+    """Function that downloads csv with information for all Mexican air quality stations using SINAICA api,
+        and filters for Guadalajara
+
+    Returns:
+        csv -- csv with information for all air quality stations for Guadalajara from the SINAICA database
+
+    """
+
+    # calls datosgobmx function and gathers data
+    parametros_request = client.makeCall(
+        'sinaica-estaciones', {'pageSize': 200})
+
+    stations = []  # list which saves station information
+
+    # gathers data from all stations and interates over them
+    for v in parametros_request['results']:
+        aux = pd.DataFrame.from_dict(v, orient='index').T
+        stations.append(aux)
+
+    stations = pd.concat(stations, ignore_index=True)
+
+    # Removes stations that are out of Mexico
+    #mask = (stations.lat.between(14, 34.5)) & (stations.long.between(-120, -70))
+    stations = stations[stations['redesid'] == 63]
+
+    utils.log('CSV with stations coordinates downloaded')
+
+    return stations
 
 
 def daterange(start_date, end_date, interval='hour', lapse=1):
@@ -54,7 +86,7 @@ def simaj_download(year_start=2014, year_end=2019):
     for year in range(year_end-year_start+1):
 
         save_path = os.path.join(
-            '../gdl-aire/gdlaire/data/raw/', 'datos_'+str(year_start+year)+'.xlsx')
+            '../data/raw/', 'datos_'+str(year_start+year)+'.xlsx')
 
         urllib.request.urlretrieve(
             'http://siga.jalisco.gob.mx/aire/reportes/datos_'+str(year_start+year)+'.xlsx', save_path)
@@ -67,7 +99,7 @@ def database_clean(interval='hour'):
         interval (str, optional): it sets the interval for the new database, it can take 'hour' or 'day'. Defaults to 'hour'.
     """
 
-    dir_gdl = '../gdl-aire/gdlaire/data/raw/'
+    dir_gdl = '../data/raw/'
 
     # dictionary for stations codes and names
     est_dict = {'ÁGUILAS': 'AGU', 'AGUILAS': 'AGU', 'LAS ÁGUILAS': 'AGU', 'ATEMAJAC': 'ATM', 'CENTRO': 'CEN',
