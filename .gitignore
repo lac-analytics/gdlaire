@@ -9,3 +9,6 @@ tests/__pycache__/*
 *.pytest_cache/
 *.graphml
 *.geojson
+aqiGDL/settings.py
+aqiGDL/__pycache__
+*/__pycache__/*

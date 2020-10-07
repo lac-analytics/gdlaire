@@ -1,0 +1,12 @@
+2020-10-06 17:17:20,712 INFO aireGDL Polygon loaded
+2020-10-06 17:17:20,713 INFO aireGDL Downloading graph
+2020-10-06 17:19:44,030 INFO aireGDL Polygon loaded
+2020-10-06 17:19:44,031 INFO aireGDL Downloading graph
+2020-10-06 17:22:39,097 INFO aireGDL Graph downloaded
+2020-10-06 17:22:39,099 INFO aireGDL Getting nodes and edges
+2020-10-06 17:23:02,176 INFO aireGDL Nodes and eges loaded
+2020-10-06 17:23:02,176 INFO aireGDL Creating SQL engine
+2020-10-06 17:23:02,291 INFO aireGDL Uploading nodes
+2020-10-06 17:23:42,014 INFO aireGDL Nodes uploaded
+2020-10-06 17:23:42,014 INFO aireGDL Uploading edges
+2020-10-06 17:25:31,228 INFO aireGDL Edges uploaded

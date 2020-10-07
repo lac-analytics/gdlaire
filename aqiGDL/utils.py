@@ -4,6 +4,7 @@ from . import settings
 import logging as lg
 import unicodedata
 import os
+from sqlalchemy import create_engine
 
 
 def ts(style="datetime", template=None):
@@ -119,3 +120,14 @@ def _get_logger(level=None, name=None, filename=None):
         logger.handler_set = True
 
     return logger
+
+
+def db_engine():
+    """Function to create an engine with Ada
+
+    Returns:
+        database engine: sqlalchemy engine
+    """
+    log('Creating SQL engine')
+    return create_engine("postgresql://{user}:{pw}@{url}/{db}".format(user=str(
+        settings.user), pw=str(settings.pw), url=str(settings.url), db=str(settings.db)))

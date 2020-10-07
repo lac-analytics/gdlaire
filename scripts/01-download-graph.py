@@ -10,14 +10,15 @@ if module_path not in sys.path:
     import aqiGDL
 
 
-def main(save=False):
+def main(city, save=False):
     polygon = gpd.read_file('../data/raw/Guadalajara_area.geojson')
     aqiGDL.log('Polygon loaded')
     polygon = polygon['geometry'][0]
     G = aqiGDL.download_graph(polygon, network_type='all_private')
     if save:
-        ox.save_graphml(G, '../data/raw/Guadalajara_network.graphml')
+        aqiGDL.save_graph(G, city)
 
 
 if __name__ == "__main__":
-    main(save=True)
+    city = 'Guadalajara'
+    main(city, save=True)
