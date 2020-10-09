@@ -1,0 +1,12 @@
+2020-10-08 13:26:40,172 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-08 13:26:40,179 INFO aireGDL Air quality stations loaded
+2020-10-08 13:26:40,185 INFO aireGDL Air quality stations to gdf
+2020-10-08 13:26:40,820 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2018-12-20 Interval: day
+2020-10-08 13:26:55,383 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-08 13:26:55,385 INFO aireGDL Air quality stations loaded
+2020-10-08 13:26:55,385 INFO aireGDL Air quality stations to gdf
+2020-10-08 13:26:55,990 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2018-12-20 Interval: day
+2020-10-08 13:27:02,753 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-08 13:27:02,755 INFO aireGDL Air quality stations loaded
+2020-10-08 13:27:02,755 INFO aireGDL Air quality stations to gdf
+2020-10-08 13:27:03,384 INFO aireGDL Air quality interpolation created for Pollutant: O3 Date: 2018-12-20 Interval: day
