@@ -322,3 +322,18 @@ def graph_from_db(city):
     G = ox.graph_from_gdfs(nodes, edges)
     utils.log("Graph created")
     return G
+
+
+def gdf_to_db(gdf, name):
+    """Upload a geoPandas.GeoDataFrame to the database
+
+    Args:
+        gdf (geopandas.GeoDataFrame): GeoDataFrame to be uploadead
+        name (str): Name of the table to be created
+    """
+    utils.log('Getting DB connection')
+    engine = utils.db_engine()
+    utils.log(f'Uploading table {name} to database')
+    gdf.to_postgis(name=name.lower(), con=engine,
+                   if_exists='fail', index=False)
+    utils.log(f'Table {name} in DB')
