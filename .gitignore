@@ -12,6 +12,8 @@ tests/__pycache__/*
 aqiGDL/settings.py
 aqiGDL/__pycache__
 */__pycache__/*
+settings.json
+
 
 # ipynb_checkpoints
 .ipynb_checkpoints
