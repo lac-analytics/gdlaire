@@ -1,0 +1,4 @@
+2020-10-12 00:13:24,674 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-12 00:13:24,677 INFO aireGDL Air quality stations loaded
+2020-10-12 00:13:24,678 INFO aireGDL Air quality stations to gdf
+2020-10-12 00:13:25,229 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2018-12-20 Interval: hour Hour: 23

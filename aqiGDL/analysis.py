@@ -14,7 +14,7 @@ from math import sqrt
 import geopandas as gpd
 
 
-def interpolate_aq(pollutant, date, stations_aq, stations_MiMacro, interval='day', cellsize=0.01, hour=None):
+def interpolate_aq(pollutant, date, stations_aq, stations_MiMacro, interval='day', cellsize=0.01, hour='00'):
     """Function that creates a folium map with user specified city, pollutant and date and interpolates valid values
 
 
@@ -24,7 +24,8 @@ def interpolate_aq(pollutant, date, stations_aq, stations_MiMacro, interval='day
             interval {str, optional} -- interval that will be added from start to end date, it can be day or hour. Defaults to 'day'.
             stations_aq {gdf} -- gdf with air quality stations
             stations_MiMacro {gdf} -- gdf with MiMacroPeriferico stations
-            cell_size{float} -- cell size for the interpolation in degrees. Defaults to 0.01.
+            cell_size {float} -- cell size for the interpolation in degrees. Defaults to 0.01.
+            hour {str} -- hour to interpolate in format hh from 00 to 23, only used when interval=hour. Defaults to 00.
 
         Returns:
             gdf -- gdf with interpolated concentration for the specified pollutant
@@ -37,13 +38,21 @@ def interpolate_aq(pollutant, date, stations_aq, stations_MiMacro, interval='day
     data_bydateParam = pd.read_csv(data_csv).set_index('FECHA')
     data_bydateParam = data_bydateParam[data_bydateParam['PARAM'] == pollutant]
 
+    #checks for interval and filters df
+    if interval == 'hour':
+        if int(hour)>23 or int(hour)<0:
+            raise ValueError ('Hour must be between 00 and 23')
+        else:
+            data_bydateParam = data_bydateParam[data_bydateParam['HORA'] == hour+str(':00')]
+
+
     # lists to append valid values of lat and long for interpolation
 
     x = []
     y = []
 
     for i, est in stations_aq.iterrows():
-
+        
         est_code = stations_aq.loc[(i), 'codigo']
         c_value = data_bydateParam.loc[(date), est_code]
 

@@ -11,7 +11,7 @@ if module_path not in sys.path:
     import aqiGDL
 
 
-def main(pollutant, date, interval, save=False):
+def main(pollutant, date, interval, hour='00', save=False):
 
     stations_MiMacro = gpd.read_file(
         '../data/external/estaciones_MiMacroPeriferico.geojson')
@@ -28,15 +28,24 @@ def main(pollutant, date, interval, save=False):
     aqiGDL.log('Air quality stations to gdf')
 
     s = aqiGDL.interpolate_aq(pollutant, date, stations_aq,
-                              stations_MiMacro, interval=interval, cellsize=0.01)
+                              stations_MiMacro, interval=interval, cellsize=0.01, hour=hour)
 
-    aqiGDL.log(
-        f'Air quality interpolation created for Pollutant: {pollutant} Date: {date} Interval: {interval}')
+    if interval =='day':
+        aqiGDL.log(
+            f'Air quality interpolation created for Pollutant: {pollutant} Date: {date} Interval: {interval}')
+    else:
+        aqiGDL.log(
+            f'Air quality interpolation created for Pollutant: {pollutant} Date: {date} Interval: {interval} Hour: {hour}')
 
     if save:
-        s.to_file(r''+'../data/processed/'+pollutant+'_'+date+'_'+interval +
+        if interval=='hour':
+            time = hour+'h_'+interval
+        else:
+            time = interval
+
+        s.to_file(r''+'../data/processed/'+pollutant+'_'+date+'_'+time +
                   '.geojson', driver='GeoJSON', index=False, header=True)  # saves to csv
 
 
 if __name__ == "__main__":
-    main('O3', '2018-12-20', 'day', save=True)
+    main('PM10', '2018-12-20', 'hour', save=True, hour='23')
