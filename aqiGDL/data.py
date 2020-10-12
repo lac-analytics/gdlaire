@@ -337,3 +337,20 @@ def gdf_to_db(gdf, name):
     gdf.to_postgis(name=name.lower(), con=engine,
                    if_exists='fail', index=False)
     utils.log(f'Table {name} in DB')
+
+
+def gdf_from_db(name):
+    """Load a table from the database into a GeoDataFrame
+
+    Args:
+        name (str): name of the table to be loaded
+
+    Returns:
+        geopandas.GeoDataFrame: GeoDataFrame with the table from the database.
+    """
+    engine = utils.db_engine()
+    utils.log(f'Getting {name} from DB')
+    gdf = gpd.read_postgis(
+        f"SELECT * FROM {name.lower()}", engine, geom_col='geometry')
+    utils.log(f'{name} retrived')
+    return gdf
