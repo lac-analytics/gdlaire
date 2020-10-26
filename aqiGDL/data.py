@@ -295,11 +295,11 @@ def save_graph(G, city):
     engine = utils.db_engine()
     utils.log('Uploading nodes')
     nodes.to_postgis(name=f'{city.lower()}_nodes', con=engine,
-                     if_exists='fail', index=False, schema='networks')
+                     if_exists='fail',  schema="networks", index=False)
     utils.log('Nodes uploaded')
     utils.log('Uploading edges')
     edges.to_postgis(name=f'{city.lower()}_edges', con=engine,
-                     if_exists='fail', index=False, schema='networks')
+                     if_exists='fail', schema="networks", index=False)
     utils.log('Edges uploaded')
 
 
@@ -324,6 +324,17 @@ def graph_from_db(city):
     return G
 
 
+def create_schema(schema):
+    engine = utils.db_engine()
+
+    # Create schema; if it already exists, skip this
+    try:
+        engine.execute(f'CREATE SCHEMA IF NOT EXISTS {schema.lower()}')
+    except Exception as e:
+        utils.log(e)
+        pass
+
+
 def gdf_to_db(gdf, name, schema):
     """Upload a geoPandas.GeoDataFrame to the database
 
@@ -332,11 +343,12 @@ def gdf_to_db(gdf, name, schema):
         name (str): Name of the table to be created
         schema (str): Name of the folder in which to save the geoDataFrame
     """
+    create_schema(schema)
     utils.log('Getting DB connection')
     engine = utils.db_engine()
     utils.log(f'Uploading table {name} to database')
     gdf.to_postgis(name=name.lower(), con=engine,
-                   if_exists='fail', index=False, schema=schema)
+                   if_exists='fail', index=False, schema=schema.lower())
     utils.log(f'Table {name} in DB')
 
 
@@ -353,6 +365,6 @@ def gdf_from_db(name, schema):
     engine = utils.db_engine()
     utils.log(f'Getting {name} from DB')
     gdf = gpd.read_postgis(
-        f"SELECT * FROM {schema}.{name.lower()}", engine, geom_col='geometry')
+        f"SELECT * FROM {schema.lower()}.{name.lower()}", engine, geom_col='geometry')
     utils.log(f'{name} retrived')
     return gdf
