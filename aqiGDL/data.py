@@ -295,11 +295,11 @@ def save_graph(G, city):
     engine = utils.db_engine()
     utils.log('Uploading nodes')
     nodes.to_postgis(name=f'{city.lower()}_nodes', con=engine,
-                     if_exists='fail', index=False)
+                     if_exists='fail', index=False, schema='networks')
     utils.log('Nodes uploaded')
     utils.log('Uploading edges')
     edges.to_postgis(name=f'{city.lower()}_edges', con=engine,
-                     if_exists='fail', index=False)
+                     if_exists='fail', index=False, schema='networks')
     utils.log('Edges uploaded')
 
 
@@ -314,36 +314,38 @@ def graph_from_db(city):
     """
     engine = utils.db_engine()
     nodes = gpd.read_postgis(
-        f"SELECT * FROM {city.lower()}_nodes", engine, geom_col='geometry', index_col='osmid')
+        f"SELECT * FROM networks.{city.lower()}_nodes", engine, geom_col='geometry', index_col='osmid')
     utils.log('Nodes loaded')
     edges = gpd.read_postgis(
-        f"SELECT * FROM {city.lower()}_edges", engine, geom_col='geometry', index_col='osmid')
+        f"SELECT * FROM networks.{city.lower()}_edges", engine, geom_col='geometry', index_col='osmid')
     utils.log('Edges loaded')
     G = ox.graph_from_gdfs(nodes, edges)
     utils.log("Graph created")
     return G
 
 
-def gdf_to_db(gdf, name):
+def gdf_to_db(gdf, name, schema):
     """Upload a geoPandas.GeoDataFrame to the database
 
     Args:
         gdf (geopandas.GeoDataFrame): GeoDataFrame to be uploadead
         name (str): Name of the table to be created
+        schema (str): Name of the folder in which to save the geoDataFrame
     """
     utils.log('Getting DB connection')
     engine = utils.db_engine()
     utils.log(f'Uploading table {name} to database')
     gdf.to_postgis(name=name.lower(), con=engine,
-                   if_exists='fail', index=False)
+                   if_exists='fail', index=False, schema=schema)
     utils.log(f'Table {name} in DB')
 
 
-def gdf_from_db(name):
+def gdf_from_db(name, schema):
     """Load a table from the database into a GeoDataFrame
 
     Args:
-        name (str): name of the table to be loaded
+        name (str): Name of the table to be loaded
+        schema (str): Name of the folder from where to load the geoDataFrame
 
     Returns:
         geopandas.GeoDataFrame: GeoDataFrame with the table from the database.
@@ -351,6 +353,6 @@ def gdf_from_db(name):
     engine = utils.db_engine()
     utils.log(f'Getting {name} from DB')
     gdf = gpd.read_postgis(
-        f"SELECT * FROM {name.lower()}", engine, geom_col='geometry')
+        f"SELECT * FROM {schema}.{name.lower()}", engine, geom_col='geometry')
     utils.log(f'{name} retrived')
     return gdf
