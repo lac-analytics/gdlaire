@@ -40,3 +40,5 @@ La estructura de los folders de este proyecto es:
 
 1. [Datos](output/text/data.md)
 1. [Análisis](output/text/analisis.md)
+1. [Visualizaciones](output/text/visualizaciones.md)
+1. [Equipo](output/text/equipo.md)
