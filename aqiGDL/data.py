@@ -348,7 +348,7 @@ def gdf_to_db(gdf, name, schema):
     engine = utils.db_engine()
     utils.log(f'Uploading table {name} to database')
     gdf.to_postgis(name=name.lower(), con=engine,
-                   if_exists='fail', index=False, schema=schema.lower())
+                   if_exists='replace', index=False, schema=schema.lower())
     utils.log(f'Table {name} in DB')
 
 
