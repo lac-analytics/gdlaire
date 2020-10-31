@@ -56,10 +56,9 @@ def interpolate_aq(pollutant, date, stations_aq, stations_MiMacro, interval='day
         est_code = stations_aq.loc[(i), 'codigo']
         c_value = data_bydateParam.loc[(date), est_code]
 
-        # catches nan values and keeps them out
-        if pd.notna(c_value):
-            x.append(est.long)
-            y.append(est.lat)
+        # appends coordinates from SIMAJ stations
+        x.append(est.long)
+        y.append(est.lat)
 
     # Registers the boundries coordinates of MiMacro Periferico stations
     min_x, min_y, max_x, max_y = stations_MiMacro.geometry.total_bounds
