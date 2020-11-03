@@ -119,6 +119,6 @@ def interpolate_aq(pollutant, date, stations_aq, stations_MiMacro, interval='day
         inter, geometry=gpd.points_from_xy(inter.long, inter.lat))
 
     # sets crs
-    inter_gdf.set_crs(epsg=4326)
+    inter_gdf.set_crs(epsg=4326, inplace = True)
 
     return(inter_gdf)

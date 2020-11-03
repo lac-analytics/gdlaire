@@ -37,8 +37,6 @@ def main(pollutant, date, interval, hour='00', save=False):
 
     s_vis = aqiGDL.symbology_gdf(s, pollutant)
 
-    s_vis.set_crs(epsg=4326)
-
     if save:
         if interval == 'hour':
             time = hour+'h_'+interval
@@ -49,7 +47,7 @@ def main(pollutant, date, interval, hour='00', save=False):
         date_db = date.replace('-', '')
 
         aqiGDL.gdf_to_db(s_vis, pollutant+'_'+date_db+'_'+time,
-                         schema='interpolation')  # uploads to db
+                         schema='interpolation', if_exists='replace')  # uploads to db
 
 
 if __name__ == "__main__":
