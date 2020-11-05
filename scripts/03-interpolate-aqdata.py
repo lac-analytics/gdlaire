@@ -13,17 +13,18 @@ if module_path not in sys.path:
 
 def main(pollutant, date, interval, hour='00', save=False):
 
-    stations_MiMacro = gpd.read_file(
-        '../data/external/estaciones_MiMacroPeriferico.geojson')
+    stations_MiMacro = aqiGDL.gdf_from_db(
+        name='estaciones_gdl', schema='estaciones')
 
     aqiGDL.log('MiMacroPeriferico stations loaded')
 
-    stations_pd = pd.read_csv('../data/raw/estaciones.csv')
+    stations_simaj = aqiGDL.gdf_from_db(
+        name='estaciones_simaj', schema='estaciones_simaj')
 
     aqiGDL.log('Air quality stations loaded')
 
     stations_aq = gpd.GeoDataFrame(
-        stations_pd, geometry=gpd.points_from_xy(stations_pd.long, stations_pd.lat))
+        stations_simaj, geometry=gpd.points_from_xy(stations_simaj.long, stations_simaj.lat))
 
     aqiGDL.log('Air quality stations to gdf')
 
