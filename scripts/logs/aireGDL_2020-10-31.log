@@ -1,0 +1,884 @@
+2020-10-31 02:48:37,351 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 02:48:37,354 INFO aireGDL Air quality stations loaded
+2020-10-31 02:48:37,354 INFO aireGDL Air quality stations to gdf
+2020-10-31 02:48:39,364 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 00
+2020-10-31 02:48:41,065 INFO aireGDL Creating SQL engine
+2020-10-31 02:52:28,650 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 02:52:28,652 INFO aireGDL Air quality stations loaded
+2020-10-31 02:52:28,653 INFO aireGDL Air quality stations to gdf
+2020-10-31 02:52:30,925 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 00
+2020-10-31 02:52:32,799 INFO aireGDL Creating SQL engine
+2020-10-31 02:52:34,264 INFO aireGDL Getting DB connection
+2020-10-31 02:52:34,264 INFO aireGDL Creating SQL engine
+2020-10-31 02:52:34,265 INFO aireGDL Uploading table PM10_2019-01-01_00h_hour to database
+2020-10-31 02:53:47,229 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 02:53:47,231 INFO aireGDL Air quality stations loaded
+2020-10-31 02:53:47,231 INFO aireGDL Air quality stations to gdf
+2020-10-31 02:53:49,468 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 00
+2020-10-31 02:53:51,293 INFO aireGDL Creating SQL engine
+2020-10-31 02:53:52,421 INFO aireGDL Getting DB connection
+2020-10-31 02:53:52,421 INFO aireGDL Creating SQL engine
+2020-10-31 02:53:52,422 INFO aireGDL Uploading table PM10_2019-01-01_00h_hour to database
+2020-10-31 02:56:41,447 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 02:56:41,449 INFO aireGDL Air quality stations loaded
+2020-10-31 02:56:41,450 INFO aireGDL Air quality stations to gdf
+2020-10-31 02:56:43,953 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 00
+2020-10-31 02:56:46,184 INFO aireGDL Creating SQL engine
+2020-10-31 02:56:47,339 INFO aireGDL Getting DB connection
+2020-10-31 02:56:47,339 INFO aireGDL Creating SQL engine
+2020-10-31 02:56:47,340 INFO aireGDL Uploading table PM10_20190101_00h_hour to database
+2020-10-31 02:56:49,573 INFO aireGDL Table PM10_20190101_00h_hour in DB
+2020-10-31 02:56:49,589 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 02:56:49,592 INFO aireGDL Air quality stations loaded
+2020-10-31 02:56:49,593 INFO aireGDL Air quality stations to gdf
+2020-10-31 02:56:52,166 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 01
+2020-10-31 02:56:53,570 INFO aireGDL Creating SQL engine
+2020-10-31 02:56:54,641 INFO aireGDL Getting DB connection
+2020-10-31 02:56:54,641 INFO aireGDL Creating SQL engine
+2020-10-31 02:56:54,642 INFO aireGDL Uploading table PM10_20190101_01h_hour to database
+2020-10-31 02:56:56,328 INFO aireGDL Table PM10_20190101_01h_hour in DB
+2020-10-31 02:56:56,346 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 02:56:56,349 INFO aireGDL Air quality stations loaded
+2020-10-31 02:56:56,349 INFO aireGDL Air quality stations to gdf
+2020-10-31 02:56:58,601 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 02
+2020-10-31 02:57:00,768 INFO aireGDL Creating SQL engine
+2020-10-31 02:57:02,028 INFO aireGDL Getting DB connection
+2020-10-31 02:57:02,029 INFO aireGDL Creating SQL engine
+2020-10-31 02:57:02,029 INFO aireGDL Uploading table PM10_20190101_02h_hour to database
+2020-10-31 02:57:03,816 INFO aireGDL Table PM10_20190101_02h_hour in DB
+2020-10-31 02:57:03,828 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 02:57:03,830 INFO aireGDL Air quality stations loaded
+2020-10-31 02:57:03,831 INFO aireGDL Air quality stations to gdf
+2020-10-31 02:57:06,092 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 03
+2020-10-31 02:57:08,205 INFO aireGDL Creating SQL engine
+2020-10-31 02:57:10,452 INFO aireGDL Getting DB connection
+2020-10-31 02:57:10,452 INFO aireGDL Creating SQL engine
+2020-10-31 02:57:10,453 INFO aireGDL Uploading table PM10_20190101_03h_hour to database
+2020-10-31 02:57:12,968 INFO aireGDL Table PM10_20190101_03h_hour in DB
+2020-10-31 02:57:12,981 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 02:57:12,983 INFO aireGDL Air quality stations loaded
+2020-10-31 02:57:12,983 INFO aireGDL Air quality stations to gdf
+2020-10-31 02:57:15,267 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 04
+2020-10-31 02:57:17,084 INFO aireGDL Creating SQL engine
+2020-10-31 02:57:18,195 INFO aireGDL Getting DB connection
+2020-10-31 02:57:18,196 INFO aireGDL Creating SQL engine
+2020-10-31 02:57:18,196 INFO aireGDL Uploading table PM10_20190101_04h_hour to database
+2020-10-31 02:57:19,903 INFO aireGDL Table PM10_20190101_04h_hour in DB
+2020-10-31 02:57:19,913 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 02:57:19,915 INFO aireGDL Air quality stations loaded
+2020-10-31 02:57:19,916 INFO aireGDL Air quality stations to gdf
+2020-10-31 02:57:22,297 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 05
+2020-10-31 02:57:24,166 INFO aireGDL Creating SQL engine
+2020-10-31 02:57:25,377 INFO aireGDL Getting DB connection
+2020-10-31 02:57:25,377 INFO aireGDL Creating SQL engine
+2020-10-31 02:57:25,377 INFO aireGDL Uploading table PM10_20190101_05h_hour to database
+2020-10-31 02:57:27,207 INFO aireGDL Table PM10_20190101_05h_hour in DB
+2020-10-31 02:57:27,220 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 02:57:27,222 INFO aireGDL Air quality stations loaded
+2020-10-31 02:57:27,223 INFO aireGDL Air quality stations to gdf
+2020-10-31 02:57:29,716 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 06
+2020-10-31 02:57:32,122 INFO aireGDL Creating SQL engine
+2020-10-31 02:57:33,213 INFO aireGDL Getting DB connection
+2020-10-31 02:57:33,213 INFO aireGDL Creating SQL engine
+2020-10-31 02:57:33,213 INFO aireGDL Uploading table PM10_20190101_06h_hour to database
+2020-10-31 02:57:35,426 INFO aireGDL Table PM10_20190101_06h_hour in DB
+2020-10-31 02:57:35,446 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 02:57:35,448 INFO aireGDL Air quality stations loaded
+2020-10-31 02:57:35,449 INFO aireGDL Air quality stations to gdf
+2020-10-31 02:57:38,091 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 07
+2020-10-31 02:57:39,611 INFO aireGDL Creating SQL engine
+2020-10-31 02:57:40,739 INFO aireGDL Getting DB connection
+2020-10-31 02:57:40,739 INFO aireGDL Creating SQL engine
+2020-10-31 02:57:40,739 INFO aireGDL Uploading table PM10_20190101_07h_hour to database
+2020-10-31 02:57:42,834 INFO aireGDL Table PM10_20190101_07h_hour in DB
+2020-10-31 02:57:42,846 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 02:57:42,848 INFO aireGDL Air quality stations loaded
+2020-10-31 02:57:42,848 INFO aireGDL Air quality stations to gdf
+2020-10-31 02:57:45,366 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 08
+2020-10-31 02:57:46,865 INFO aireGDL Creating SQL engine
+2020-10-31 02:57:48,161 INFO aireGDL Getting DB connection
+2020-10-31 02:57:48,162 INFO aireGDL Creating SQL engine
+2020-10-31 02:57:48,163 INFO aireGDL Uploading table PM10_20190101_08h_hour to database
+2020-10-31 02:57:50,033 INFO aireGDL Table PM10_20190101_08h_hour in DB
+2020-10-31 02:57:50,045 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 02:57:50,048 INFO aireGDL Air quality stations loaded
+2020-10-31 02:57:50,049 INFO aireGDL Air quality stations to gdf
+2020-10-31 02:57:52,322 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 09
+2020-10-31 02:57:53,869 INFO aireGDL Creating SQL engine
+2020-10-31 02:57:55,103 INFO aireGDL Getting DB connection
+2020-10-31 02:57:55,103 INFO aireGDL Creating SQL engine
+2020-10-31 02:57:55,104 INFO aireGDL Uploading table PM10_20190101_09h_hour to database
+2020-10-31 02:57:57,104 INFO aireGDL Table PM10_20190101_09h_hour in DB
+2020-10-31 02:57:57,114 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 02:57:57,116 INFO aireGDL Air quality stations loaded
+2020-10-31 02:57:57,117 INFO aireGDL Air quality stations to gdf
+2020-10-31 02:57:59,583 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 10
+2020-10-31 02:58:01,340 INFO aireGDL Creating SQL engine
+2020-10-31 02:58:02,599 INFO aireGDL Getting DB connection
+2020-10-31 02:58:02,599 INFO aireGDL Creating SQL engine
+2020-10-31 02:58:02,600 INFO aireGDL Uploading table PM10_20190101_10h_hour to database
+2020-10-31 02:58:04,421 INFO aireGDL Table PM10_20190101_10h_hour in DB
+2020-10-31 02:58:04,432 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 02:58:04,433 INFO aireGDL Air quality stations loaded
+2020-10-31 02:58:04,434 INFO aireGDL Air quality stations to gdf
+2020-10-31 02:58:06,568 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 11
+2020-10-31 02:58:08,098 INFO aireGDL Creating SQL engine
+2020-10-31 02:58:09,380 INFO aireGDL Getting DB connection
+2020-10-31 02:58:09,380 INFO aireGDL Creating SQL engine
+2020-10-31 02:58:09,381 INFO aireGDL Uploading table PM10_20190101_11h_hour to database
+2020-10-31 02:58:11,289 INFO aireGDL Table PM10_20190101_11h_hour in DB
+2020-10-31 02:58:11,300 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 02:58:11,301 INFO aireGDL Air quality stations loaded
+2020-10-31 02:58:11,302 INFO aireGDL Air quality stations to gdf
+2020-10-31 02:58:13,479 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 12
+2020-10-31 02:58:15,057 INFO aireGDL Creating SQL engine
+2020-10-31 02:58:16,221 INFO aireGDL Getting DB connection
+2020-10-31 02:58:16,221 INFO aireGDL Creating SQL engine
+2020-10-31 02:58:16,222 INFO aireGDL Uploading table PM10_20190101_12h_hour to database
+2020-10-31 02:58:18,364 INFO aireGDL Table PM10_20190101_12h_hour in DB
+2020-10-31 02:58:18,376 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 02:58:18,378 INFO aireGDL Air quality stations loaded
+2020-10-31 02:58:18,379 INFO aireGDL Air quality stations to gdf
+2020-10-31 02:58:21,315 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 13
+2020-10-31 02:58:23,091 INFO aireGDL Creating SQL engine
+2020-10-31 02:58:24,486 INFO aireGDL Getting DB connection
+2020-10-31 02:58:24,486 INFO aireGDL Creating SQL engine
+2020-10-31 02:58:24,487 INFO aireGDL Uploading table PM10_20190101_13h_hour to database
+2020-10-31 02:58:26,351 INFO aireGDL Table PM10_20190101_13h_hour in DB
+2020-10-31 02:58:26,369 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 02:58:26,372 INFO aireGDL Air quality stations loaded
+2020-10-31 02:58:26,373 INFO aireGDL Air quality stations to gdf
+2020-10-31 02:58:28,649 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 14
+2020-10-31 02:58:30,319 INFO aireGDL Creating SQL engine
+2020-10-31 02:58:31,413 INFO aireGDL Getting DB connection
+2020-10-31 02:58:31,413 INFO aireGDL Creating SQL engine
+2020-10-31 02:58:31,414 INFO aireGDL Uploading table PM10_20190101_14h_hour to database
+2020-10-31 02:58:33,402 INFO aireGDL Table PM10_20190101_14h_hour in DB
+2020-10-31 02:58:33,412 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 02:58:33,414 INFO aireGDL Air quality stations loaded
+2020-10-31 02:58:33,415 INFO aireGDL Air quality stations to gdf
+2020-10-31 02:58:35,565 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 15
+2020-10-31 02:58:37,057 INFO aireGDL Creating SQL engine
+2020-10-31 02:58:38,293 INFO aireGDL Getting DB connection
+2020-10-31 02:58:38,293 INFO aireGDL Creating SQL engine
+2020-10-31 02:58:38,293 INFO aireGDL Uploading table PM10_20190101_15h_hour to database
+2020-10-31 02:58:40,327 INFO aireGDL Table PM10_20190101_15h_hour in DB
+2020-10-31 02:58:40,345 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 02:58:40,347 INFO aireGDL Air quality stations loaded
+2020-10-31 02:58:40,348 INFO aireGDL Air quality stations to gdf
+2020-10-31 02:58:42,726 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 16
+2020-10-31 02:58:44,757 INFO aireGDL Creating SQL engine
+2020-10-31 02:58:46,073 INFO aireGDL Getting DB connection
+2020-10-31 02:58:46,073 INFO aireGDL Creating SQL engine
+2020-10-31 02:58:46,074 INFO aireGDL Uploading table PM10_20190101_16h_hour to database
+2020-10-31 02:58:47,940 INFO aireGDL Table PM10_20190101_16h_hour in DB
+2020-10-31 02:58:47,951 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 02:58:47,953 INFO aireGDL Air quality stations loaded
+2020-10-31 02:58:47,954 INFO aireGDL Air quality stations to gdf
+2020-10-31 02:58:50,322 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 17
+2020-10-31 02:58:52,489 INFO aireGDL Creating SQL engine
+2020-10-31 02:58:53,700 INFO aireGDL Getting DB connection
+2020-10-31 02:58:53,700 INFO aireGDL Creating SQL engine
+2020-10-31 02:58:53,700 INFO aireGDL Uploading table PM10_20190101_17h_hour to database
+2020-10-31 02:58:55,570 INFO aireGDL Table PM10_20190101_17h_hour in DB
+2020-10-31 02:58:55,581 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 02:58:55,583 INFO aireGDL Air quality stations loaded
+2020-10-31 02:58:55,584 INFO aireGDL Air quality stations to gdf
+2020-10-31 02:58:57,927 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 18
+2020-10-31 02:58:59,675 INFO aireGDL Creating SQL engine
+2020-10-31 02:59:00,870 INFO aireGDL Getting DB connection
+2020-10-31 02:59:00,871 INFO aireGDL Creating SQL engine
+2020-10-31 02:59:00,871 INFO aireGDL Uploading table PM10_20190101_18h_hour to database
+2020-10-31 02:59:03,098 INFO aireGDL Table PM10_20190101_18h_hour in DB
+2020-10-31 02:59:03,125 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 02:59:03,128 INFO aireGDL Air quality stations loaded
+2020-10-31 02:59:03,129 INFO aireGDL Air quality stations to gdf
+2020-10-31 02:59:05,234 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 19
+2020-10-31 02:59:06,764 INFO aireGDL Creating SQL engine
+2020-10-31 02:59:08,028 INFO aireGDL Getting DB connection
+2020-10-31 02:59:08,028 INFO aireGDL Creating SQL engine
+2020-10-31 02:59:08,029 INFO aireGDL Uploading table PM10_20190101_19h_hour to database
+2020-10-31 02:59:09,838 INFO aireGDL Table PM10_20190101_19h_hour in DB
+2020-10-31 02:59:09,850 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 02:59:09,851 INFO aireGDL Air quality stations loaded
+2020-10-31 02:59:09,852 INFO aireGDL Air quality stations to gdf
+2020-10-31 02:59:12,239 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 20
+2020-10-31 02:59:14,125 INFO aireGDL Creating SQL engine
+2020-10-31 02:59:16,319 INFO aireGDL Getting DB connection
+2020-10-31 02:59:16,320 INFO aireGDL Creating SQL engine
+2020-10-31 02:59:16,320 INFO aireGDL Uploading table PM10_20190101_20h_hour to database
+2020-10-31 02:59:18,150 INFO aireGDL Table PM10_20190101_20h_hour in DB
+2020-10-31 02:59:18,174 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 02:59:18,176 INFO aireGDL Air quality stations loaded
+2020-10-31 02:59:18,177 INFO aireGDL Air quality stations to gdf
+2020-10-31 02:59:20,406 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 21
+2020-10-31 02:59:22,385 INFO aireGDL Creating SQL engine
+2020-10-31 02:59:23,603 INFO aireGDL Getting DB connection
+2020-10-31 02:59:23,603 INFO aireGDL Creating SQL engine
+2020-10-31 02:59:23,604 INFO aireGDL Uploading table PM10_20190101_21h_hour to database
+2020-10-31 02:59:25,649 INFO aireGDL Table PM10_20190101_21h_hour in DB
+2020-10-31 02:59:25,659 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 02:59:25,661 INFO aireGDL Air quality stations loaded
+2020-10-31 02:59:25,662 INFO aireGDL Air quality stations to gdf
+2020-10-31 02:59:27,777 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 22
+2020-10-31 02:59:29,246 INFO aireGDL Creating SQL engine
+2020-10-31 02:59:30,303 INFO aireGDL Getting DB connection
+2020-10-31 02:59:30,303 INFO aireGDL Creating SQL engine
+2020-10-31 02:59:30,304 INFO aireGDL Uploading table PM10_20190101_22h_hour to database
+2020-10-31 02:59:32,251 INFO aireGDL Table PM10_20190101_22h_hour in DB
+2020-10-31 02:59:32,261 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 02:59:32,263 INFO aireGDL Air quality stations loaded
+2020-10-31 02:59:32,264 INFO aireGDL Air quality stations to gdf
+2020-10-31 02:59:34,413 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 23
+2020-10-31 02:59:35,916 INFO aireGDL Creating SQL engine
+2020-10-31 02:59:37,014 INFO aireGDL Getting DB connection
+2020-10-31 02:59:37,014 INFO aireGDL Creating SQL engine
+2020-10-31 02:59:37,015 INFO aireGDL Uploading table PM10_20190101_23h_hour to database
+2020-10-31 02:59:39,295 INFO aireGDL Table PM10_20190101_23h_hour in DB
+2020-10-31 02:59:39,315 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 02:59:39,318 INFO aireGDL Air quality stations loaded
+2020-10-31 02:59:39,320 INFO aireGDL Air quality stations to gdf
+2020-10-31 02:59:41,447 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: day
+2020-10-31 02:59:42,927 INFO aireGDL Creating SQL engine
+2020-10-31 02:59:44,069 INFO aireGDL Getting DB connection
+2020-10-31 02:59:44,069 INFO aireGDL Creating SQL engine
+2020-10-31 02:59:44,070 INFO aireGDL Uploading table PM10_20190101_day to database
+2020-10-31 02:59:46,374 INFO aireGDL Table PM10_20190101_day in DB
+2020-10-31 02:59:46,385 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 02:59:46,387 INFO aireGDL Air quality stations loaded
+2020-10-31 02:59:46,387 INFO aireGDL Air quality stations to gdf
+2020-10-31 02:59:48,534 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-02 Interval: hour Hour: 00
+2020-10-31 02:59:50,012 INFO aireGDL Creating SQL engine
+2020-10-31 02:59:51,070 INFO aireGDL Getting DB connection
+2020-10-31 02:59:51,070 INFO aireGDL Creating SQL engine
+2020-10-31 02:59:51,071 INFO aireGDL Uploading table PM10_20190102_00h_hour to database
+2020-10-31 02:59:53,210 INFO aireGDL Table PM10_20190102_00h_hour in DB
+2020-10-31 02:59:53,219 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 02:59:53,221 INFO aireGDL Air quality stations loaded
+2020-10-31 02:59:53,221 INFO aireGDL Air quality stations to gdf
+2020-10-31 02:59:55,762 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-02 Interval: hour Hour: 01
+2020-10-31 02:59:57,271 INFO aireGDL Creating SQL engine
+2020-10-31 02:59:58,330 INFO aireGDL Getting DB connection
+2020-10-31 02:59:58,330 INFO aireGDL Creating SQL engine
+2020-10-31 02:59:58,331 INFO aireGDL Uploading table PM10_20190102_01h_hour to database
+2020-10-31 03:00:00,202 INFO aireGDL Table PM10_20190102_01h_hour in DB
+2020-10-31 03:00:00,213 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 03:00:00,214 INFO aireGDL Air quality stations loaded
+2020-10-31 03:00:00,215 INFO aireGDL Air quality stations to gdf
+2020-10-31 03:00:02,549 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-02 Interval: hour Hour: 02
+2020-10-31 03:00:04,586 INFO aireGDL Creating SQL engine
+2020-10-31 03:00:06,214 INFO aireGDL Getting DB connection
+2020-10-31 03:00:06,214 INFO aireGDL Creating SQL engine
+2020-10-31 03:00:06,214 INFO aireGDL Uploading table PM10_20190102_02h_hour to database
+2020-10-31 03:00:08,306 INFO aireGDL Table PM10_20190102_02h_hour in DB
+2020-10-31 03:00:08,318 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 03:00:08,321 INFO aireGDL Air quality stations loaded
+2020-10-31 03:00:08,322 INFO aireGDL Air quality stations to gdf
+2020-10-31 03:00:10,901 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-02 Interval: hour Hour: 03
+2020-10-31 03:00:12,817 INFO aireGDL Creating SQL engine
+2020-10-31 03:00:14,055 INFO aireGDL Getting DB connection
+2020-10-31 03:00:14,055 INFO aireGDL Creating SQL engine
+2020-10-31 03:00:14,055 INFO aireGDL Uploading table PM10_20190102_03h_hour to database
+2020-10-31 03:00:16,082 INFO aireGDL Table PM10_20190102_03h_hour in DB
+2020-10-31 03:00:16,094 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 03:00:16,097 INFO aireGDL Air quality stations loaded
+2020-10-31 03:00:16,099 INFO aireGDL Air quality stations to gdf
+2020-10-31 03:00:18,568 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-02 Interval: hour Hour: 04
+2020-10-31 03:04:09,969 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 03:04:09,971 INFO aireGDL Air quality stations loaded
+2020-10-31 03:04:09,971 INFO aireGDL Air quality stations to gdf
+2020-10-31 03:04:11,951 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 00
+2020-10-31 03:04:22,157 INFO aireGDL Creating SQL engine
+2020-10-31 03:04:23,398 INFO aireGDL Getting DB connection
+2020-10-31 03:04:23,398 INFO aireGDL Creating SQL engine
+2020-10-31 03:04:23,399 INFO aireGDL Uploading table PM10_20190101_00h_hour to database
+2020-10-31 03:07:14,876 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 03:07:14,878 INFO aireGDL Air quality stations loaded
+2020-10-31 03:07:14,879 INFO aireGDL Air quality stations to gdf
+2020-10-31 03:07:17,139 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 00
+2020-10-31 03:07:29,605 INFO aireGDL Creating SQL engine
+2020-10-31 03:07:30,825 INFO aireGDL Getting DB connection
+2020-10-31 03:07:30,825 INFO aireGDL Creating SQL engine
+2020-10-31 03:07:30,825 INFO aireGDL Uploading table PM10_20190101_00h_hour to database
+2020-10-31 03:07:33,477 INFO aireGDL Table PM10_20190101_00h_hour in DB
+2020-10-31 03:07:33,488 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 03:07:33,490 INFO aireGDL Air quality stations loaded
+2020-10-31 03:07:33,490 INFO aireGDL Air quality stations to gdf
+2020-10-31 03:07:35,083 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 01
+2020-10-31 03:07:44,180 INFO aireGDL Creating SQL engine
+2020-10-31 03:07:45,315 INFO aireGDL Getting DB connection
+2020-10-31 03:07:45,315 INFO aireGDL Creating SQL engine
+2020-10-31 03:07:45,316 INFO aireGDL Uploading table PM10_20190101_01h_hour to database
+2020-10-31 03:07:48,315 INFO aireGDL Table PM10_20190101_01h_hour in DB
+2020-10-31 03:07:48,342 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 03:07:48,346 INFO aireGDL Air quality stations loaded
+2020-10-31 03:07:48,347 INFO aireGDL Air quality stations to gdf
+2020-10-31 03:07:50,495 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 02
+2020-10-31 03:08:02,327 INFO aireGDL Creating SQL engine
+2020-10-31 03:08:03,651 INFO aireGDL Getting DB connection
+2020-10-31 03:08:03,651 INFO aireGDL Creating SQL engine
+2020-10-31 03:08:03,652 INFO aireGDL Uploading table PM10_20190101_02h_hour to database
+2020-10-31 03:08:06,755 INFO aireGDL Table PM10_20190101_02h_hour in DB
+2020-10-31 03:08:06,782 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 03:08:06,787 INFO aireGDL Air quality stations loaded
+2020-10-31 03:08:06,788 INFO aireGDL Air quality stations to gdf
+2020-10-31 03:08:08,937 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 03
+2020-10-31 03:08:20,862 INFO aireGDL Creating SQL engine
+2020-10-31 03:08:21,962 INFO aireGDL Getting DB connection
+2020-10-31 03:08:21,962 INFO aireGDL Creating SQL engine
+2020-10-31 03:08:21,963 INFO aireGDL Uploading table PM10_20190101_03h_hour to database
+2020-10-31 03:08:24,728 INFO aireGDL Table PM10_20190101_03h_hour in DB
+2020-10-31 03:08:24,740 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 03:08:24,742 INFO aireGDL Air quality stations loaded
+2020-10-31 03:08:24,743 INFO aireGDL Air quality stations to gdf
+2020-10-31 03:08:26,894 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 04
+2020-10-31 03:08:38,253 INFO aireGDL Creating SQL engine
+2020-10-31 03:08:39,340 INFO aireGDL Getting DB connection
+2020-10-31 03:08:39,340 INFO aireGDL Creating SQL engine
+2020-10-31 03:08:39,341 INFO aireGDL Uploading table PM10_20190101_04h_hour to database
+2020-10-31 03:08:42,163 INFO aireGDL Table PM10_20190101_04h_hour in DB
+2020-10-31 03:08:42,191 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 03:08:42,194 INFO aireGDL Air quality stations loaded
+2020-10-31 03:08:42,195 INFO aireGDL Air quality stations to gdf
+2020-10-31 03:08:44,242 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 05
+2020-10-31 03:08:55,361 INFO aireGDL Creating SQL engine
+2020-10-31 03:08:56,582 INFO aireGDL Getting DB connection
+2020-10-31 03:08:56,582 INFO aireGDL Creating SQL engine
+2020-10-31 03:08:56,585 INFO aireGDL Uploading table PM10_20190101_05h_hour to database
+2020-10-31 03:08:59,876 INFO aireGDL Table PM10_20190101_05h_hour in DB
+2020-10-31 03:08:59,888 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 03:08:59,889 INFO aireGDL Air quality stations loaded
+2020-10-31 03:08:59,890 INFO aireGDL Air quality stations to gdf
+2020-10-31 03:09:02,058 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 06
+2020-10-31 03:09:14,014 INFO aireGDL Creating SQL engine
+2020-10-31 03:09:16,196 INFO aireGDL Getting DB connection
+2020-10-31 03:09:16,196 INFO aireGDL Creating SQL engine
+2020-10-31 03:09:16,197 INFO aireGDL Uploading table PM10_20190101_06h_hour to database
+2020-10-31 03:09:20,266 INFO aireGDL Table PM10_20190101_06h_hour in DB
+2020-10-31 03:09:20,294 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 03:09:20,298 INFO aireGDL Air quality stations loaded
+2020-10-31 03:09:20,300 INFO aireGDL Air quality stations to gdf
+2020-10-31 03:09:22,475 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 07
+2020-10-31 03:09:32,526 INFO aireGDL Creating SQL engine
+2020-10-31 03:09:33,765 INFO aireGDL Getting DB connection
+2020-10-31 03:09:33,765 INFO aireGDL Creating SQL engine
+2020-10-31 03:09:33,767 INFO aireGDL Uploading table PM10_20190101_07h_hour to database
+2020-10-31 03:09:36,382 INFO aireGDL Table PM10_20190101_07h_hour in DB
+2020-10-31 03:09:36,410 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 03:09:36,414 INFO aireGDL Air quality stations loaded
+2020-10-31 03:09:36,415 INFO aireGDL Air quality stations to gdf
+2020-10-31 03:09:38,604 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 08
+2020-10-31 03:09:50,802 INFO aireGDL Creating SQL engine
+2020-10-31 03:09:51,894 INFO aireGDL Getting DB connection
+2020-10-31 03:09:51,894 INFO aireGDL Creating SQL engine
+2020-10-31 03:09:51,895 INFO aireGDL Uploading table PM10_20190101_08h_hour to database
+2020-10-31 03:09:55,668 INFO aireGDL Table PM10_20190101_08h_hour in DB
+2020-10-31 03:09:55,678 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 03:09:55,680 INFO aireGDL Air quality stations loaded
+2020-10-31 03:09:55,680 INFO aireGDL Air quality stations to gdf
+2020-10-31 03:09:57,726 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 09
+2020-10-31 03:10:07,809 INFO aireGDL Creating SQL engine
+2020-10-31 03:10:08,892 INFO aireGDL Getting DB connection
+2020-10-31 03:10:08,893 INFO aireGDL Creating SQL engine
+2020-10-31 03:10:08,893 INFO aireGDL Uploading table PM10_20190101_09h_hour to database
+2020-10-31 03:10:11,637 INFO aireGDL Table PM10_20190101_09h_hour in DB
+2020-10-31 03:10:11,666 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 03:10:11,672 INFO aireGDL Air quality stations loaded
+2020-10-31 03:10:11,674 INFO aireGDL Air quality stations to gdf
+2020-10-31 03:10:13,830 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 10
+2020-10-31 03:10:26,365 INFO aireGDL Creating SQL engine
+2020-10-31 03:10:27,613 INFO aireGDL Getting DB connection
+2020-10-31 03:10:27,613 INFO aireGDL Creating SQL engine
+2020-10-31 03:10:27,614 INFO aireGDL Uploading table PM10_20190101_10h_hour to database
+2020-10-31 03:10:32,232 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 03:10:32,234 INFO aireGDL Air quality stations loaded
+2020-10-31 03:10:32,235 INFO aireGDL Air quality stations to gdf
+2020-10-31 03:10:34,140 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 00
+2020-10-31 03:10:35,582 INFO aireGDL Creating SQL engine
+2020-10-31 03:10:36,682 INFO aireGDL Getting DB connection
+2020-10-31 03:10:36,683 INFO aireGDL Creating SQL engine
+2020-10-31 03:10:36,684 INFO aireGDL Uploading table PM10_20190101_00h_hour to database
+2020-10-31 03:10:39,629 INFO aireGDL Table PM10_20190101_00h_hour in DB
+2020-10-31 03:10:39,638 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 03:10:39,640 INFO aireGDL Air quality stations loaded
+2020-10-31 03:10:39,640 INFO aireGDL Air quality stations to gdf
+2020-10-31 03:10:41,137 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 01
+2020-10-31 03:10:42,197 INFO aireGDL Creating SQL engine
+2020-10-31 03:10:43,256 INFO aireGDL Getting DB connection
+2020-10-31 03:10:43,256 INFO aireGDL Creating SQL engine
+2020-10-31 03:10:43,257 INFO aireGDL Uploading table PM10_20190101_01h_hour to database
+2020-10-31 03:10:46,117 INFO aireGDL Table PM10_20190101_01h_hour in DB
+2020-10-31 03:10:46,144 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 03:10:46,147 INFO aireGDL Air quality stations loaded
+2020-10-31 03:10:46,149 INFO aireGDL Air quality stations to gdf
+2020-10-31 03:10:48,226 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 02
+2020-10-31 03:10:49,683 INFO aireGDL Creating SQL engine
+2020-10-31 03:10:50,951 INFO aireGDL Getting DB connection
+2020-10-31 03:10:50,951 INFO aireGDL Creating SQL engine
+2020-10-31 03:10:50,952 INFO aireGDL Uploading table PM10_20190101_02h_hour to database
+2020-10-31 03:10:53,971 INFO aireGDL Table PM10_20190101_02h_hour in DB
+2020-10-31 03:10:53,998 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 03:10:54,002 INFO aireGDL Air quality stations loaded
+2020-10-31 03:10:54,003 INFO aireGDL Air quality stations to gdf
+2020-10-31 03:10:56,001 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 03
+2020-10-31 03:10:57,390 INFO aireGDL Creating SQL engine
+2020-10-31 03:10:58,587 INFO aireGDL Getting DB connection
+2020-10-31 03:10:58,587 INFO aireGDL Creating SQL engine
+2020-10-31 03:10:58,588 INFO aireGDL Uploading table PM10_20190101_03h_hour to database
+2020-10-31 03:11:01,541 INFO aireGDL Table PM10_20190101_03h_hour in DB
+2020-10-31 03:11:01,569 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 03:11:01,572 INFO aireGDL Air quality stations loaded
+2020-10-31 03:11:01,574 INFO aireGDL Air quality stations to gdf
+2020-10-31 03:11:03,580 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 04
+2020-10-31 03:11:04,964 INFO aireGDL Creating SQL engine
+2020-10-31 03:11:06,057 INFO aireGDL Getting DB connection
+2020-10-31 03:11:06,057 INFO aireGDL Creating SQL engine
+2020-10-31 03:11:06,058 INFO aireGDL Uploading table PM10_20190101_04h_hour to database
+2020-10-31 03:11:08,968 INFO aireGDL Table PM10_20190101_04h_hour in DB
+2020-10-31 03:11:08,979 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 03:11:08,980 INFO aireGDL Air quality stations loaded
+2020-10-31 03:11:08,981 INFO aireGDL Air quality stations to gdf
+2020-10-31 03:11:11,106 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 05
+2020-10-31 03:11:12,934 INFO aireGDL Creating SQL engine
+2020-10-31 03:11:14,071 INFO aireGDL Getting DB connection
+2020-10-31 03:11:14,071 INFO aireGDL Creating SQL engine
+2020-10-31 03:11:14,072 INFO aireGDL Uploading table PM10_20190101_05h_hour to database
+2020-10-31 03:11:17,036 INFO aireGDL Table PM10_20190101_05h_hour in DB
+2020-10-31 03:11:17,063 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 03:11:17,067 INFO aireGDL Air quality stations loaded
+2020-10-31 03:11:17,068 INFO aireGDL Air quality stations to gdf
+2020-10-31 03:11:19,157 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 06
+2020-10-31 03:11:20,701 INFO aireGDL Creating SQL engine
+2020-10-31 03:11:21,769 INFO aireGDL Getting DB connection
+2020-10-31 03:11:21,769 INFO aireGDL Creating SQL engine
+2020-10-31 03:11:21,770 INFO aireGDL Uploading table PM10_20190101_06h_hour to database
+2020-10-31 03:11:24,363 INFO aireGDL Table PM10_20190101_06h_hour in DB
+2020-10-31 03:11:24,374 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 03:11:24,375 INFO aireGDL Air quality stations loaded
+2020-10-31 03:11:24,376 INFO aireGDL Air quality stations to gdf
+2020-10-31 03:11:26,322 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 07
+2020-10-31 03:11:27,671 INFO aireGDL Creating SQL engine
+2020-10-31 03:11:29,052 INFO aireGDL Getting DB connection
+2020-10-31 03:11:29,052 INFO aireGDL Creating SQL engine
+2020-10-31 03:11:29,053 INFO aireGDL Uploading table PM10_20190101_07h_hour to database
+2020-10-31 03:11:31,813 INFO aireGDL Table PM10_20190101_07h_hour in DB
+2020-10-31 03:11:31,835 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 03:11:31,836 INFO aireGDL Air quality stations loaded
+2020-10-31 03:11:31,837 INFO aireGDL Air quality stations to gdf
+2020-10-31 03:11:33,843 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 08
+2020-10-31 03:11:35,215 INFO aireGDL Creating SQL engine
+2020-10-31 03:11:37,032 INFO aireGDL Getting DB connection
+2020-10-31 03:11:37,032 INFO aireGDL Creating SQL engine
+2020-10-31 03:11:37,033 INFO aireGDL Uploading table PM10_20190101_08h_hour to database
+2020-10-31 03:11:39,757 INFO aireGDL Table PM10_20190101_08h_hour in DB
+2020-10-31 03:11:39,785 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 03:11:39,789 INFO aireGDL Air quality stations loaded
+2020-10-31 03:11:39,791 INFO aireGDL Air quality stations to gdf
+2020-10-31 03:11:41,807 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 09
+2020-10-31 03:11:43,180 INFO aireGDL Creating SQL engine
+2020-10-31 03:11:44,333 INFO aireGDL Getting DB connection
+2020-10-31 03:11:44,333 INFO aireGDL Creating SQL engine
+2020-10-31 03:11:44,334 INFO aireGDL Uploading table PM10_20190101_09h_hour to database
+2020-10-31 03:11:47,104 INFO aireGDL Table PM10_20190101_09h_hour in DB
+2020-10-31 03:11:47,116 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 03:11:47,117 INFO aireGDL Air quality stations loaded
+2020-10-31 03:11:47,118 INFO aireGDL Air quality stations to gdf
+2020-10-31 03:11:49,227 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 10
+2020-10-31 03:11:50,956 INFO aireGDL Creating SQL engine
+2020-10-31 03:11:52,043 INFO aireGDL Getting DB connection
+2020-10-31 03:11:52,043 INFO aireGDL Creating SQL engine
+2020-10-31 03:11:52,044 INFO aireGDL Uploading table PM10_20190101_10h_hour to database
+2020-10-31 03:11:55,053 INFO aireGDL Table PM10_20190101_10h_hour in DB
+2020-10-31 03:11:55,081 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 03:11:55,084 INFO aireGDL Air quality stations loaded
+2020-10-31 03:11:55,086 INFO aireGDL Air quality stations to gdf
+2020-10-31 03:11:57,109 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 11
+2020-10-31 03:11:58,497 INFO aireGDL Creating SQL engine
+2020-10-31 03:11:59,624 INFO aireGDL Getting DB connection
+2020-10-31 03:11:59,624 INFO aireGDL Creating SQL engine
+2020-10-31 03:11:59,625 INFO aireGDL Uploading table PM10_20190101_11h_hour to database
+2020-10-31 03:12:02,575 INFO aireGDL Table PM10_20190101_11h_hour in DB
+2020-10-31 03:12:02,602 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 03:12:02,606 INFO aireGDL Air quality stations loaded
+2020-10-31 03:12:02,607 INFO aireGDL Air quality stations to gdf
+2020-10-31 03:12:04,589 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 12
+2020-10-31 03:12:05,962 INFO aireGDL Creating SQL engine
+2020-10-31 03:12:07,040 INFO aireGDL Getting DB connection
+2020-10-31 03:12:07,041 INFO aireGDL Creating SQL engine
+2020-10-31 03:12:07,041 INFO aireGDL Uploading table PM10_20190101_12h_hour to database
+2020-10-31 03:12:09,573 INFO aireGDL Table PM10_20190101_12h_hour in DB
+2020-10-31 03:12:09,583 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 03:12:09,585 INFO aireGDL Air quality stations loaded
+2020-10-31 03:12:09,585 INFO aireGDL Air quality stations to gdf
+2020-10-31 03:12:11,582 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 13
+2020-10-31 03:12:12,937 INFO aireGDL Creating SQL engine
+2020-10-31 03:12:14,047 INFO aireGDL Getting DB connection
+2020-10-31 03:12:14,048 INFO aireGDL Creating SQL engine
+2020-10-31 03:12:14,049 INFO aireGDL Uploading table PM10_20190101_13h_hour to database
+2020-10-31 03:12:16,601 INFO aireGDL Table PM10_20190101_13h_hour in DB
+2020-10-31 03:12:16,628 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 03:12:16,631 INFO aireGDL Air quality stations loaded
+2020-10-31 03:12:16,633 INFO aireGDL Air quality stations to gdf
+2020-10-31 03:12:18,639 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 14
+2020-10-31 03:12:19,982 INFO aireGDL Creating SQL engine
+2020-10-31 03:12:21,189 INFO aireGDL Getting DB connection
+2020-10-31 03:12:21,189 INFO aireGDL Creating SQL engine
+2020-10-31 03:12:21,190 INFO aireGDL Uploading table PM10_20190101_14h_hour to database
+2020-10-31 03:12:23,727 INFO aireGDL Table PM10_20190101_14h_hour in DB
+2020-10-31 03:12:23,737 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 03:12:23,738 INFO aireGDL Air quality stations loaded
+2020-10-31 03:12:23,739 INFO aireGDL Air quality stations to gdf
+2020-10-31 03:12:25,729 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 15
+2020-10-31 03:12:27,101 INFO aireGDL Creating SQL engine
+2020-10-31 03:12:28,198 INFO aireGDL Getting DB connection
+2020-10-31 03:12:28,198 INFO aireGDL Creating SQL engine
+2020-10-31 03:12:28,198 INFO aireGDL Uploading table PM10_20190101_15h_hour to database
+2020-10-31 03:12:30,880 INFO aireGDL Table PM10_20190101_15h_hour in DB
+2020-10-31 03:12:30,893 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 03:12:30,895 INFO aireGDL Air quality stations loaded
+2020-10-31 03:12:30,896 INFO aireGDL Air quality stations to gdf
+2020-10-31 03:12:32,980 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 16
+2020-10-31 03:12:34,423 INFO aireGDL Creating SQL engine
+2020-10-31 03:12:35,654 INFO aireGDL Getting DB connection
+2020-10-31 03:12:35,655 INFO aireGDL Creating SQL engine
+2020-10-31 03:12:35,656 INFO aireGDL Uploading table PM10_20190101_16h_hour to database
+2020-10-31 03:12:38,318 INFO aireGDL Table PM10_20190101_16h_hour in DB
+2020-10-31 03:12:38,331 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 03:12:38,333 INFO aireGDL Air quality stations loaded
+2020-10-31 03:12:38,334 INFO aireGDL Air quality stations to gdf
+2020-10-31 03:12:40,461 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 17
+2020-10-31 03:12:41,922 INFO aireGDL Creating SQL engine
+2020-10-31 03:12:43,153 INFO aireGDL Getting DB connection
+2020-10-31 03:12:43,153 INFO aireGDL Creating SQL engine
+2020-10-31 03:12:43,154 INFO aireGDL Uploading table PM10_20190101_17h_hour to database
+2020-10-31 03:12:46,754 INFO aireGDL Table PM10_20190101_17h_hour in DB
+2020-10-31 03:12:46,780 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 03:12:46,784 INFO aireGDL Air quality stations loaded
+2020-10-31 03:12:46,786 INFO aireGDL Air quality stations to gdf
+2020-10-31 03:12:48,854 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 18
+2020-10-31 03:12:50,240 INFO aireGDL Creating SQL engine
+2020-10-31 03:12:51,629 INFO aireGDL Getting DB connection
+2020-10-31 03:12:51,629 INFO aireGDL Creating SQL engine
+2020-10-31 03:12:51,630 INFO aireGDL Uploading table PM10_20190101_18h_hour to database
+2020-10-31 03:12:54,671 INFO aireGDL Table PM10_20190101_18h_hour in DB
+2020-10-31 03:12:54,699 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 03:12:54,702 INFO aireGDL Air quality stations loaded
+2020-10-31 03:12:54,703 INFO aireGDL Air quality stations to gdf
+2020-10-31 03:12:56,722 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 19
+2020-10-31 03:12:58,121 INFO aireGDL Creating SQL engine
+2020-10-31 03:12:59,293 INFO aireGDL Getting DB connection
+2020-10-31 03:12:59,293 INFO aireGDL Creating SQL engine
+2020-10-31 03:12:59,294 INFO aireGDL Uploading table PM10_20190101_19h_hour to database
+2020-10-31 03:13:02,315 INFO aireGDL Table PM10_20190101_19h_hour in DB
+2020-10-31 03:13:02,327 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 03:13:02,329 INFO aireGDL Air quality stations loaded
+2020-10-31 03:13:02,330 INFO aireGDL Air quality stations to gdf
+2020-10-31 03:13:04,830 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 20
+2020-10-31 03:13:06,381 INFO aireGDL Creating SQL engine
+2020-10-31 03:13:07,466 INFO aireGDL Getting DB connection
+2020-10-31 03:13:07,466 INFO aireGDL Creating SQL engine
+2020-10-31 03:13:07,467 INFO aireGDL Uploading table PM10_20190101_20h_hour to database
+2020-10-31 03:13:10,152 INFO aireGDL Table PM10_20190101_20h_hour in DB
+2020-10-31 03:13:10,179 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 03:13:10,183 INFO aireGDL Air quality stations loaded
+2020-10-31 03:13:10,185 INFO aireGDL Air quality stations to gdf
+2020-10-31 03:13:12,207 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 21
+2020-10-31 03:13:13,598 INFO aireGDL Creating SQL engine
+2020-10-31 03:13:14,806 INFO aireGDL Getting DB connection
+2020-10-31 03:13:14,806 INFO aireGDL Creating SQL engine
+2020-10-31 03:13:14,807 INFO aireGDL Uploading table PM10_20190101_21h_hour to database
+2020-10-31 03:13:18,391 INFO aireGDL Table PM10_20190101_21h_hour in DB
+2020-10-31 03:13:18,420 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 03:13:18,425 INFO aireGDL Air quality stations loaded
+2020-10-31 03:13:18,426 INFO aireGDL Air quality stations to gdf
+2020-10-31 03:13:20,379 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 22
+2020-10-31 03:13:21,742 INFO aireGDL Creating SQL engine
+2020-10-31 03:13:22,826 INFO aireGDL Getting DB connection
+2020-10-31 03:13:22,826 INFO aireGDL Creating SQL engine
+2020-10-31 03:13:22,827 INFO aireGDL Uploading table PM10_20190101_22h_hour to database
+2020-10-31 03:13:25,833 INFO aireGDL Table PM10_20190101_22h_hour in DB
+2020-10-31 03:13:25,850 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 03:13:25,851 INFO aireGDL Air quality stations loaded
+2020-10-31 03:13:25,852 INFO aireGDL Air quality stations to gdf
+2020-10-31 03:13:27,820 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 23
+2020-10-31 03:13:29,190 INFO aireGDL Creating SQL engine
+2020-10-31 03:13:30,279 INFO aireGDL Getting DB connection
+2020-10-31 03:13:30,279 INFO aireGDL Creating SQL engine
+2020-10-31 03:13:30,280 INFO aireGDL Uploading table PM10_20190101_23h_hour to database
+2020-10-31 03:13:34,273 INFO aireGDL Table PM10_20190101_23h_hour in DB
+2020-10-31 03:13:34,300 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 03:13:34,304 INFO aireGDL Air quality stations loaded
+2020-10-31 03:13:34,305 INFO aireGDL Air quality stations to gdf
+2020-10-31 03:13:36,344 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: day
+2020-10-31 03:13:38,026 INFO aireGDL Creating SQL engine
+2020-10-31 03:13:39,305 INFO aireGDL Getting DB connection
+2020-10-31 03:13:39,305 INFO aireGDL Creating SQL engine
+2020-10-31 03:13:39,306 INFO aireGDL Uploading table PM10_20190101_day to database
+2020-10-31 03:13:43,197 INFO aireGDL Table PM10_20190101_day in DB
+2020-10-31 03:13:43,224 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 03:13:43,228 INFO aireGDL Air quality stations loaded
+2020-10-31 03:13:43,230 INFO aireGDL Air quality stations to gdf
+2020-10-31 03:13:45,304 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-02 Interval: hour Hour: 00
+2020-10-31 03:13:46,749 INFO aireGDL Creating SQL engine
+2020-10-31 03:13:47,946 INFO aireGDL Getting DB connection
+2020-10-31 03:13:47,946 INFO aireGDL Creating SQL engine
+2020-10-31 03:13:47,947 INFO aireGDL Uploading table PM10_20190102_00h_hour to database
+2020-10-31 03:13:50,582 INFO aireGDL Table PM10_20190102_00h_hour in DB
+2020-10-31 03:13:50,610 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 03:13:50,614 INFO aireGDL Air quality stations loaded
+2020-10-31 03:13:50,615 INFO aireGDL Air quality stations to gdf
+2020-10-31 03:13:52,642 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-02 Interval: hour Hour: 01
+2020-10-31 03:13:53,997 INFO aireGDL Creating SQL engine
+2020-10-31 03:13:55,523 INFO aireGDL Getting DB connection
+2020-10-31 03:13:55,523 INFO aireGDL Creating SQL engine
+2020-10-31 03:13:55,524 INFO aireGDL Uploading table PM10_20190102_01h_hour to database
+2020-10-31 03:13:58,284 INFO aireGDL Table PM10_20190102_01h_hour in DB
+2020-10-31 03:13:58,294 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 03:13:58,295 INFO aireGDL Air quality stations loaded
+2020-10-31 03:13:58,296 INFO aireGDL Air quality stations to gdf
+2020-10-31 03:14:00,262 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-02 Interval: hour Hour: 02
+2020-10-31 03:14:01,638 INFO aireGDL Creating SQL engine
+2020-10-31 03:14:04,014 INFO aireGDL Getting DB connection
+2020-10-31 03:14:04,015 INFO aireGDL Creating SQL engine
+2020-10-31 03:14:04,015 INFO aireGDL Uploading table PM10_20190102_02h_hour to database
+2020-10-31 03:14:06,982 INFO aireGDL Table PM10_20190102_02h_hour in DB
+2020-10-31 03:14:06,995 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 03:14:06,997 INFO aireGDL Air quality stations loaded
+2020-10-31 03:14:06,998 INFO aireGDL Air quality stations to gdf
+2020-10-31 03:14:08,995 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-02 Interval: hour Hour: 03
+2020-10-31 03:14:10,365 INFO aireGDL Creating SQL engine
+2020-10-31 03:14:11,456 INFO aireGDL Getting DB connection
+2020-10-31 03:14:11,456 INFO aireGDL Creating SQL engine
+2020-10-31 03:14:11,457 INFO aireGDL Uploading table PM10_20190102_03h_hour to database
+2020-10-31 03:14:14,441 INFO aireGDL Table PM10_20190102_03h_hour in DB
+2020-10-31 03:14:14,469 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 03:14:14,474 INFO aireGDL Air quality stations loaded
+2020-10-31 03:14:14,476 INFO aireGDL Air quality stations to gdf
+2020-10-31 03:14:16,490 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-02 Interval: hour Hour: 04
+2020-10-31 03:14:17,884 INFO aireGDL Creating SQL engine
+2020-10-31 03:14:18,975 INFO aireGDL Getting DB connection
+2020-10-31 03:14:18,975 INFO aireGDL Creating SQL engine
+2020-10-31 03:14:18,975 INFO aireGDL Uploading table PM10_20190102_04h_hour to database
+2020-10-31 03:14:21,140 INFO aireGDL Table PM10_20190102_04h_hour in DB
+2020-10-31 03:14:21,167 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 03:14:21,170 INFO aireGDL Air quality stations loaded
+2020-10-31 03:14:21,171 INFO aireGDL Air quality stations to gdf
+2020-10-31 03:14:23,213 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-02 Interval: hour Hour: 05
+2020-10-31 03:14:24,581 INFO aireGDL Creating SQL engine
+2020-10-31 03:14:26,080 INFO aireGDL Getting DB connection
+2020-10-31 03:14:26,080 INFO aireGDL Creating SQL engine
+2020-10-31 03:14:26,081 INFO aireGDL Uploading table PM10_20190102_05h_hour to database
+2020-10-31 03:14:28,036 INFO aireGDL Table PM10_20190102_05h_hour in DB
+2020-10-31 03:14:28,067 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 03:14:28,071 INFO aireGDL Air quality stations loaded
+2020-10-31 03:14:28,072 INFO aireGDL Air quality stations to gdf
+2020-10-31 08:29:03,850 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 08:29:03,852 INFO aireGDL Air quality stations loaded
+2020-10-31 08:29:03,853 INFO aireGDL Air quality stations to gdf
+2020-10-31 08:29:05,769 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 00
+2020-10-31 08:29:07,149 INFO aireGDL Creating SQL engine
+2020-10-31 08:29:08,845 INFO aireGDL Getting DB connection
+2020-10-31 08:29:08,845 INFO aireGDL Creating SQL engine
+2020-10-31 08:29:08,848 INFO aireGDL Uploading table PM10_20190101_00h_hour to database
+2020-10-31 08:29:16,519 INFO aireGDL Table PM10_20190101_00h_hour in DB
+2020-10-31 08:29:16,529 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 08:29:16,531 INFO aireGDL Air quality stations loaded
+2020-10-31 08:29:16,531 INFO aireGDL Air quality stations to gdf
+2020-10-31 08:29:18,322 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 01
+2020-10-31 08:29:19,656 INFO aireGDL Creating SQL engine
+2020-10-31 08:29:21,234 INFO aireGDL Getting DB connection
+2020-10-31 08:29:21,234 INFO aireGDL Creating SQL engine
+2020-10-31 08:29:21,235 INFO aireGDL Uploading table PM10_20190101_01h_hour to database
+2020-10-31 08:29:29,077 INFO aireGDL Table PM10_20190101_01h_hour in DB
+2020-10-31 08:29:29,089 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 08:29:29,090 INFO aireGDL Air quality stations loaded
+2020-10-31 08:29:29,091 INFO aireGDL Air quality stations to gdf
+2020-10-31 08:29:31,064 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 02
+2020-10-31 08:29:32,472 INFO aireGDL Creating SQL engine
+2020-10-31 08:29:33,946 INFO aireGDL Getting DB connection
+2020-10-31 08:29:33,946 INFO aireGDL Creating SQL engine
+2020-10-31 08:29:33,947 INFO aireGDL Uploading table PM10_20190101_02h_hour to database
+2020-10-31 08:29:40,333 INFO aireGDL Table PM10_20190101_02h_hour in DB
+2020-10-31 08:29:40,344 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 08:29:40,345 INFO aireGDL Air quality stations loaded
+2020-10-31 08:29:40,346 INFO aireGDL Air quality stations to gdf
+2020-10-31 08:29:42,321 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 03
+2020-10-31 08:29:43,892 INFO aireGDL Creating SQL engine
+2020-10-31 08:29:45,801 INFO aireGDL Getting DB connection
+2020-10-31 08:29:45,801 INFO aireGDL Creating SQL engine
+2020-10-31 08:29:45,802 INFO aireGDL Uploading table PM10_20190101_03h_hour to database
+2020-10-31 08:29:54,345 INFO aireGDL Table PM10_20190101_03h_hour in DB
+2020-10-31 08:29:54,356 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 08:29:54,357 INFO aireGDL Air quality stations loaded
+2020-10-31 08:29:54,358 INFO aireGDL Air quality stations to gdf
+2020-10-31 08:29:56,323 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 04
+2020-10-31 08:29:57,839 INFO aireGDL Creating SQL engine
+2020-10-31 08:29:59,229 INFO aireGDL Getting DB connection
+2020-10-31 08:29:59,229 INFO aireGDL Creating SQL engine
+2020-10-31 08:29:59,230 INFO aireGDL Uploading table PM10_20190101_04h_hour to database
+2020-10-31 08:30:03,658 INFO aireGDL Table PM10_20190101_04h_hour in DB
+2020-10-31 08:30:03,669 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 08:30:03,671 INFO aireGDL Air quality stations loaded
+2020-10-31 08:30:03,671 INFO aireGDL Air quality stations to gdf
+2020-10-31 08:30:05,643 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 05
+2020-10-31 08:30:07,123 INFO aireGDL Creating SQL engine
+2020-10-31 08:30:08,299 INFO aireGDL Getting DB connection
+2020-10-31 08:30:08,299 INFO aireGDL Creating SQL engine
+2020-10-31 08:30:08,300 INFO aireGDL Uploading table PM10_20190101_05h_hour to database
+2020-10-31 08:30:12,773 INFO aireGDL Table PM10_20190101_05h_hour in DB
+2020-10-31 08:30:12,784 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 08:30:12,785 INFO aireGDL Air quality stations loaded
+2020-10-31 08:30:12,786 INFO aireGDL Air quality stations to gdf
+2020-10-31 08:30:14,754 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 06
+2020-10-31 08:30:16,162 INFO aireGDL Creating SQL engine
+2020-10-31 08:30:18,133 INFO aireGDL Getting DB connection
+2020-10-31 08:30:18,133 INFO aireGDL Creating SQL engine
+2020-10-31 08:30:18,133 INFO aireGDL Uploading table PM10_20190101_06h_hour to database
+2020-10-31 08:30:23,016 INFO aireGDL Table PM10_20190101_06h_hour in DB
+2020-10-31 08:30:23,026 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 08:30:23,028 INFO aireGDL Air quality stations loaded
+2020-10-31 08:30:23,029 INFO aireGDL Air quality stations to gdf
+2020-10-31 08:30:25,012 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 07
+2020-10-31 08:30:26,424 INFO aireGDL Creating SQL engine
+2020-10-31 08:30:28,184 INFO aireGDL Getting DB connection
+2020-10-31 08:30:28,185 INFO aireGDL Creating SQL engine
+2020-10-31 08:30:28,185 INFO aireGDL Uploading table PM10_20190101_07h_hour to database
+2020-10-31 08:30:32,557 INFO aireGDL Table PM10_20190101_07h_hour in DB
+2020-10-31 08:30:32,584 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 08:30:32,588 INFO aireGDL Air quality stations loaded
+2020-10-31 08:30:32,590 INFO aireGDL Air quality stations to gdf
+2020-10-31 08:30:34,505 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 08
+2020-10-31 08:30:35,848 INFO aireGDL Creating SQL engine
+2020-10-31 08:30:38,483 INFO aireGDL Getting DB connection
+2020-10-31 08:30:38,483 INFO aireGDL Creating SQL engine
+2020-10-31 08:30:38,484 INFO aireGDL Uploading table PM10_20190101_08h_hour to database
+2020-10-31 08:30:42,665 INFO aireGDL Table PM10_20190101_08h_hour in DB
+2020-10-31 08:30:42,693 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 08:30:42,698 INFO aireGDL Air quality stations loaded
+2020-10-31 08:30:42,700 INFO aireGDL Air quality stations to gdf
+2020-10-31 08:30:44,592 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 09
+2020-10-31 08:30:45,923 INFO aireGDL Creating SQL engine
+2020-10-31 08:30:47,570 INFO aireGDL Getting DB connection
+2020-10-31 08:30:47,570 INFO aireGDL Creating SQL engine
+2020-10-31 08:30:47,571 INFO aireGDL Uploading table PM10_20190101_09h_hour to database
+2020-10-31 08:30:51,784 INFO aireGDL Table PM10_20190101_09h_hour in DB
+2020-10-31 08:30:51,796 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 08:30:51,797 INFO aireGDL Air quality stations loaded
+2020-10-31 08:30:51,798 INFO aireGDL Air quality stations to gdf
+2020-10-31 08:30:53,719 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 10
+2020-10-31 08:30:55,056 INFO aireGDL Creating SQL engine
+2020-10-31 08:30:56,142 INFO aireGDL Getting DB connection
+2020-10-31 08:30:56,142 INFO aireGDL Creating SQL engine
+2020-10-31 08:30:56,144 INFO aireGDL Uploading table PM10_20190101_10h_hour to database
+2020-10-31 08:30:59,807 INFO aireGDL Table PM10_20190101_10h_hour in DB
+2020-10-31 08:30:59,818 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 08:30:59,819 INFO aireGDL Air quality stations loaded
+2020-10-31 08:30:59,820 INFO aireGDL Air quality stations to gdf
+2020-10-31 08:31:01,699 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 11
+2020-10-31 08:31:03,037 INFO aireGDL Creating SQL engine
+2020-10-31 08:31:04,151 INFO aireGDL Getting DB connection
+2020-10-31 08:31:04,151 INFO aireGDL Creating SQL engine
+2020-10-31 08:31:04,152 INFO aireGDL Uploading table PM10_20190101_11h_hour to database
+2020-10-31 08:31:09,186 INFO aireGDL Table PM10_20190101_11h_hour in DB
+2020-10-31 08:31:09,197 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 08:31:09,198 INFO aireGDL Air quality stations loaded
+2020-10-31 08:31:09,199 INFO aireGDL Air quality stations to gdf
+2020-10-31 08:31:11,083 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 12
+2020-10-31 08:31:12,419 INFO aireGDL Creating SQL engine
+2020-10-31 08:31:13,653 INFO aireGDL Getting DB connection
+2020-10-31 08:31:13,653 INFO aireGDL Creating SQL engine
+2020-10-31 08:31:13,654 INFO aireGDL Uploading table PM10_20190101_12h_hour to database
+2020-10-31 08:31:18,592 INFO aireGDL Table PM10_20190101_12h_hour in DB
+2020-10-31 08:31:18,603 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 08:31:18,605 INFO aireGDL Air quality stations loaded
+2020-10-31 08:31:18,606 INFO aireGDL Air quality stations to gdf
+2020-10-31 08:31:20,597 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 13
+2020-10-31 08:31:22,013 INFO aireGDL Creating SQL engine
+2020-10-31 08:31:23,130 INFO aireGDL Getting DB connection
+2020-10-31 08:31:23,130 INFO aireGDL Creating SQL engine
+2020-10-31 08:31:23,132 INFO aireGDL Uploading table PM10_20190101_13h_hour to database
+2020-10-31 08:31:32,813 INFO aireGDL Table PM10_20190101_13h_hour in DB
+2020-10-31 08:31:32,826 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 08:31:32,828 INFO aireGDL Air quality stations loaded
+2020-10-31 08:31:32,828 INFO aireGDL Air quality stations to gdf
+2020-10-31 08:31:34,718 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 14
+2020-10-31 08:31:36,043 INFO aireGDL Creating SQL engine
+2020-10-31 08:31:37,674 INFO aireGDL Getting DB connection
+2020-10-31 08:31:37,675 INFO aireGDL Creating SQL engine
+2020-10-31 08:31:37,675 INFO aireGDL Uploading table PM10_20190101_14h_hour to database
+2020-10-31 08:31:42,069 INFO aireGDL Table PM10_20190101_14h_hour in DB
+2020-10-31 08:31:42,081 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 08:31:42,082 INFO aireGDL Air quality stations loaded
+2020-10-31 08:31:42,083 INFO aireGDL Air quality stations to gdf
+2020-10-31 08:31:44,097 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 15
+2020-10-31 08:31:45,501 INFO aireGDL Creating SQL engine
+2020-10-31 08:31:48,007 INFO aireGDL Getting DB connection
+2020-10-31 08:31:48,007 INFO aireGDL Creating SQL engine
+2020-10-31 08:31:48,008 INFO aireGDL Uploading table PM10_20190101_15h_hour to database
+2020-10-31 08:31:53,498 INFO aireGDL Table PM10_20190101_15h_hour in DB
+2020-10-31 08:31:53,527 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 08:31:53,530 INFO aireGDL Air quality stations loaded
+2020-10-31 08:31:53,531 INFO aireGDL Air quality stations to gdf
+2020-10-31 08:31:55,425 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 16
+2020-10-31 08:31:56,751 INFO aireGDL Creating SQL engine
+2020-10-31 08:32:00,006 INFO aireGDL Getting DB connection
+2020-10-31 08:32:00,006 INFO aireGDL Creating SQL engine
+2020-10-31 08:32:00,007 INFO aireGDL Uploading table PM10_20190101_16h_hour to database
+2020-10-31 08:32:02,736 INFO aireGDL Table PM10_20190101_16h_hour in DB
+2020-10-31 08:32:02,764 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 08:32:02,767 INFO aireGDL Air quality stations loaded
+2020-10-31 08:32:02,768 INFO aireGDL Air quality stations to gdf
+2020-10-31 08:32:04,798 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 17
+2020-10-31 08:32:06,489 INFO aireGDL Creating SQL engine
+2020-10-31 08:32:07,584 INFO aireGDL Getting DB connection
+2020-10-31 08:32:07,585 INFO aireGDL Creating SQL engine
+2020-10-31 08:32:07,586 INFO aireGDL Uploading table PM10_20190101_17h_hour to database
+2020-10-31 08:32:12,584 INFO aireGDL Table PM10_20190101_17h_hour in DB
+2020-10-31 08:32:12,596 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 08:32:12,597 INFO aireGDL Air quality stations loaded
+2020-10-31 08:32:12,598 INFO aireGDL Air quality stations to gdf
+2020-10-31 08:32:14,672 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 18
+2020-10-31 08:32:16,117 INFO aireGDL Creating SQL engine
+2020-10-31 08:32:17,364 INFO aireGDL Getting DB connection
+2020-10-31 08:32:17,364 INFO aireGDL Creating SQL engine
+2020-10-31 08:32:17,365 INFO aireGDL Uploading table PM10_20190101_18h_hour to database
+2020-10-31 08:32:20,486 INFO aireGDL Table PM10_20190101_18h_hour in DB
+2020-10-31 08:32:20,513 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 08:32:20,516 INFO aireGDL Air quality stations loaded
+2020-10-31 08:32:20,518 INFO aireGDL Air quality stations to gdf
+2020-10-31 08:32:22,456 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 19
+2020-10-31 08:32:23,819 INFO aireGDL Creating SQL engine
+2020-10-31 08:32:25,284 INFO aireGDL Getting DB connection
+2020-10-31 08:32:25,284 INFO aireGDL Creating SQL engine
+2020-10-31 08:32:25,285 INFO aireGDL Uploading table PM10_20190101_19h_hour to database
+2020-10-31 08:32:32,978 INFO aireGDL Table PM10_20190101_19h_hour in DB
+2020-10-31 08:32:33,006 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 08:32:33,010 INFO aireGDL Air quality stations loaded
+2020-10-31 08:32:33,011 INFO aireGDL Air quality stations to gdf
+2020-10-31 08:32:35,045 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 20
+2020-10-31 08:32:36,511 INFO aireGDL Creating SQL engine
+2020-10-31 08:32:37,614 INFO aireGDL Getting DB connection
+2020-10-31 08:32:37,614 INFO aireGDL Creating SQL engine
+2020-10-31 08:32:37,615 INFO aireGDL Uploading table PM10_20190101_20h_hour to database
+2020-10-31 08:32:40,622 INFO aireGDL Table PM10_20190101_20h_hour in DB
+2020-10-31 08:32:40,633 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 08:32:40,635 INFO aireGDL Air quality stations loaded
+2020-10-31 08:32:40,636 INFO aireGDL Air quality stations to gdf
+2020-10-31 08:32:42,494 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 21
+2020-10-31 08:32:43,820 INFO aireGDL Creating SQL engine
+2020-10-31 08:32:45,895 INFO aireGDL Getting DB connection
+2020-10-31 08:32:45,895 INFO aireGDL Creating SQL engine
+2020-10-31 08:32:45,896 INFO aireGDL Uploading table PM10_20190101_21h_hour to database
+2020-10-31 08:32:49,977 INFO aireGDL Table PM10_20190101_21h_hour in DB
+2020-10-31 08:32:50,004 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 08:32:50,007 INFO aireGDL Air quality stations loaded
+2020-10-31 08:32:50,008 INFO aireGDL Air quality stations to gdf
+2020-10-31 08:32:51,937 INFO aireGDL Air quality interpolation created for Pollutant: PM10 Date: 2019-01-01 Interval: hour Hour: 22
+2020-10-31 08:32:53,329 INFO aireGDL Creating SQL engine
+2020-10-31 08:32:54,574 INFO aireGDL Getting DB connection
+2020-10-31 08:32:54,574 INFO aireGDL Creating SQL engine
+2020-10-31 08:32:54,575 INFO aireGDL Uploading table PM10_20190101_22h_hour to database
+2020-10-31 08:32:58,779 INFO aireGDL Table PM10_20190101_22h_hour in DB
+2020-10-31 08:32:58,809 INFO aireGDL MiMacroPeriferico stations loaded
+2020-10-31 08:32:58,812 INFO aireGDL Air quality stations loaded
+2020-10-31 08:32:58,814 INFO aireGDL Air quality stations to gdf
