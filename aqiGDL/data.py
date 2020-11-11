@@ -335,6 +335,41 @@ def create_schema(schema):
         pass
 
 
+def df_to_db(df, name, schema):
+    """Upload a Pandas.DataFrame to the database
+
+    Args:
+        df (pandas.DataFrame): DataFrame to be uploadead
+        name (str): Name of the table to be created
+        schema (str): Name of the folder in which to save the geoDataFrame
+    """
+    create_schema(schema)
+    utils.log('Getting DB connection')
+    engine = utils.db_engine()
+    utils.log(f'Uploading table {name} to database')
+    df.to_sql(name=name.lower(), con=engine,
+              if_exists='fail', index=False, schema=schema.lower())
+    utils.log(f'Table {name} in DB')
+
+
+def df_from_db(name, schema):
+    """Load a table from the database into a DataFrame
+
+    Args:
+        name (str): Name of the table to be loaded
+        schema (str): Name of the folder from where to load the geoDataFrame
+
+    Returns:
+        pandas.GeoDataFrame: GeoDataFrame with the table from the database.
+    """
+    engine = utils.db_engine()
+    utils.log(f'Getting {name} from DB')
+    df = pd.read_sql(
+        f"SELECT * FROM {schema.lower()}.{name.lower()}", engine, geom_col='geometry')
+    utils.log(f'{name} retrived')
+    return df
+
+
 def gdf_to_db(gdf, name, schema):
     """Upload a geoPandas.GeoDataFrame to the database
 
