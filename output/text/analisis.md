@@ -1,4 +1,4 @@
-# Calidad del aire en Guadalajara
+# [Calidad del aire en Guadalajara](../../README.MD)
 
 ## Análisis
 
@@ -6,4 +6,8 @@ En esta sección se detallan los análisis que se realizaron a los datos y la fo
 
 ### Interpolación
 
+Por desarrollar @edgaregurrola
+
 ### Agrupamiento
+
+Para establecer una línea base de contaminantes utilizamos los datos de las interpolaciones
