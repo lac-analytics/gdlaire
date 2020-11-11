@@ -371,19 +371,34 @@ def df_from_db(name, schema):
 
 
 def gdf_to_db(gdf, name, schema):
+
+
+def gdf_to_db(gdf, name, schema, if_exists='fail'):
     """Upload a geoPandas.GeoDataFrame to the database
 
     Args:
+
         gdf (geopandas.GeoDataFrame): GeoDataFrame to be uploadead
+
         name (str): Name of the table to be created
+
         schema (str): Name of the folder in which to save the geoDataFrame
+
+        if_exists (str): Behaivor if the table already exists in the database ('fail', 'replace', 'append') 'fail' by default. 
+
     """
+
     create_schema(schema)
+
     utils.log('Getting DB connection')
+
     engine = utils.db_engine()
+
     utils.log(f'Uploading table {name} to database')
+
     gdf.to_postgis(name=name.lower(), con=engine,
-                   if_exists='fail', index=False, schema=schema.lower())
+                   if_exists=if_exists, index=False, schema=schema.lower())
+
     utils.log(f'Table {name} in DB')
 
 

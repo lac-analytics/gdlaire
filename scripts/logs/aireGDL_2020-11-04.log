@@ -1,0 +1,5 @@
+2020-11-04 16:44:28,849 INFO aireGDL Creating SQL engine
+2020-11-04 16:44:29,855 INFO aireGDL Getting DB connection
+2020-11-04 16:44:29,856 INFO aireGDL Creating SQL engine
+2020-11-04 16:44:29,857 INFO aireGDL Uploading table estaciones_simaj to database
+2020-11-04 16:44:30,906 INFO aireGDL Table estaciones_simaj in DB
