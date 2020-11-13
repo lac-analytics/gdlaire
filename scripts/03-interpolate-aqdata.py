@@ -31,7 +31,7 @@ def main(pollutant, date, interval, hour='00', save=False):
     s = aqiGDL.interpolate_aq(pollutant, date, stations_aq,
                               stations_MiMacro, interval=interval, cellsize=0.01, hour=hour)
 
-    if interval =='day':
+    if interval == 'day':
         aqiGDL.log(
             f'Air quality interpolation created for Pollutant: {pollutant} Date: {date} Interval: {interval}')
     else:
@@ -39,7 +39,7 @@ def main(pollutant, date, interval, hour='00', save=False):
             f'Air quality interpolation created for Pollutant: {pollutant} Date: {date} Interval: {interval} Hour: {hour}')
 
     if save:
-        if interval=='hour':
+        if interval == 'hour':
             time = hour+'h_'+interval
         else:
             time = interval

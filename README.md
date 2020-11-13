@@ -1,9 +1,8 @@
-# Calidad del aire en corredor MacroPeriferico
-    
+# Calidad del aire en corredor Mi Macro Periferico Guadalajara
 
+La idea de este repositorio es generar una línea base para comparar la calidad del aire en las estaciones de Mi Macro Periférico, como parte del proyecto [PIP para una ciudad del futuro.](https://www.facebook.com/pipciudadfuturo/)
 
-### Estructura
-------------
+## Estructura
 
 La estructura de los folders de este proyecto es:
 
@@ -25,13 +24,21 @@ La estructura de los folders de este proyecto es:
 │   └── figures       <- Generated graphics and figures to be used in reporting
 |   └── text          <- Reports
 │
-└── src                <- Source code for use in this project.
-    ├── __init__.py    <- Makes src a Python module
-    │
-    ├── data.py        <- Scripts to download or generate data
-    │
-    ├── analysis.py    <- Scripts to analyse the data
-    │
-    └── visualization.py  <- Scripts to create exploratory and results oriented visualizations
-
+└── aqiGDL             <- Source code for use in this project.
+│   ├── __init__.py    <- Makes src a Python module
+│   │
+│   ├── data.py        <- Scripts to download or generate data
+│   │
+│   ├── analysis.py    <- Scripts to analyse the data
+│   │
+│   └── visualization.py  <- Scripts to create exploratory and results oriented visualizations
+│
+└── scripts           <- Python scripts to run the analysis and produce the outputs
 ```
+
+## Memoria del proceso
+
+1. [Datos](output/text/data.md)
+1. [Análisis](output/text/analisis.md)
+1. [Visualizaciones](output/text/visualizaciones.md)
+1. [Equipo](output/text/equipo.md)
