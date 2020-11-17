@@ -348,7 +348,7 @@ def df_to_db(df, name, schema):
     engine = utils.db_engine()
     utils.log(f'Uploading table {name} to database')
     df.to_sql(name=name.lower(), con=engine,
-              if_exists='fail', index=False, schema=schema.lower())
+              if_exists='fail', index=False, schema=schema.lower(), method='multi')
     utils.log(f'Table {name} in DB')
 
 
