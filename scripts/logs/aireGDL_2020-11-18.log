@@ -1,0 +1,10 @@
+2020-11-18 00:05:45,612 INFO aireGDL Restructure database
+2020-11-18 00:05:45,612 INFO aireGDL Creating SQL engine
+2020-11-18 00:05:47,070 INFO aireGDL Getting DB connection
+2020-11-18 00:05:47,070 INFO aireGDL Creating SQL engine
+2020-11-18 00:05:47,072 INFO aireGDL Uploading table simaj_data_hour to database
+2020-11-18 00:10:00,024 INFO aireGDL Restructure database
+2020-11-18 00:10:00,025 INFO aireGDL Creating SQL engine
+2020-11-18 00:10:01,399 INFO aireGDL Getting DB connection
+2020-11-18 00:10:01,399 INFO aireGDL Creating SQL engine
+2020-11-18 00:10:01,400 INFO aireGDL Uploading table simaj_data_hour to database

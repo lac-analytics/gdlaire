@@ -1,0 +1,9 @@
+2020-11-18 12:54:41,274 INFO aireGDL Creating SQL engine
+2020-11-18 12:54:41,293 INFO aireGDL Getting simaj_data_hour from DB
+2020-11-18 12:54:42,605 INFO aireGDL simaj_data_hour retrived
+2020-11-18 12:54:44,976 INFO aireGDL Creating SQL engine
+2020-11-18 12:54:44,976 INFO aireGDL Getting simaj_data_hour from DB
+2020-11-18 12:54:46,157 INFO aireGDL simaj_data_hour retrived
+2020-11-18 12:54:55,759 INFO aireGDL Creating SQL engine
+2020-11-18 12:54:55,761 INFO aireGDL Getting simaj_datahour from DB
+2020-11-18 12:54:58,211 INFO aireGDL simaj_datahour retrived
