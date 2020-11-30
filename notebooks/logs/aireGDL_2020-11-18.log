@@ -1,0 +1,16 @@
+2020-11-18 11:04:46,851 INFO aireGDL Creating SQL engine
+2020-11-18 11:04:47,448 INFO aireGDL Getting estaciones_gdl from DB
+2020-11-18 11:04:59,808 INFO aireGDL estaciones_gdl retrived
+2020-11-18 11:05:01,911 INFO aireGDL Creating SQL engine
+2020-11-18 11:15:35,256 INFO aireGDL Creating SQL engine
+2020-11-18 11:15:35,537 INFO aireGDL Getting estaciones_gdl from DB
+2020-11-18 11:15:50,124 INFO aireGDL estaciones_gdl retrived
+2020-11-18 11:15:51,251 INFO aireGDL Creating SQL engine
+2020-11-18 11:18:49,012 INFO aireGDL Nodes loaded
+2020-11-18 11:25:57,292 INFO aireGDL Creating SQL engine
+2020-11-18 11:25:57,486 INFO aireGDL Getting estaciones_gdl from DB
+2020-11-18 11:26:03,340 INFO aireGDL estaciones_gdl retrived
+2020-11-18 11:26:05,423 INFO aireGDL Creating SQL engine
+2020-11-18 11:27:21,218 INFO aireGDL Nodes loaded
+2020-11-18 11:34:52,601 INFO aireGDL Edges loaded
+2020-11-18 11:36:02,654 INFO aireGDL Graph created
