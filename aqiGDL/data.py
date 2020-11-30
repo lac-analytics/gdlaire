@@ -263,6 +263,77 @@ def database_clean(interval='hour'):
                   file[6:10]+'_'+interval+'.csv')
 
 
+def restructure_database(interval='hour'):
+    """Function that takes cleaned databases for air quality data and restructures it into a single DataFrame.
+
+    Args:
+        interval (str, optional): it sets the interval for the new database, it can take 'hour' or 'day'. Defaults to 'hour'.
+
+    Returns:
+        pandas.DataFrame: pandas DataFrame with columns: FECHA, HORA (depending on interval), PARAM, EST_SIMAJ, CONC, LONG, LAT.
+    """
+    dir_gdl = '../data/processed/'
+
+    simaj_reestructurado_all = pd.DataFrame()
+
+    # check for file or directory in dir_gdl
+    for file in os.listdir(dir_gdl):
+
+        if file.endswith('.csv'):
+
+            if interval in file:
+
+                # read csv of air quality data according to interval
+                simaj_data = pd.read_csv(dir_gdl+file)
+
+                simaj_reestructurado = simaj_data.copy()
+
+                # stack stations according to interval
+                if interval == 'hour':
+
+                    simaj_reestructurado = pd.DataFrame(simaj_reestructurado.set_index(
+                        ['FECHA', 'HORA', 'PARAM']).stack(dropna=False))
+
+                    simaj_reestructurado.reset_index(inplace=True)
+
+                    simaj_reestructurado.rename(
+                        columns={'level_3': 'EST_SIMAJ', 0: 'CONC'}, inplace=True)
+
+                else:
+
+                    simaj_reestructurado = pd.DataFrame(
+                        simaj_reestructurado.set_index(['FECHA', 'PARAM']).stack(dropna=False))
+
+                    simaj_reestructurado.reset_index(inplace=True)
+
+                    simaj_reestructurado.rename(
+                        columns={'level_2': 'EST_SIMAJ', 0: 'CONC'}, inplace=True)
+
+                simaj_reestructurado_all = simaj_reestructurado_all.append(
+                    simaj_reestructurado)
+
+            # read df with stations coordinates
+            stations_simaj = pd.read_csv('../data/raw/estaciones.csv')
+
+        else:
+            continue
+
+    i = 0
+
+    for est in stations_simaj['codigo']:
+
+        # adds coordinates to df
+        simaj_reestructurado_all.loc[simaj_reestructurado_all.EST_SIMAJ == est,
+                                     'LONG'] = stations_simaj[stations_simaj['codigo'] == est]['long'][i]
+
+        simaj_reestructurado_all.loc[simaj_reestructurado_all.EST_SIMAJ == est,
+                                     'LAT'] = stations_simaj[stations_simaj['codigo'] == est]['lat'][i]
+
+        i = i + 1
+
+    return (simaj_reestructurado_all)
+
+
 def download_graph(polygon, network_type='walk'):
     """Download a graph from a bounding box, and saves it to disk
 
@@ -335,20 +406,21 @@ def create_schema(schema):
         pass
 
 
-def df_to_db(df, name, schema):
+def df_to_db(df, name, schema, if_exists='fail'):
     """Upload a Pandas.DataFrame to the database
 
     Args:
         df (pandas.DataFrame): DataFrame to be uploadead
         name (str): Name of the table to be created
         schema (str): Name of the folder in which to save the geoDataFrame
+        if_exists (str): Behaivor if the table already exists in the database ('fail', 'replace', 'append') 'fail' by default.
     """
     create_schema(schema)
     utils.log('Getting DB connection')
     engine = utils.db_engine()
     utils.log(f'Uploading table {name} to database')
     df.to_sql(name=name.lower(), con=engine,
-              if_exists='fail', index=False, schema=schema.lower(), method='multi')
+              if_exists=if_exists, index=False, schema=schema.lower(), method='multi', chunksize=50000)
     utils.log(f'Table {name} in DB')
 
 

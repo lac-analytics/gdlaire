@@ -1,0 +1,21 @@
+2020-11-24 23:17:07,882 INFO aireGDL Restructure database
+2020-11-24 23:17:07,882 INFO aireGDL Creating SQL engine
+2020-11-24 23:17:09,523 INFO aireGDL Getting DB connection
+2020-11-24 23:17:09,523 INFO aireGDL Creating SQL engine
+2020-11-24 23:17:09,524 INFO aireGDL Uploading table simaj_data_hour to database
+2020-11-24 23:21:56,148 INFO aireGDL Table simaj_data_hour in DB
+2020-11-24 23:21:56,148 INFO aireGDL Uploaded database for interval: hour
+2020-11-24 23:35:34,320 INFO aireGDL Restructure database
+2020-11-24 23:35:34,320 INFO aireGDL Creating SQL engine
+2020-11-24 23:35:35,766 INFO aireGDL Getting DB connection
+2020-11-24 23:35:35,767 INFO aireGDL Creating SQL engine
+2020-11-24 23:35:35,767 INFO aireGDL Uploading table simaj_data_hour to database
+2020-11-24 23:40:44,722 INFO aireGDL Table simaj_data_hour in DB
+2020-11-24 23:40:44,723 INFO aireGDL Uploaded database for interval: hour
+2020-11-24 23:44:26,538 INFO aireGDL Restructure database
+2020-11-24 23:44:26,538 INFO aireGDL Creating SQL engine
+2020-11-24 23:44:27,842 INFO aireGDL Getting DB connection
+2020-11-24 23:44:27,842 INFO aireGDL Creating SQL engine
+2020-11-24 23:44:27,843 INFO aireGDL Uploading table simaj_data_day to database
+2020-11-24 23:44:41,316 INFO aireGDL Table simaj_data_day in DB
+2020-11-24 23:44:41,316 INFO aireGDL Uploaded database for interval: day
