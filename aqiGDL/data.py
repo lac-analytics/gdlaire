@@ -442,6 +442,22 @@ def df_from_db(name, schema):
     return df
 
 
+def df_from_query(query):
+    """Load a table from the database into a DataFrame
+
+    Args:
+        query (str): SQL query to get the data
+
+    Returns:
+        pandas.DataFrame: GeoDataFrame with the table from the database.
+    """
+    engine = utils.db_engine()
+    utils.log('Getting data from DB')
+    df = pd.read_sql(query, engine)
+    utils.log('Data retrived')
+    return df
+
+
 def gdf_to_db(gdf, name, schema, if_exists='fail'):
     """Upload a geoPandas.GeoDataFrame to the database
 
