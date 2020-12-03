@@ -432,13 +432,29 @@ def df_from_db(name, schema):
         schema (str): Name of the folder from where to load the geoDataFrame
 
     Returns:
-        pandas.GeoDataFrame: GeoDataFrame with the table from the database.
+        pandas.DataFrame: GeoDataFrame with the table from the database.
     """
     engine = utils.db_engine()
     utils.log(f'Getting {name} from DB')
     df = pd.read_sql(
-        f"SELECT * FROM {schema.lower()}.{name.lower()}", engine, geom_col='geometry')
+        f"SELECT * FROM {schema.lower()}.{name.lower()}", engine)
     utils.log(f'{name} retrived')
+    return df
+
+
+def df_from_query(query):
+    """Load a table from the database into a DataFrame
+
+    Args:
+        query (str): SQL query to get the data
+
+    Returns:
+        pandas.DataFrame: GeoDataFrame with the table from the database.
+    """
+    engine = utils.db_engine()
+    utils.log('Getting data from DB')
+    df = pd.read_sql(query, engine)
+    utils.log('Data retrived')
     return df
 
 
