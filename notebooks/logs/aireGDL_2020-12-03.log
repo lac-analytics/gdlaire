@@ -1,0 +1,9 @@
+2020-12-03 16:59:36,380 INFO aireGDL Creating SQL engine
+2020-12-03 16:59:36,572 INFO aireGDL Getting estaciones_gdl from DB
+2020-12-03 16:59:42,912 INFO aireGDL estaciones_gdl retrived
+2020-12-03 17:00:08,345 INFO aireGDL Creating SQL engine
+2020-12-03 17:00:08,347 INFO aireGDL Getting estaciones_gdl from DB
+2020-12-03 17:00:15,888 INFO aireGDL estaciones_gdl retrived
+2020-12-03 17:09:39,103 INFO aireGDL Creating SQL engine
+2020-12-03 17:09:39,214 INFO aireGDL Getting estaciones_gdl from DB
+2020-12-03 17:09:50,242 INFO aireGDL estaciones_gdl retrived
