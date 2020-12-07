@@ -1,0 +1,15 @@
+2020-12-07 04:36:55,855 INFO aireGDL Creating SQL engine
+2020-12-07 04:36:55,869 INFO aireGDL Getting data from DB
+2020-12-07 04:37:06,200 INFO aireGDL Data retrived
+2020-12-07 04:37:06,581 INFO aireGDL Loaded air quality by day database
+2020-12-07 04:42:31,398 INFO aireGDL Creating SQL engine
+2020-12-07 04:42:31,420 INFO aireGDL Getting data from DB
+2020-12-07 04:42:41,824 INFO aireGDL Data retrived
+2020-12-07 04:42:42,224 INFO aireGDL Loaded air quality by day database
+2020-12-07 06:27:09,077 INFO aireGDL Created air quality database by week for MIMACRO
+2020-12-07 06:27:09,079 INFO aireGDL Creating SQL engine
+2020-12-07 06:27:11,706 INFO aireGDL Getting DB connection
+2020-12-07 06:27:11,706 INFO aireGDL Creating SQL engine
+2020-12-07 06:27:11,708 INFO aireGDL Uploading table mimacro_data_week to database
+2020-12-07 06:27:26,385 INFO aireGDL Table mimacro_data_week in DB
+2020-12-07 06:27:26,385 INFO aireGDL Uploaded database for station: MIMACRO
