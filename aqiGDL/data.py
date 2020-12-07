@@ -334,6 +334,76 @@ def restructure_database(interval='hour'):
     return (simaj_reestructurado_all)
 
 
+def week_average (df, station, interval = 7, year_start=2014, year_end=2019):
+
+    station_column = 'EST_'+station
+
+    df_week = pd.DataFrame(columns=['S_ID','S_YEAR','PARAM',station_column,'CONC','DESV_EST','LONG','LAT'])
+    
+    year = [y for y in range (year_start, year_end+1)]
+
+    i=0
+
+    for y in year:
+        
+        for s in range(1,53):
+            
+            for p in df.PARAM.unique():
+                
+                for est in df[station_column].unique():
+                
+                    df_week.loc[i]=['S'+str(s),'S'+str(s)+'-'+str(y), p,
+                                    est, np.nan, np.nan, 
+                                    df.loc[df[station_column]==est]['LONG'].iloc[0],
+                                    df.loc[df[station_column]==est]['LAT'].iloc[0],
+                                    ]
+
+                    i+=1
+                    
+
+    interval = 7
+
+    for p in df.PARAM.unique():
+            
+        for est in df[station_column].unique():
+                        
+            df_analysis = df.loc[(df.PARAM==p)&(df[station_column]==est)]
+
+            divide = int(round((len(df_analysis)/interval),0))
+
+            s = 1
+
+            for i in range(0, divide):
+
+                mean_conc = df_analysis.iloc[i*interval:i*interval+interval]['CONC'].mean()
+
+                std_conc = df_analysis.iloc[i*interval:i*interval+interval]['CONC'].std()
+
+                day_year = i*interval+int((((i*interval+interval)-(i*interval))/2)-0.5)
+                
+                year_df = df_analysis['FECHA'].iloc[day_year].year
+                
+                df_week.loc[(df_week.S_ID=='S'+str(s)) & 
+                        (df_week.S_YEAR=='S'+str(s)+'-'+str(year_df)) & 
+                        (df_week.PARAM==p) &
+                            (df_week[station_column]==est),
+                            'CONC'] = mean_conc
+
+                df_week.loc[(df_week.S_ID=='S'+str(s)) & 
+                        (df_week.S_YEAR=='S'+str(s)+'-'+str(year_df)) & 
+                        (df_week.PARAM==p) &
+                            (df_week[station_column]==est),
+                            'DESV_EST'] = std_conc
+
+                s += 1
+
+                if s > 52:
+
+                    s = 0
+
+    return (df_week)
+
+
 def download_graph(polygon, network_type='walk'):
     """Download a graph from a bounding box, and saves it to disk
 

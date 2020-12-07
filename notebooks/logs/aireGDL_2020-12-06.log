@@ -1,0 +1,38 @@
+2020-12-06 15:40:30,638 INFO aireGDL Creating SQL engine
+2020-12-06 15:40:30,671 INFO aireGDL Getting data from DB
+2020-12-06 15:40:40,021 INFO aireGDL Data retrived
+2020-12-06 20:27:54,332 INFO aireGDL Creating SQL engine
+2020-12-06 20:27:54,364 INFO aireGDL Getting estaciones_gdl from DB
+2020-12-06 20:27:56,220 INFO aireGDL estaciones_gdl retrived
+2020-12-06 20:53:06,514 INFO aireGDL Creating SQL engine
+2020-12-06 20:53:06,515 INFO aireGDL Getting data from DB
+2020-12-06 20:54:03,527 INFO aireGDL Creating SQL engine
+2020-12-06 20:54:03,528 INFO aireGDL Getting data from DB
+2020-12-06 20:55:34,487 INFO aireGDL Creating SQL engine
+2020-12-06 20:55:34,488 INFO aireGDL Getting data from DB
+2020-12-06 20:55:52,036 INFO aireGDL Creating SQL engine
+2020-12-06 20:55:52,037 INFO aireGDL Getting data from DB
+2020-12-06 20:56:08,713 INFO aireGDL Creating SQL engine
+2020-12-06 20:56:08,714 INFO aireGDL Getting data from DB
+2020-12-06 20:56:18,995 INFO aireGDL Creating SQL engine
+2020-12-06 20:56:18,996 INFO aireGDL Getting data from DB
+2020-12-06 20:56:33,925 INFO aireGDL Creating SQL engine
+2020-12-06 20:56:33,925 INFO aireGDL Getting data from DB
+2020-12-06 21:01:49,453 INFO aireGDL Creating SQL engine
+2020-12-06 21:01:49,454 INFO aireGDL Getting data from DB
+2020-12-06 21:02:13,274 INFO aireGDL Data retrived
+2020-12-06 21:02:13,361 INFO aireGDL Creating SQL engine
+2020-12-06 21:02:13,361 INFO aireGDL Getting estaciones_gdl from DB
+2020-12-06 21:02:15,128 INFO aireGDL estaciones_gdl retrived
+2020-12-06 21:05:40,601 INFO aireGDL Creating SQL engine
+2020-12-06 21:05:40,603 INFO aireGDL Getting data from DB
+2020-12-06 21:05:49,863 INFO aireGDL Data retrived
+2020-12-06 21:05:49,969 INFO aireGDL Creating SQL engine
+2020-12-06 21:05:49,969 INFO aireGDL Getting estaciones_gdl from DB
+2020-12-06 21:05:51,545 INFO aireGDL estaciones_gdl retrived
+2020-12-06 21:10:03,445 INFO aireGDL Creating SQL engine
+2020-12-06 21:10:03,466 INFO aireGDL Getting data from DB
+2020-12-06 21:10:09,481 INFO aireGDL Data retrived
+2020-12-06 21:10:09,569 INFO aireGDL Creating SQL engine
+2020-12-06 21:10:09,569 INFO aireGDL Getting estaciones_gdl from DB
+2020-12-06 21:10:11,155 INFO aireGDL estaciones_gdl retrived

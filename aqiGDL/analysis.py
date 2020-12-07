@@ -38,13 +38,13 @@ def interpolate_aq(pollutant, date, stations_aq, stations_MiMacro, interval='day
     data_bydateParam = pd.read_csv(data_csv).set_index('FECHA')
     data_bydateParam = data_bydateParam[data_bydateParam['PARAM'] == pollutant]
 
-    #checks for interval and filters df
+    # checks for interval and filters df
     if interval == 'hour':
-        if int(hour)>23 or int(hour)<0:
-            raise ValueError ('Hour must be between 00 and 23')
+        if int(hour) > 23 or int(hour) < 0:
+            raise ValueError('Hour must be between 00 and 23')
         else:
-            data_bydateParam = data_bydateParam[data_bydateParam['HORA'] == hour+str(':00')]
-
+            data_bydateParam = data_bydateParam[data_bydateParam['HORA']
+                                                == hour+str(':00')]
 
     # lists to append valid values of lat and long for interpolation
 
@@ -52,7 +52,7 @@ def interpolate_aq(pollutant, date, stations_aq, stations_MiMacro, interval='day
     y = []
 
     for i, est in stations_aq.iterrows():
-        
+
         est_code = stations_aq.loc[(i), 'codigo']
         c_value = data_bydateParam.loc[(date), est_code]
 
@@ -119,6 +119,37 @@ def interpolate_aq(pollutant, date, stations_aq, stations_MiMacro, interval='day
         inter, geometry=gpd.points_from_xy(inter.long, inter.lat))
 
     # sets crs
-    inter_gdf.set_crs(epsg=4326, inplace = True)
+    inter_gdf.set_crs(epsg=4326, inplace=True)
 
     return(inter_gdf)
+
+
+def interpolate_atpoint(long_int, lat_int, simaj, potencia=2):
+
+    potencia = 2
+
+    dividendo = 0
+
+    divisor = 0
+
+    for est in simaj.EST_SIMAJ.unique():
+
+        lat_est = float(simaj.loc[simaj.EST_SIMAJ == est]['LAT'])
+        long_est = float(simaj.loc[simaj.EST_SIMAJ == est]['LONG'])
+
+        c_value = float(simaj.loc[simaj.EST_SIMAJ == est]['CONC'])
+
+        if pd.notna(c_value):
+            dividendo = (
+                c_value/(sqrt((long_est-long_int)**2+(lat_est-lat_int)**2)**(potencia))) + dividendo
+            divisor = (
+                1/(sqrt((long_est-long_int)**2+(lat_est-lat_int)**2)**(potencia))) + divisor
+
+    if divisor == 0:
+
+        concentracion = -1
+
+    else:
+        concentracion = dividendo/divisor
+
+    return (concentracion)
