@@ -4,3 +4,25 @@
 2020-12-08 15:06:18,049 INFO aireGDL Creating SQL engine
 2020-12-08 15:06:18,051 INFO aireGDL Getting estaciones_simaj from DB
 2020-12-08 15:06:24,770 INFO aireGDL estaciones_simaj retrived
+2020-12-08 15:11:21,694 INFO aireGDL Creating SQL engine
+2020-12-08 15:11:21,945 INFO aireGDL Getting estaciones_gdl from DB
+2020-12-08 15:11:35,019 INFO aireGDL estaciones_gdl retrived
+2020-12-08 15:12:42,771 INFO aireGDL Creating SQL engine
+2020-12-08 15:12:42,773 INFO aireGDL Getting estaciones_gdl from DB
+2020-12-08 15:12:55,680 INFO aireGDL estaciones_gdl retrived
+2020-12-08 15:18:29,455 INFO aireGDL Creating SQL engine
+2020-12-08 15:18:29,463 INFO aireGDL Getting data from DB
+2020-12-08 15:19:25,631 INFO aireGDL Creating SQL engine
+2020-12-08 15:19:25,634 INFO aireGDL Getting data from DB
+2020-12-08 15:22:10,776 INFO aireGDL Creating SQL engine
+2020-12-08 15:22:10,782 INFO aireGDL Getting data from DB
+2020-12-08 15:28:20,898 INFO aireGDL Data retrived
+2020-12-08 16:14:58,510 INFO aireGDL Creating SQL engine
+2020-12-08 16:14:58,513 INFO aireGDL Getting estaciones_gdl from DB
+2020-12-08 16:15:04,276 INFO aireGDL estaciones_gdl retrived
+2020-12-08 16:32:14,338 INFO aireGDL Creating SQL engine
+2020-12-08 16:32:14,409 INFO aireGDL Getting estaciones_gdl from DB
+2020-12-08 16:32:20,496 INFO aireGDL estaciones_gdl retrived
+2020-12-08 16:34:46,666 INFO aireGDL Creating SQL engine
+2020-12-08 16:34:46,667 INFO aireGDL Getting data from DB
+2020-12-08 16:43:03,040 INFO aireGDL Data retrived
