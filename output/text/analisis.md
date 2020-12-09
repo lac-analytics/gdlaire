@@ -1,6 +1,6 @@
 # Análisis
 
-[Línea Base contaminantes](../../README.MD)
+[Inicio](../../README.MD)
 ***
 
 En esta sección se detallan los análisis que se realizaron a los datos y la forma en la que se trabajó (ver [Datos](data.md) para una revisión de donde vienen los datos y su procesamiento). Se realizaron tres análisis para tener una línea base de los contaminantes y potencial solar en las estaciones de Mi Macro Periférico.
@@ -50,6 +50,10 @@ Esta etapa consistió en utilizar los datos disponibles de las estaciones del Si
 
 ## 2.- Contaminación edificios
 
+### **2.1.- Cálculo contaminación**
+
+### **2.2.- Siguientes pasos**
+
 ## 3.- Potencial Solar
 
 ### **3.1.- Cálculo potencial**
@@ -60,3 +64,8 @@ Esta etapa consistió en utilizar los datos disponibles de las estaciones del Si
 
 ### **3.2.- Siguientes pasos**
 
+***
+Anterior: [Datos](data.md)
+
+Siguiente: [Equipo](Equipo.md)
+***
