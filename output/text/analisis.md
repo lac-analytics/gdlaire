@@ -48,9 +48,13 @@ Esta etapa consistió en utilizar los datos disponibles de las estaciones del Si
 
 + **Datos Google.org.** La plataforma Environmental Insights Explorer de Google.org ofrece la función de revisar la metodología que utilizaron para los cácluos ambientales. Sin embargo, no hay acceso a los datos georeferenciados utilizados para el cálculo de sus indicadores. Sería necesario contar con los datos más granulares posibles para contrastar y mejorar los resultados obtenidos.
 
-## 2.- Contaminación edificios
+## 2.- Emisiones de edificios
 
-### **2.1.- Cálculo contaminación**
+Se realizó un cálculo de las emisiones estimadas de toneladas de CO₂ equivalente en los edificios gubernamentales aledaños a las estaciones de MiMacro Periférico con el objetivo de identificar el impacto que tienen estos espacios en el cambio climático y establecer una primera línea base que posteriormente se pueda utilizar para definir objetivos de reducción de emisiones.
+
+### **2.1.- Cálculo de emisiones**
+
+El primer paso fue obtener los sitios gubernamentales en las áreas de influencia de las estaciones utilizando la base de datos del [DENUE] (https://www.inegi.org.mx/app/descarga/?ti=6) y filtrando los códigos con actividades gubernamentales. Debido a que no se obtuvieron las áreas para estos puntos se calculó un promedio para el área de los edificios en las zonas de influencia de las estaciones de MiMacro Periférico. Para realizar el cálculo se utilizaron las estimaciones de emisiones por m² de techos en edificios que tiene [Google] (https://insights.sustainability.google/places/ChIJOwV0Q_qxKIQR7NCkjDwfR-k/buildings) en edificios no residenciales. El valor de los m² de techo para cada edificio gubernamental (calculado a partir del promedio) se multiplicó por la estimación de Google. 
 
 ### **2.2.- Siguientes pasos**
 
@@ -63,6 +67,20 @@ Esta etapa consistió en utilizar los datos disponibles de las estaciones del Si
 #### 3.1.1.- Limitantes
 
 ### **3.2.- Siguientes pasos**
+
+## 4.- Emisiones de transporte
+
+Para estimar el impacto que tendrá MiMacro Periférico se realizó una estimación de las emisiones por transporte en las áreas de influencia de cada estación.
+
+### **4.1.- Cálculo contaminación**
+
+Para el cálculo se realizó un recorte de las vialidades cercanas a las estaciones y se agregó el valor total de la distancia (en m) a cada estación. Posteriormente, para cada estación se definió el municipio en el que se encuentra, estos son Guadalajara, Zapopan o San Pedro Tlaquepaque. Para Guadalajara y San Pedro Tlaquepaque se utilizaron los repartos modales, eficiencia de los vehículos y emisiones de toneladas de CO₂ por litro de combustible de [Google] (https://insights.sustainability.google/places/ChIJOwV0Q_qxKIQR7NCkjDwfR-k/transportation). Debido a que no se obtuvieron datos de Zapopan se realizaron promedios de los valores de San Pedro Tlaquepaque y Guadalajara como los insumos. Los tres métodos de movilidad que se utilizaron fueron automóviles, motocicletas y autobuses. Un ejemplo de un cálculo es:
+
++ 10 km en estación x * 0.8 (porcentaje de transporte en automóvil para Guadalajara) / 9.1 (eficiencia promedio de los automóviles) * 0.002 (emisiones en toneladas de CO₂ por litro de combustible)
+
+Debido a que las emisiones son para la distancia y no tienen una temporalidad, se asumió que los datos de Google representan un día promedio. Con base en esto cada valor se multiplicó por 265, una estimiación de los días hábiles en un año.
+
+### **4.2.- Siguientes pasos**
 
 ***
 Anterior: [Datos](data.md)
