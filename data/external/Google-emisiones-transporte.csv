@@ -1,0 +1,10 @@
+Ciudad,Modo,Porcentaje-uso,Eficiencia,Emision
+Guadalajara,Automovil,85.6,9.1,0.002
+Guadalajara,Autobus,2.04,5.2,0.003
+Guadalajara,Motocicleta,6.15,31.4,0.002
+San Pedro Tlaquepaque,Automovil,84.6,8.16,0.002
+San Pedro Tlaquepaque,Autobus,6.9,6.1,0.003
+San Pedro Tlaquepaque,Motocicleta,4.2,27.7,0.002
+Zapopan,Automovil,85.1,8.6,0.002
+Zapopan,Autobus,4.5,5.7,0.003
+Zapopan,Motocicleta,5.2,29.6,0.002
