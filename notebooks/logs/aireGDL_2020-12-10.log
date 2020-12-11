@@ -12,3 +12,4 @@
 2020-12-10 23:57:16,536 INFO aireGDL Creating SQL engine
 2020-12-10 23:57:16,538 INFO aireGDL Getting municipios_amg from DB
 2020-12-10 23:57:18,624 INFO aireGDL municipios_amg retrived
+
