@@ -104,6 +104,7 @@ El cálculo de las emisiones de toneladas de CO₂ equivalente por transporte en
 + Descarga de vialidades: Utilizando la base de datos de [OpenStreetMap](https://www.openstreetmap.org/#map=6/23.944/-102.579) y el módulo [OSMnx](https://osmnx.readthedocs.io/en/stable/) para Python se descargaron las vialidades en el área de influencia de las estaciones.
 
 + Longitud de vialidades: A partir de las vialidades descargadas se realizó un recorte de aquellas que se encontraban dentro del área de influencia (1000m) de las estaciones. Posteriormente, se calculó la longitud de las vialidades (m), para esto fue necesario recalcular las longitudes de las vialidades tras realizar el recorte.
+![Vialidades en área de influencia de estaciones](../figures/AreaEstudio_Vialidades.png)
 
 + División de estación por municipio: Con información del [Marco Geoestadístico de INEGI](https://www.inegi.org.mx/temas/mg/default.html#Descargas) se hizo una unión espacial con las estaciones para concer en qué municipio (Guadalajara, Zapopan o San Pedro Tlaquepaque) se encontraba cada una.
 
@@ -117,7 +118,7 @@ El cálculo de las emisiones de toneladas de CO₂ equivalente por transporte en
 
 <p align="center">10 km en estación <em>x</em> * 0.8 (porcentaje de transporte en automóvil para Guadalajara) / 9.1 (eficiencia promedio de los automóviles) * 0.002 (emisiones en toneladas de CO₂ por litro de combustible) * 265 días hábiles</p>
 
-![Emisiones por transporte por estaciones](../figures/emisiones_transporte/EmisionesTransporte_Mapa.png)
+![Emisiones por transporte por estaciones](../figures/emisiones_transporte/EmisionesVialidades_Mapa.png)
 
 #### **4.1.1.- Limitantes**
 
