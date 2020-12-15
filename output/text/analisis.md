@@ -85,13 +85,30 @@ En caso de que las instancias gubernamentales no monitoreen estos datos actualme
 
 ## 3.- Potencial Solar
 
+Parte del análisis de la línea base de contaminantes incluyó calcular el potencial solar de las áreas de estudio, para hacer el cálculo se tomaron en cuenta las estimaciones de Google.org sobre el potencial solar medio de Guadalajara.
+
 ### **3.1.- Cálculo potencial**
+
+El cálculo del potencial solar se realizó de la siguiente manera:
+
++ Descarga de las áreas de los edificios dentro del polígono de estudio (radio de 1km de las estaciones de Mi Macro Periférico)
++ Suma de las áreas
++ Multiplicamos la suma de las áreas en m2 por el potencial solar annual medio de un metro cuadrado (235.71 kWh anual)
++ Por ejemplo para un área de estudio con 10 edificios de 10m2 de azotea cada uno el potencial es:
+  + Área total = 100 m2
+  + Potencial = 235.71 kWh
+  + Total = Área total x Potencial = 23,571 kWh anual
+
+Utilizando este cálculo obtivimos los siguientes resultados para cada una de las estaciones:
 
 ![Potencial solar por estaciones](../figures/potencial_solar/PotencialEstaciones_Mapa.png)
 
 #### 3.1.1.- Limitantes
 
+Es importante mencionar que el cálculo es un estimado, ya que depende de contar con las áreas de azotea disponibles, que en este caso provienen de Open Street Maps, y aunque el servicio contiene datos sobre algunas edificaciones, no todas las edificaciones están mapeadas.
+
 ### **3.2.- Siguientes pasos**
+
 
 ## 4.- Emisiones de transporte
 
@@ -127,6 +144,11 @@ Los datos que se utilizaron del reparto modal de Google representan un promedio 
 ### **4.2.- Siguientes pasos**
 
 Es posible aprovechar los datos de tráfico que tiene Google para estimar de forma más certera la carga de las vialidades en las áreas de influencia y definir una línea base de emisiones más apeagada a la realidad. Además, los embotellamientos hacen que se reduzca la eficiencia de consumo del combustible, así que no solamente se puede obtener una mejor estimación por la carga de la vialidad sino por la congestión de los vehículos en la zona.
+
+# REVISAR!
+Con el objetivo de mejorar el cálculo de la línea base se sugiere utiliziar información más actualizada sobre las azoteas en las áreas de estudio. Una primera oportunidad es utilizar datos catastrales que puedan ser otorgados por los gobiernos municipales.
+
+Si el proyecto sigue de la mano de Google.org se sugiere buscar un acercamiento para obtener los datos relevantes sobre las azoteas, estos datos pueden ser obtenidos desde los sistemas de mapas de Google, como Google Maps o Google Earth. Con la habilitación de una API se puede solucionar el consumo de estos datos y su integración al análisis.
 
 
 ***
