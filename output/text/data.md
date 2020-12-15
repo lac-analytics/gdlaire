@@ -1,6 +1,6 @@
 # Datos
 
-[Inicio](../../README.MD)
+[Inicio](../../README.md)
 ***
 
 Los datos utilizados en el proyecto han sido obtenidos de las siguientes fuentes:

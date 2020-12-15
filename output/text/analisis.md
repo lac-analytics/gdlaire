@@ -1,6 +1,6 @@
 # Análisis
 
-[Inicio](../../README.MD)
+[Inicio](../../README.md)
 ***
 
 En esta sección se detallan los análisis que se realizaron a los datos y la forma en la que se trabajó (ver [Datos](data.md) para una revisión de donde vienen los datos y su procesamiento). Se realizaron tres análisis para tener una línea base de los contaminantes y potencial solar en las estaciones de Mi Macro Periférico.
