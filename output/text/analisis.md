@@ -56,19 +56,19 @@ Se realizó un cálculo de las emisiones estimadas de toneladas de CO₂ equival
 
 Debido a que no se tiene la información gubernamental abierta al público sobre el consumo energético por edificación se tuvieron que diseñar otras rutas de acceso a los datos aprovechando los datos que sí están publicados y plataformas de datos abiertos para realizar cruces de información y así estimar los valores de emisión. A continuación se detallan los pasos:
 
-+ Localización de edificios gubernamentales: El primer paso fue obtener la ubicación de los sitios gubernamentales utilizando la base de datos georreferenciada del [Directorio Estadístico de Unidades Económicas] (https://www.inegi.org.mx/app/descarga/?ti=6) y filtrando los códigos con actividades gubernamentales (931).
++ Localización de edificios gubernamentales: El primer paso fue obtener la ubicación de los sitios gubernamentales utilizando la base de datos georreferenciada del [Directorio Estadístico de Unidades Económicas](https://www.inegi.org.mx/app/descarga/?ti=6) y filtrando los códigos con actividades gubernamentales (931).
 
 + Filtrado de edificios gubernamentales: Posteriormente, fue necesario extraer los edificios gubnernamentales que sí se encontraban dentro del área de influencia (1000m) de las estaciones. Para esto se hizo un recorte de los puntos dentro de los buffers.
 #Imagen de los puntos del DENUE dentro del buffer
 
-+ Descarga de edificaciones: Utilizando la base de datos de [OpenStreetMap] (https://www.openstreetmap.org/#map=6/23.944/-102.579) y el módulo [OSMnx] (https://osmnx.readthedocs.io/en/stable/) para Python se descargaron los edificios construidos en el área de influencia de las estaciones.
++ Descarga de edificaciones: Utilizando la base de datos de [OpenStreetMap](https://www.openstreetmap.org/#map=6/23.944/-102.579) y el módulo [OSMnx](https://osmnx.readthedocs.io/en/stable/) para Python se descargaron los edificios construidos en el área de influencia de las estaciones.
 #Imagen de edificios en el área de influencia
 
 + Estimación del área de edificios gubernamentales: Se intentó generar un cruce de los datos del DENUE con los de OSM para obtener la información de los m² construidos en los edificios gubernamentales. Sin embargo, no se identificaron coincidencias. Por lo tanto, fue necesario estimar el área de estos espacios calculando el área promedio de los edificios que sí tenían información en las zonas de influencia, este valor (2122m²) fue utilizado en cálculos posteriores como el área de cada punto.
 
-+ Cálculo del consumo energético: Con el dato de m² estimados de edificios gubernamentales para cada estación de MiMacro Periférico se realizó el cálculo del consumo energético, multiplicando los m² con la estimación de consumo de [Google.org Enviromental Insights Explorer] (https://insights.sustainability.google/places/ChIJOwV0Q_qxKIQR7NCkjDwfR-k/buildings) para edificaciones no residenciales (144.06kWh/m²/yr).
++ Cálculo del consumo energético: Con el dato de m² estimados de edificios gubernamentales para cada estación de MiMacro Periférico se realizó el cálculo del consumo energético, multiplicando los m² con la estimación de consumo de [Google.org Enviromental Insights Explorer](https://insights.sustainability.google/places/ChIJOwV0Q_qxKIQR7NCkjDwfR-k/buildings) para edificaciones no residenciales (144.06kWh/m²/yr).
 
-+ Cálculo de emisiones: Por último, el consumo energético por edificio en unidades kWh/yr se multiplicó por la estimación de emisiones de CO₂ de [Google.org Enviromental Insights Explorer] (https://insights.sustainability.google/places/ChIJOwV0Q_qxKIQR7NCkjDwfR-k/buildings) (0.00041423tCO₂e/kWh). Como se mencionó previamente, este valor se obtuvo para cada estación de MiMacro Periférico.
++ Cálculo de emisiones: Por último, el consumo energético por edificio en unidades kWh/yr se multiplicó por la estimación de emisiones de CO₂ de [Google.org Enviromental Insights Explorer](https://insights.sustainability.google/places/ChIJOwV0Q_qxKIQR7NCkjDwfR-k/buildings) (0.00041423tCO₂e/kWh). Como se mencionó previamente, este valor se obtuvo para cada estación de MiMacro Periférico.
 
 ![Emisiones en edificios gubernamentales por estaciones](../figures/emisiones_edificios/EmisionesEstaciones_Mapa.png)
 
