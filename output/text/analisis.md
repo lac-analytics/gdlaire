@@ -73,7 +73,15 @@ Debido a que no se tiene la información gubernamental abierta al público sobre
 
 ![Emisiones en edificios gubernamentales por estaciones](../figures/emisiones_edificios/EmisionesEstaciones_Mapa.png)
 
+#### **2.1.1.- Limitantes**
+
+Como se describió en la metodología, los datos de m² para cada edificio gubernamental fueron calculados a partir del promedio de los edificios con los que sí se contaba información en las áreas de influencia. Además, debido a que los datos de consumo energético son estimaciones de Google, se pierde el detalle que puede tener en la realidad un edificio con mayor área comparado con uno de menor.
+
 ### **2.2.- Siguientes pasos**
+
+La información del consumo energético detallado de los edificios de gobierno puede ser abierta al público utilizando una API orientada a comunicar a la población en general acerca del impacto de la operación gubernamental en el cambio climático.
+
+En caso de que las instancias gubernamentales no monitoreen estos datos actualmente, se considera que sería de gran utilidad definir un proyecto que lo contemple, de tal manera que se cuente con una línea base más sólida para justificar la implementación de estrategias de ahorro energético o cambio a energías renovables.
 
 ## 3.- Potencial Solar
 
@@ -91,13 +99,34 @@ Para dimensionar el impacto que tendrá MiMacro Periférico se realizó una esti
 
 ### **4.1.- Cálculo contaminación**
 
-Para el cálculo se realizó un recorte de las vialidades cercanas a las estaciones y se agregó el valor total de la distancia (en m) a cada estación. Posteriormente, para cada estación se definió el municipio en el que se encuentra, estos son Guadalajara, Zapopan o San Pedro Tlaquepaque. Para Guadalajara y San Pedro Tlaquepaque se utilizaron los repartos modales, eficiencia de los vehículos y emisiones de toneladas de CO₂ por litro de combustible de [Google.org Environmental Insights Explorer](https://insights.sustainability.google/places/ChIJOwV0Q_qxKIQR7NCkjDwfR-k/transportation). Debido a que no se obtuvieron datos de Zapopan se realizaron promedios de los valores de San Pedro Tlaquepaque y Guadalajara como los insumos. Los tres métodos de movilidad que se utilizaron fueron automóviles, motocicletas y autobuses. Un ejemplo de un cálculo es:
+El cálculo de las emisiones de toneladas de CO₂ equivalente por transporte en las áreas de influencia de las estaciones se realizó de la siguiente manera:
 
-+ 10 km en estación x * 0.8 (porcentaje de transporte en automóvil para Guadalajara) / 9.1 (eficiencia promedio de los automóviles) * 0.002 (emisiones en toneladas de CO₂ por litro de combustible)
++ Descarga de vialidades: Utilizando la base de datos de [OpenStreetMap](https://www.openstreetmap.org/#map=6/23.944/-102.579) y el módulo [OSMnx](https://osmnx.readthedocs.io/en/stable/) para Python se descargaron las vialidades en el área de influencia de las estaciones.
 
-Debido a que las emisiones son para la distancia y no tienen una temporalidad, se asumió que los datos de Google representan un día promedio. Con base en esto cada valor se multiplicó por 265, una estimiación de los días hábiles en un año.
++ Longitud de vialidades: A partir de las vialidades descargadas se realizó un recorte de aquellas que se encontraban dentro del área de influencia (1000m) de las estaciones. Posteriormente, se calculó la longitud de las vialidades (m), para esto fue necesario recalcular las longitudes de las vialidades tras realizar el recorte.
+
++ División de estación por municipio: Con información del [Marco Geoestadístico de INEGI](https://www.inegi.org.mx/temas/mg/default.html#Descargas) se hizo una unión espacial con las estaciones para concer en qué municipio (Guadalajara, Zapopan o San Pedro Tlaquepaque) se encontraba cada una.
+
++ Reparto modal: Se utilizaron los repartos modales, eficiencia de los vehículos y emisiones de toneladas de CO₂ por litro de combustible de [Google.org Environmental Insights Explorer](https://insights.sustainability.google/places/ChIJOwV0Q_qxKIQR7NCkjDwfR-k/transportation) para automóviles, transporte público y motocicletas. Debido a que no se obtuvieron datos de Zapopan se realizaron promedios de los valores de San Pedro Tlaquepaque y Guadalajara.
+
++ Cálculo de consumo de combustible: Para cada método de transporte analizado se multiplicó la distancia en kilómetros de cada estación por el porcentaje del reparto y posteriormente por la eficiencia promedio.
+
++ Cálculo de emisiones: Con el consumo de litros por método de transporte se multiplicó este valor por la emisión estimada promedio por litro de combustible. Los valores de cada método de transporte se sumaron. Debido a que las emisiones son para la distancia y no tienen una temporalidad, se asumió que los datos de Google representan un día promedio. Con base en esto cada valor se multiplicó por 265, una estimiación de los días hábiles en un año.
+
++ Ejemplo: a continuación se muestra un ejemplo del cálculo realizado:
+
+<p align="center">10 km en estación <em>x</em> * 0.8 (porcentaje de transporte en automóvil para Guadalajara) / 9.1 (eficiencia promedio de los automóviles) * 0.002 (emisiones en toneladas de CO₂ por litro de combustible) * 265 días hábiles</p>
+
+![Emisiones por transporte por estaciones](../figures/emisiones_transporte/EmisionesTransporte_Mapa.png)
+
+#### **4.1.1.- Limitantes**
+
+Los datos que se utilizaron del reparto modal de Google representan un promedio para todo el municipio (acotando que solo se tuvo acceso a la información de Guadalajara y San Pedro Tlaquepaque), sin embargo, es posible que en las áreas de influencia de las estaciones estas sean distintas. Además, el reparto modal que se utilizó para estimar las emisiones no contempla la carga vehicular de cada vialidad y asume que esta se divide de forma uniforme en todo el municipio.
 
 ### **4.2.- Siguientes pasos**
+
+Es posible aprovechar los datos de tráfico que tiene Google para estimar de forma más certera la carga de las vialidades en las áreas de influencia y definir una línea base de emisiones más apeagada a la realidad. Además, los embotellamientos hacen que se reduzca la eficiencia de consumo del combustible, así que no solamente se puede obtener una mejor estimación por la carga de la vialidad sino por la congestión de los vehículos en la zona.
+
 
 ***
 Anterior: [Datos](data.md)
