@@ -59,10 +59,10 @@ Debido a que no se tiene la información gubernamental abierta al público sobre
 + Localización de edificios gubernamentales: El primer paso fue obtener la ubicación de los sitios gubernamentales utilizando la base de datos georreferenciada del [Directorio Estadístico de Unidades Económicas](https://www.inegi.org.mx/app/descarga/?ti=6) y filtrando los códigos con actividades gubernamentales (931).
 
 + Filtrado de edificios gubernamentales: Posteriormente, fue necesario extraer los edificios gubnernamentales que sí se encontraban dentro del área de influencia (1000m) de las estaciones. Para esto se hizo un recorte de los puntos dentro de los buffers.
-![Edificios en el área de influencia de las estaciones](../figures/Edificios-EstacionesMiMacroPeriferico.png)
+![Edificios gubernamentales en el área de influencia de las estaciones](../figures/ActGubernamental-EstacionesMiMacroPeriferico.png)
 
 + Descarga de edificaciones: Utilizando la base de datos de [OpenStreetMap](https://www.openstreetmap.org/#map=6/23.944/-102.579) y el módulo [OSMnx](https://osmnx.readthedocs.io/en/stable/) para Python se descargaron los edificios construidos en el área de influencia de las estaciones.
-#Imagen de edificios en el área de influencia
+![Edificios en el área de influencia de las estaciones](../figures/Edificios-EstacionesMiMacroPeriferico.png)
 
 + Estimación del área de edificios gubernamentales: Se intentó generar un cruce de los datos del DENUE con los de OSM para obtener la información de los m² construidos en los edificios gubernamentales. Sin embargo, no se identificaron coincidencias. Por lo tanto, fue necesario estimar el área de estos espacios calculando el área promedio de los edificios que sí tenían información en las zonas de influencia, este valor (2122m²) fue utilizado en cálculos posteriores como el área de cada punto.
 
