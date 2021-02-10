@@ -14,6 +14,8 @@ import urllib.request
 import math
 from datosgobmx import client
 from . import utils
+import requests
+
 
 from datetime import datetime, timedelta
 
@@ -403,6 +405,54 @@ def week_average (df, station, interval = 7, year_start=2014, year_end=2019):
 
     return (df_week)
 
+
+def plume_data(url, register):
+    """Function that downloads data from the PlumeLabs api and returns it as a DataFrame
+    
+    Arguments:
+            url {str} -- url string for the plumelab api
+            type {str} -- type of data, it can be measures or positions
+
+    Returns:
+            DataFrame
+    """
+
+    response = requests.get(url).json()
+
+    df = pd.json_normalize(response, register)
+
+    return df
+
+def time_break_trips(df_pos, time_break=5):
+    """Function that creates groups according to the time between position registers
+
+    Args:
+        df_pos {DataFrame} -- DataFrame for positions from the PlumeLabs api
+
+    KwrdArgs:
+        time_break {int} -- integer for the minutes to break into a new trip. Defaults to 5.
+
+    Returns:
+        DataFrame
+    """
+
+    df_pos['diff'] = df_pos.date.diff()
+
+    g = 1
+
+    df_pos.loc[0,'group'] = 1
+
+    for i in range(1, len(df_pos)):
+        
+        if df_pos.loc[i,'diff'] <= 60 * time_break:
+            df_pos.loc[i,'group'] = g
+            
+        else:
+            g += 1
+            
+            df_pos.loc[i,'group'] = g
+
+    return df_pos
 
 def download_graph(polygon, network_type='walk'):
     """Download a graph from a bounding box, and saves it to disk

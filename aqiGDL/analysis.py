@@ -12,6 +12,10 @@ from scipy import stats
 import matplotlib.pyplot as plt
 from math import sqrt
 import geopandas as gpd
+import movingpandas as mpd
+from datetime import datetime
+import math
+
 
 
 def interpolate_aq(pollutant, date, stations_aq, stations_MiMacro, interval='day', cellsize=0.01, hour='00'):
@@ -153,3 +157,73 @@ def interpolate_atpoint(long_int, lat_int, simaj, potencia=2):
         concentracion = dividendo/divisor
 
     return (concentracion)
+
+
+def moving_measure(df_mes, gdf):
+    """ Function that interpolates positions into DataFrame based on GeoDataFrame time and position
+
+    Args:
+        df_mes {DataFrame} -- DataFrame with measurements by time from the PlumeLabs api
+        gdf {GeoDataFrame} -- GeoDataFrame with positions by time from the PlumeLabs api
+
+    Returns:
+        DataFrame
+    """
+
+    for g in list(gdf.group.unique()):
+    
+        if len(gdf.loc[gdf.group==g]) >= 2:
+            
+            gdf_traj = gdf.loc[gdf.group==g].copy()
+            
+            df_mes_pos = df_mes.loc[(df_mes.date>=gdf_traj.date.min())&(df_mes.date<=gdf_traj.date.max())].copy()
+            
+            traj = mpd.Trajectory(gdf_traj, 1)
+                    
+            
+            for i in range(0, len(df_mes_pos)):
+                
+                pos = (traj.interpolate_position_at(datetime(df_mes_pos.iloc[i]['datetime'].year,
+                                                    df_mes_pos.iloc[i]['datetime'].month,
+                                                    df_mes_pos.iloc[i]['datetime'].day,
+                                                    df_mes_pos.iloc[i]['datetime'].hour,
+                                                    df_mes_pos.iloc[i]['datetime'].minute,
+                                                    df_mes_pos.iloc[i]['datetime'].second)))
+
+                df_mes.loc[(df_mes.date==df_mes_pos.iloc[i]['date']),'latitude'] = pos.y
+                df_mes.loc[(df_mes.date==df_mes_pos.iloc[i]['date']),'longitude'] = pos.x
+                df_mes.loc[(df_mes.date==df_mes_pos.iloc[i]['date']),'type'] = 'moving'
+                df_mes.loc[(df_mes.date==df_mes_pos.iloc[i]['date']),'group'] = g
+
+    return df_mes
+
+def stationary_measure(df_mes, gdf):
+    """ Function that adds positions into DataFrame based on the nearest position in GeoDataFrame
+
+    Args:
+        df_mes {DataFrame} -- DataFrame with measurements by time from the PlumeLabs api
+        gdf {GeoDataFrame} -- GeoDataFrame with positions by time from the PlumeLabs api
+
+    Returns:
+        DataFrame
+    """
+
+    for i in range(len(df_mes)):
+    
+        traj = mpd.Trajectory(gdf,1)
+        
+        if math.isnan(df_mes.iloc[i]['longitude']):
+            
+            pos = (traj.get_position_at(datetime(df_mes.iloc[i]['datetime'].year,
+                                                    df_mes.iloc[i]['datetime'].month,
+                                                    df_mes.iloc[i]['datetime'].day,
+                                                    df_mes.iloc[i]['datetime'].hour,
+                                                    df_mes.iloc[i]['datetime'].minute,
+                                                    df_mes.iloc[i]['datetime'].second), method='nearest'))
+
+            df_mes.loc[i,'latitude'] = pos.y
+            df_mes.loc[i,'longitude'] = pos.x
+            df_mes.loc[i,'type'] = 'stationary'
+            df_mes.loc[i,'group'] = 0
+
+    return df_mes
