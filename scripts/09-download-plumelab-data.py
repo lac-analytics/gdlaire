@@ -179,10 +179,9 @@ def main():
             gdf_aq['sensor_id'] = s
 
             gdf_all = gdf_all.append(gdf_aq)
-
-            gdf_all.to_csv('../output/gdf_all.csv')
-
+            aqiGDL.log('Done with download')
             aqiGDL.gdf_to_db(gdf_all, 'plumbe', if_exists='append')
+            aqiGDL.log('Data in DB')
 
 
 if __name__ == "__main__":
