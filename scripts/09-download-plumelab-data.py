@@ -185,5 +185,5 @@ def main():
 
 
 if __name__ == "__main__":
-    aqi.log('Starting script')
+    aqiGDL.log('Starting script')
     main()
