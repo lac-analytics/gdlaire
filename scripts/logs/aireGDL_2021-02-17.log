@@ -6,3 +6,35 @@
 2021-02-17 17:47:42,971 INFO aireGDL Changed timezone for 13164
 2021-02-17 17:47:43,029 INFO aireGDL Interpolated air quality data for position measurements for 13164
 2021-02-17 17:47:43,099 INFO aireGDL Done with download
+2021-02-17 17:49:23,499 INFO aireGDL Starting script
+2021-02-17 17:49:24,350 INFO aireGDL Downloaded a total of 952 for measures for 13164
+2021-02-17 17:49:24,814 INFO aireGDL Downloaded a total of 298 for positions for 13164
+2021-02-17 17:49:28,325 INFO aireGDL Interpolated position data for moving measurements for 13164
+2021-02-17 17:49:33,886 INFO aireGDL Interpolated position data for stationary measurements for 13164
+2021-02-17 17:49:34,050 INFO aireGDL Changed timezone for 13164
+2021-02-17 17:49:34,083 INFO aireGDL Interpolated air quality data for position measurements for 13164
+2021-02-17 17:49:34,124 INFO aireGDL Done with download
+2021-02-17 17:49:34,124 INFO aireGDL Creating SQL engine
+2021-02-17 17:49:40,631 INFO aireGDL Getting DB connection
+2021-02-17 17:49:40,631 INFO aireGDL Creating SQL engine
+2021-02-17 17:49:40,633 INFO aireGDL Uploading table plumbe to database
+2021-02-17 17:49:49,494 INFO aireGDL Table plumbe in DB
+2021-02-17 17:49:49,495 INFO aireGDL Data in DB
+2021-02-17 17:49:49,843 INFO aireGDL Downloaded a total of 0 for measures for 13335
+2021-02-17 17:49:50,183 INFO aireGDL Downloaded a total of 0 for positions for 13335
+2021-02-17 17:49:50,839 INFO aireGDL Downloaded a total of 388 for measures for 13954
+2021-02-17 17:49:51,189 INFO aireGDL Downloaded a total of 9 for positions for 13954
+2021-02-17 17:49:51,470 INFO aireGDL Interpolated position data for moving measurements for 13954
+2021-02-17 17:49:53,728 INFO aireGDL Interpolated position data for stationary measurements for 13954
+2021-02-17 17:49:53,743 INFO aireGDL Changed timezone for 13954
+2021-02-17 17:49:53,772 INFO aireGDL Interpolated air quality data for position measurements for 13954
+2021-02-17 17:49:53,798 INFO aireGDL Done with download
+2021-02-17 17:49:53,798 INFO aireGDL Creating SQL engine
+2021-02-17 17:50:00,304 INFO aireGDL Getting DB connection
+2021-02-17 17:50:00,304 INFO aireGDL Creating SQL engine
+2021-02-17 17:50:00,305 INFO aireGDL Uploading table plumbe to database
+2021-02-17 17:50:12,145 INFO aireGDL Table plumbe in DB
+2021-02-17 17:50:12,146 INFO aireGDL Data in DB
+2021-02-17 17:50:17,451 INFO aireGDL Downloaded a total of 6131 for measures for 13920
+2021-02-17 17:50:19,145 INFO aireGDL Downloaded a total of 2546 for positions for 13920
+2021-02-17 17:50:55,112 INFO aireGDL Interpolated position data for moving measurements for 13920

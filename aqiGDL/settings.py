@@ -18,7 +18,7 @@ log_filename = "aireGDL"
 # pw = 'pipguadalajara'
 
 # Database settings
-url = 'airegdlpip.cptlhu1n34ei.us-west-1.rds.amazonaws.com'
-user = 'postgres'
-pw = 'pipguadalajara'
+url = 'pip-gdl.cxkuumj8eis0.us-west-2.rds.amazonaws.com'
+user = 'pipderive'
+pw = 'aireGuadalajara'
 db = 'postgres'
