@@ -180,7 +180,8 @@ def main():
 
             gdf_all = gdf_all.append(gdf_aq)
             aqiGDL.log('Done with download')
-            aqiGDL.gdf_to_db(gdf_all, 'plumbe', if_exists='append')
+            aqiGDL.gdf_to_db(gdf_all, 'plumbe',
+                             schema='public', if_exists='append')
             aqiGDL.log('Data in DB')
 
 

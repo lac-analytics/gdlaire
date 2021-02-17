@@ -2,3 +2,7 @@
 2021-02-17 17:47:34,390 INFO aireGDL Downloaded a total of 952 for measures for 13164
 2021-02-17 17:47:34,948 INFO aireGDL Downloaded a total of 298 for positions for 13164
 2021-02-17 17:47:37,082 INFO aireGDL Interpolated position data for moving measurements for 13164
+2021-02-17 17:47:42,802 INFO aireGDL Interpolated position data for stationary measurements for 13164
+2021-02-17 17:47:42,971 INFO aireGDL Changed timezone for 13164
+2021-02-17 17:47:43,029 INFO aireGDL Interpolated air quality data for position measurements for 13164
+2021-02-17 17:47:43,099 INFO aireGDL Done with download
