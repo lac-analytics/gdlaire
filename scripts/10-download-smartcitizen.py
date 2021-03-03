@@ -62,7 +62,8 @@ def main():
     gdf_sck = gpd.GeoDataFrame(df_sck, geometry=gpd.points_from_xy(
                 df_sck.lon, df_sck.lat))
 
-    gdf_sck = gdf_sck.set_crs("EPSG:32613")
+    gdf_sck = gdf_sck.set_crs("EPSG:4326")
+    gdf_sck = gdf_sck.to_crs("EPSG:32613")
 
     #upload to db
     aqiGDL.log('Done with download')
