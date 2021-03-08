@@ -1,0 +1,772 @@
+2021-03-08 01:25:43,684 INFO aireGDL Starting script
+2021-03-08 01:25:43,684 INFO aireGDL Creating SQL engine
+2021-03-08 01:25:43,712 INFO aireGDL Getting plumbe from DB
+2021-03-08 01:31:31,300 INFO aireGDL plumbe retrived
+2021-03-08 01:31:31,302 INFO aireGDL Downloaded gdf from database
+2021-03-08 01:31:32,824 INFO aireGDL Downloaded a total of 0 for measures for 13164
+2021-03-08 01:31:33,552 INFO aireGDL Downloaded a total of 0 for positions for 13164
+2021-03-08 01:31:34,305 INFO aireGDL Downloaded a total of 0 for measures for 13335
+2021-03-08 01:31:35,043 INFO aireGDL Downloaded a total of 0 for positions for 13335
+2021-03-08 01:31:35,770 INFO aireGDL Downloaded a total of 0 for measures for 13954
+2021-03-08 01:31:36,527 INFO aireGDL Downloaded a total of 0 for positions for 13954
+2021-03-08 01:31:37,858 INFO aireGDL Downloaded a total of 584 for measures for 13920
+2021-03-08 01:31:38,837 INFO aireGDL Downloaded a total of 255 for positions for 13920
+2021-03-08 01:31:39,263 INFO aireGDL Interpolated position data for moving measurements for 13920
+2021-03-08 01:31:41,900 INFO aireGDL Interpolated position data for stationary measurements for 13920
+2021-03-08 01:31:41,946 INFO aireGDL Changed timezone for 13920
+2021-03-08 01:31:41,967 INFO aireGDL Interpolated air quality data for position measurements for 13920
+2021-03-08 01:31:41,991 INFO aireGDL Done with download
+2021-03-08 01:31:41,991 INFO aireGDL Creating SQL engine
+2021-03-08 01:31:43,810 INFO aireGDL Getting DB connection
+2021-03-08 01:31:43,810 INFO aireGDL Creating SQL engine
+2021-03-08 01:31:43,812 INFO aireGDL Uploading table plumbe to database
+2021-03-08 01:31:46,653 INFO aireGDL Table plumbe in DB
+2021-03-08 01:31:46,654 INFO aireGDL Data in DB
+2021-03-08 01:31:47,431 INFO aireGDL Downloaded a total of 55 for measures for 14835
+2021-03-08 01:31:48,193 INFO aireGDL Downloaded a total of 2 for positions for 14835
+2021-03-08 01:31:48,276 INFO aireGDL Interpolated position data for moving measurements for 14835
+2021-03-08 01:31:48,527 INFO aireGDL Interpolated position data for stationary measurements for 14835
+2021-03-08 01:31:48,540 INFO aireGDL Changed timezone for 14835
+2021-03-08 01:31:48,555 INFO aireGDL Interpolated air quality data for position measurements for 14835
+2021-03-08 01:31:48,572 INFO aireGDL Done with download
+2021-03-08 01:31:48,572 INFO aireGDL Creating SQL engine
+2021-03-08 01:31:50,287 INFO aireGDL Getting DB connection
+2021-03-08 01:31:50,287 INFO aireGDL Creating SQL engine
+2021-03-08 01:31:50,288 INFO aireGDL Uploading table plumbe to database
+2021-03-08 01:31:52,784 INFO aireGDL Table plumbe in DB
+2021-03-08 01:31:52,784 INFO aireGDL Data in DB
+2021-03-08 01:31:53,507 INFO aireGDL Downloaded a total of 0 for measures for 13178
+2021-03-08 01:31:54,281 INFO aireGDL Downloaded a total of 0 for positions for 13178
+2021-03-08 01:31:58,948 INFO aireGDL Downloaded a total of 4011 for measures for 14002
+2021-03-08 01:32:03,441 INFO aireGDL Downloaded a total of 5938 for positions for 14002
+2021-03-08 01:32:12,913 INFO aireGDL Interpolated position data for moving measurements for 14002
+2021-03-08 01:32:30,958 INFO aireGDL Interpolated position data for stationary measurements for 14002
+2021-03-08 01:32:31,004 INFO aireGDL Changed timezone for 14002
+2021-03-08 01:32:31,059 INFO aireGDL Interpolated air quality data for position measurements for 14002
+2021-03-08 01:32:31,143 INFO aireGDL Done with download
+2021-03-08 01:32:31,143 INFO aireGDL Creating SQL engine
+2021-03-08 01:32:32,879 INFO aireGDL Getting DB connection
+2021-03-08 01:32:32,879 INFO aireGDL Creating SQL engine
+2021-03-08 01:32:32,881 INFO aireGDL Uploading table plumbe to database
+2021-03-08 01:32:36,513 INFO aireGDL Table plumbe in DB
+2021-03-08 01:32:36,513 INFO aireGDL Data in DB
+2021-03-08 01:32:37,343 INFO aireGDL Downloaded a total of 0 for measures for 13116
+2021-03-08 01:32:38,106 INFO aireGDL Downloaded a total of 1 for positions for 13116
+2021-03-08 01:32:38,821 INFO aireGDL Downloaded a total of 0 for measures for 13684
+2021-03-08 01:32:39,556 INFO aireGDL Downloaded a total of 0 for positions for 13684
+2021-03-08 01:32:40,314 INFO aireGDL Downloaded a total of 0 for measures for 15602
+2021-03-08 01:32:41,062 INFO aireGDL Downloaded a total of 0 for positions for 15602
+2021-03-08 01:32:41,810 INFO aireGDL Downloaded a total of 0 for measures for 14823
+2021-03-08 01:32:42,533 INFO aireGDL Downloaded a total of 0 for positions for 14823
+2021-03-08 01:32:43,298 INFO aireGDL Downloaded a total of 0 for measures for 13597
+2021-03-08 01:32:44,063 INFO aireGDL Downloaded a total of 0 for positions for 13597
+2021-03-08 01:32:47,736 INFO aireGDL Downloaded a total of 3135 for measures for 14811
+2021-03-08 01:32:48,506 INFO aireGDL Downloaded a total of 35 for positions for 14811
+2021-03-08 01:32:48,707 INFO aireGDL Interpolated position data for moving measurements for 14811
+2021-03-08 01:33:03,701 INFO aireGDL Interpolated position data for stationary measurements for 14811
+2021-03-08 01:33:03,723 INFO aireGDL Changed timezone for 14811
+2021-03-08 01:33:03,763 INFO aireGDL Interpolated air quality data for position measurements for 14811
+2021-03-08 01:33:03,802 INFO aireGDL Done with download
+2021-03-08 01:33:03,803 INFO aireGDL Creating SQL engine
+2021-03-08 01:33:07,352 INFO aireGDL Getting DB connection
+2021-03-08 01:33:07,353 INFO aireGDL Creating SQL engine
+2021-03-08 01:33:07,354 INFO aireGDL Uploading table plumbe to database
+2021-03-08 01:33:11,308 INFO aireGDL Table plumbe in DB
+2021-03-08 01:33:11,308 INFO aireGDL Data in DB
+2021-03-08 01:33:12,081 INFO aireGDL Downloaded a total of 0 for measures for 13593
+2021-03-08 01:33:12,813 INFO aireGDL Downloaded a total of 0 for positions for 13593
+2021-03-08 01:33:14,294 INFO aireGDL Downloaded a total of 698 for measures for 13703
+2021-03-08 01:33:15,237 INFO aireGDL Downloaded a total of 280 for positions for 13703
+2021-03-08 01:33:15,931 INFO aireGDL Interpolated position data for moving measurements for 13703
+2021-03-08 01:33:18,896 INFO aireGDL Interpolated position data for stationary measurements for 13703
+2021-03-08 01:33:18,913 INFO aireGDL Changed timezone for 13703
+2021-03-08 01:33:18,935 INFO aireGDL Interpolated air quality data for position measurements for 13703
+2021-03-08 01:33:18,961 INFO aireGDL Done with download
+2021-03-08 01:33:18,961 INFO aireGDL Creating SQL engine
+2021-03-08 01:33:20,658 INFO aireGDL Getting DB connection
+2021-03-08 01:33:20,659 INFO aireGDL Creating SQL engine
+2021-03-08 01:33:20,660 INFO aireGDL Uploading table plumbe to database
+2021-03-08 01:33:24,699 INFO aireGDL Table plumbe in DB
+2021-03-08 01:33:24,700 INFO aireGDL Data in DB
+2021-03-08 01:33:25,457 INFO aireGDL Downloaded a total of 0 for measures for 14829
+2021-03-08 01:33:26,229 INFO aireGDL Downloaded a total of 0 for positions for 14829
+2021-03-08 01:33:29,000 INFO aireGDL Downloaded a total of 2041 for measures for 14204
+2021-03-08 01:33:30,136 INFO aireGDL Downloaded a total of 656 for positions for 14204
+2021-03-08 01:33:33,687 INFO aireGDL Interpolated position data for moving measurements for 14204
+2021-03-08 01:33:41,817 INFO aireGDL Interpolated position data for stationary measurements for 14204
+2021-03-08 01:33:41,838 INFO aireGDL Changed timezone for 14204
+2021-03-08 01:33:41,871 INFO aireGDL Interpolated air quality data for position measurements for 14204
+2021-03-08 01:33:41,908 INFO aireGDL Done with download
+2021-03-08 01:33:41,909 INFO aireGDL Creating SQL engine
+2021-03-08 01:33:43,642 INFO aireGDL Getting DB connection
+2021-03-08 01:33:43,642 INFO aireGDL Creating SQL engine
+2021-03-08 01:33:43,644 INFO aireGDL Uploading table plumbe to database
+2021-03-08 01:33:48,349 INFO aireGDL Table plumbe in DB
+2021-03-08 01:33:48,349 INFO aireGDL Data in DB
+2021-03-08 01:33:54,093 INFO aireGDL Downloaded a total of 5458 for measures for 14834
+2021-03-08 01:33:55,540 INFO aireGDL Downloaded a total of 1443 for positions for 14834
+2021-03-08 01:34:01,968 INFO aireGDL Interpolated position data for moving measurements for 14834
+2021-03-08 01:34:25,642 INFO aireGDL Interpolated position data for stationary measurements for 14834
+2021-03-08 01:34:25,677 INFO aireGDL Changed timezone for 14834
+2021-03-08 01:34:25,737 INFO aireGDL Interpolated air quality data for position measurements for 14834
+2021-03-08 01:34:25,803 INFO aireGDL Done with download
+2021-03-08 01:34:25,803 INFO aireGDL Creating SQL engine
+2021-03-08 01:34:27,412 INFO aireGDL Getting DB connection
+2021-03-08 01:34:27,412 INFO aireGDL Creating SQL engine
+2021-03-08 01:34:27,414 INFO aireGDL Uploading table plumbe to database
+2021-03-08 01:34:32,961 INFO aireGDL Table plumbe in DB
+2021-03-08 01:34:32,961 INFO aireGDL Data in DB
+2021-03-08 01:34:41,834 INFO aireGDL Downloaded a total of 8188 for measures for 13093
+2021-03-08 01:34:44,101 INFO aireGDL Downloaded a total of 2127 for positions for 13093
+2021-03-08 01:34:52,279 INFO aireGDL Interpolated position data for moving measurements for 13093
+2021-03-08 01:35:29,675 INFO aireGDL Interpolated position data for stationary measurements for 13093
+2021-03-08 01:35:29,721 INFO aireGDL Changed timezone for 13093
+2021-03-08 01:35:29,807 INFO aireGDL Interpolated air quality data for position measurements for 13093
+2021-03-08 01:35:29,899 INFO aireGDL Done with download
+2021-03-08 01:35:29,899 INFO aireGDL Creating SQL engine
+2021-03-08 01:35:31,612 INFO aireGDL Getting DB connection
+2021-03-08 01:35:31,612 INFO aireGDL Creating SQL engine
+2021-03-08 01:35:31,613 INFO aireGDL Uploading table plumbe to database
+2021-03-08 01:35:37,977 INFO aireGDL Table plumbe in DB
+2021-03-08 01:35:37,977 INFO aireGDL Data in DB
+2021-03-08 01:35:38,827 INFO aireGDL Downloaded a total of 0 for measures for 14618
+2021-03-08 01:35:39,588 INFO aireGDL Downloaded a total of 0 for positions for 14618
+2021-03-08 01:35:41,476 INFO aireGDL Downloaded a total of 1713 for measures for 13595
+2021-03-08 01:35:42,465 INFO aireGDL Downloaded a total of 251 for positions for 13595
+2021-03-08 01:35:43,320 INFO aireGDL Interpolated position data for moving measurements for 13595
+2021-03-08 01:35:51,070 INFO aireGDL Interpolated position data for stationary measurements for 13595
+2021-03-08 01:35:51,089 INFO aireGDL Changed timezone for 13595
+2021-03-08 01:35:51,126 INFO aireGDL Interpolated air quality data for position measurements for 13595
+2021-03-08 01:35:51,161 INFO aireGDL Done with download
+2021-03-08 01:35:51,161 INFO aireGDL Creating SQL engine
+2021-03-08 01:35:52,888 INFO aireGDL Getting DB connection
+2021-03-08 01:35:52,888 INFO aireGDL Creating SQL engine
+2021-03-08 01:35:52,889 INFO aireGDL Uploading table plumbe to database
+2021-03-08 01:35:58,880 INFO aireGDL Table plumbe in DB
+2021-03-08 01:35:58,880 INFO aireGDL Data in DB
+2021-03-08 01:35:59,647 INFO aireGDL Downloaded a total of 0 for measures for 13638
+2021-03-08 01:36:00,432 INFO aireGDL Downloaded a total of 1 for positions for 13638
+2021-03-08 01:36:01,193 INFO aireGDL Downloaded a total of 0 for measures for 14709
+2021-03-08 01:36:01,954 INFO aireGDL Downloaded a total of 0 for positions for 14709
+2021-03-08 01:36:02,719 INFO aireGDL Downloaded a total of 0 for measures for 13949
+2021-03-08 01:36:03,476 INFO aireGDL Downloaded a total of 0 for positions for 13949
+2021-03-08 01:36:04,210 INFO aireGDL Downloaded a total of 0 for measures for 14616
+2021-03-08 01:36:04,980 INFO aireGDL Downloaded a total of 0 for positions for 14616
+2021-03-08 01:36:08,362 INFO aireGDL Downloaded a total of 2730 for measures for 14794
+2021-03-08 01:36:11,000 INFO aireGDL Downloaded a total of 2665 for positions for 14794
+2021-03-08 01:36:13,473 INFO aireGDL Interpolated position data for moving measurements for 14794
+2021-03-08 01:36:26,690 INFO aireGDL Interpolated position data for stationary measurements for 14794
+2021-03-08 01:36:26,720 INFO aireGDL Changed timezone for 14794
+2021-03-08 01:36:26,761 INFO aireGDL Interpolated air quality data for position measurements for 14794
+2021-03-08 01:36:26,820 INFO aireGDL Done with download
+2021-03-08 01:36:26,820 INFO aireGDL Creating SQL engine
+2021-03-08 01:36:28,540 INFO aireGDL Getting DB connection
+2021-03-08 01:36:28,541 INFO aireGDL Creating SQL engine
+2021-03-08 01:36:28,542 INFO aireGDL Uploading table plumbe to database
+2021-03-08 01:36:35,751 INFO aireGDL Table plumbe in DB
+2021-03-08 01:36:35,751 INFO aireGDL Data in DB
+2021-03-08 01:36:36,500 INFO aireGDL Downloaded a total of 0 for measures for 13360
+2021-03-08 01:36:37,232 INFO aireGDL Downloaded a total of 0 for positions for 13360
+2021-03-08 01:36:39,010 INFO aireGDL Downloaded a total of 1407 for measures for 13946
+2021-03-08 01:36:40,175 INFO aireGDL Downloaded a total of 558 for positions for 13946
+2021-03-08 01:36:42,367 INFO aireGDL Interpolated position data for moving measurements for 13946
+2021-03-08 01:36:47,990 INFO aireGDL Interpolated position data for stationary measurements for 13946
+2021-03-08 01:36:48,009 INFO aireGDL Changed timezone for 13946
+2021-03-08 01:36:48,040 INFO aireGDL Interpolated air quality data for position measurements for 13946
+2021-03-08 01:36:48,079 INFO aireGDL Done with download
+2021-03-08 01:36:48,079 INFO aireGDL Creating SQL engine
+2021-03-08 01:36:49,863 INFO aireGDL Getting DB connection
+2021-03-08 01:36:49,863 INFO aireGDL Creating SQL engine
+2021-03-08 01:36:49,865 INFO aireGDL Uploading table plumbe to database
+2021-03-08 01:36:56,771 INFO aireGDL Table plumbe in DB
+2021-03-08 01:36:56,771 INFO aireGDL Data in DB
+2021-03-08 01:36:57,546 INFO aireGDL Downloaded a total of 0 for measures for 14669
+2021-03-08 01:36:58,304 INFO aireGDL Downloaded a total of 0 for positions for 14669
+2021-03-08 01:36:59,083 INFO aireGDL Downloaded a total of 0 for measures for 14700
+2021-03-08 01:36:59,857 INFO aireGDL Downloaded a total of 0 for positions for 14700
+2021-03-08 11:06:10,459 INFO aireGDL Starting script
+2021-03-08 11:06:11,329 INFO aireGDL Downloaded data from Smart Citizen with the tag PIPCiudadFuturo
+2021-03-08 11:06:11,777 INFO aireGDL Downloaded measurement data for the device 13450
+2021-03-08 11:06:12,184 INFO aireGDL Downloaded measurement data for the device: 13450 and sensor: 113
+2021-03-08 11:06:12,598 INFO aireGDL Downloaded measurement data for the device: 13450 and sensor: 112
+2021-03-08 11:06:12,988 INFO aireGDL Downloaded measurement data for the device: 13450 and sensor: 14
+2021-03-08 11:06:13,419 INFO aireGDL Downloaded measurement data for the device: 13450 and sensor: 10
+2021-03-08 11:06:13,884 INFO aireGDL Downloaded measurement data for the device: 13450 and sensor: 53
+2021-03-08 11:06:14,290 INFO aireGDL Downloaded measurement data for the device: 13450 and sensor: 58
+2021-03-08 11:06:14,714 INFO aireGDL Downloaded measurement data for the device: 13450 and sensor: 89
+2021-03-08 11:06:15,201 INFO aireGDL Downloaded measurement data for the device: 13450 and sensor: 88
+2021-03-08 11:06:15,650 INFO aireGDL Downloaded measurement data for the device: 13450 and sensor: 87
+2021-03-08 11:06:16,122 INFO aireGDL Downloaded measurement data for the device: 13450 and sensor: 56
+2021-03-08 11:06:17,022 INFO aireGDL Downloaded measurement data for the device: 13450 and sensor: 55
+2021-03-08 11:06:17,471 INFO aireGDL Downloaded measurement data for the device 13451
+2021-03-08 11:06:17,888 INFO aireGDL Downloaded measurement data for the device: 13451 and sensor: 113
+2021-03-08 11:06:18,448 INFO aireGDL Downloaded measurement data for the device: 13451 and sensor: 112
+2021-03-08 11:06:18,893 INFO aireGDL Downloaded measurement data for the device: 13451 and sensor: 14
+2021-03-08 11:06:19,319 INFO aireGDL Downloaded measurement data for the device: 13451 and sensor: 10
+2021-03-08 11:06:19,781 INFO aireGDL Downloaded measurement data for the device: 13451 and sensor: 53
+2021-03-08 11:06:20,230 INFO aireGDL Downloaded measurement data for the device: 13451 and sensor: 58
+2021-03-08 11:06:20,667 INFO aireGDL Downloaded measurement data for the device: 13451 and sensor: 89
+2021-03-08 11:06:21,134 INFO aireGDL Downloaded measurement data for the device: 13451 and sensor: 88
+2021-03-08 11:06:21,610 INFO aireGDL Downloaded measurement data for the device: 13451 and sensor: 87
+2021-03-08 11:06:22,133 INFO aireGDL Downloaded measurement data for the device: 13451 and sensor: 56
+2021-03-08 11:06:22,597 INFO aireGDL Downloaded measurement data for the device: 13451 and sensor: 55
+2021-03-08 11:06:23,054 INFO aireGDL Downloaded measurement data for the device 13452
+2021-03-08 11:06:23,517 INFO aireGDL Downloaded measurement data for the device: 13452 and sensor: 113
+2021-03-08 11:06:23,982 INFO aireGDL Downloaded measurement data for the device: 13452 and sensor: 112
+2021-03-08 11:06:24,488 INFO aireGDL Downloaded measurement data for the device: 13452 and sensor: 14
+2021-03-08 11:06:24,897 INFO aireGDL Downloaded measurement data for the device: 13452 and sensor: 10
+2021-03-08 11:06:25,393 INFO aireGDL Downloaded measurement data for the device: 13452 and sensor: 53
+2021-03-08 11:06:25,826 INFO aireGDL Downloaded measurement data for the device: 13452 and sensor: 58
+2021-03-08 11:06:26,248 INFO aireGDL Downloaded measurement data for the device: 13452 and sensor: 89
+2021-03-08 11:06:27,100 INFO aireGDL Downloaded measurement data for the device: 13452 and sensor: 88
+2021-03-08 11:06:27,598 INFO aireGDL Downloaded measurement data for the device: 13452 and sensor: 87
+2021-03-08 11:06:27,992 INFO aireGDL Downloaded measurement data for the device: 13452 and sensor: 56
+2021-03-08 11:06:28,471 INFO aireGDL Downloaded measurement data for the device: 13452 and sensor: 55
+2021-03-08 11:06:28,891 INFO aireGDL Downloaded measurement data for the device 13453
+2021-03-08 11:06:29,356 INFO aireGDL Downloaded measurement data for the device: 13453 and sensor: 113
+2021-03-08 11:06:29,757 INFO aireGDL Downloaded measurement data for the device: 13453 and sensor: 112
+2021-03-08 11:06:30,166 INFO aireGDL Downloaded measurement data for the device: 13453 and sensor: 14
+2021-03-08 11:06:30,632 INFO aireGDL Downloaded measurement data for the device: 13453 and sensor: 10
+2021-03-08 11:06:32,136 INFO aireGDL Downloaded measurement data for the device: 13453 and sensor: 53
+2021-03-08 11:06:33,209 INFO aireGDL Downloaded measurement data for the device: 13453 and sensor: 58
+2021-03-08 11:06:33,878 INFO aireGDL Downloaded measurement data for the device: 13453 and sensor: 89
+2021-03-08 11:06:35,089 INFO aireGDL Downloaded measurement data for the device: 13453 and sensor: 88
+2021-03-08 11:06:35,877 INFO aireGDL Downloaded measurement data for the device: 13453 and sensor: 87
+2021-03-08 11:06:36,475 INFO aireGDL Downloaded measurement data for the device: 13453 and sensor: 56
+2021-03-08 11:06:36,929 INFO aireGDL Downloaded measurement data for the device: 13453 and sensor: 55
+2021-03-08 11:06:38,107 INFO aireGDL Downloaded measurement data for the device 13455
+2021-03-08 11:06:38,827 INFO aireGDL Downloaded measurement data for the device: 13455 and sensor: 113
+2021-03-08 11:06:39,279 INFO aireGDL Downloaded measurement data for the device: 13455 and sensor: 112
+2021-03-08 11:06:39,693 INFO aireGDL Downloaded measurement data for the device: 13455 and sensor: 14
+2021-03-08 11:06:40,100 INFO aireGDL Downloaded measurement data for the device: 13455 and sensor: 10
+2021-03-08 11:06:40,612 INFO aireGDL Downloaded measurement data for the device: 13455 and sensor: 53
+2021-03-08 11:06:41,026 INFO aireGDL Downloaded measurement data for the device: 13455 and sensor: 58
+2021-03-08 11:06:41,528 INFO aireGDL Downloaded measurement data for the device: 13455 and sensor: 89
+2021-03-08 11:06:42,032 INFO aireGDL Downloaded measurement data for the device: 13455 and sensor: 88
+2021-03-08 11:06:42,479 INFO aireGDL Downloaded measurement data for the device: 13455 and sensor: 87
+2021-03-08 11:06:42,933 INFO aireGDL Downloaded measurement data for the device: 13455 and sensor: 56
+2021-03-08 11:06:43,348 INFO aireGDL Downloaded measurement data for the device: 13455 and sensor: 55
+2021-03-08 11:06:43,753 INFO aireGDL Downloaded measurement data for the device 13461
+2021-03-08 11:06:44,162 INFO aireGDL Downloaded measurement data for the device: 13461 and sensor: 113
+2021-03-08 11:06:45,006 INFO aireGDL Downloaded measurement data for the device: 13461 and sensor: 112
+2021-03-08 11:06:45,456 INFO aireGDL Downloaded measurement data for the device: 13461 and sensor: 14
+2021-03-08 11:06:46,139 INFO aireGDL Downloaded measurement data for the device: 13461 and sensor: 10
+2021-03-08 11:06:47,027 INFO aireGDL Downloaded measurement data for the device: 13461 and sensor: 53
+2021-03-08 11:06:47,445 INFO aireGDL Downloaded measurement data for the device: 13461 and sensor: 58
+2021-03-08 11:06:47,835 INFO aireGDL Downloaded measurement data for the device: 13461 and sensor: 89
+2021-03-08 11:06:48,241 INFO aireGDL Downloaded measurement data for the device: 13461 and sensor: 88
+2021-03-08 11:06:48,665 INFO aireGDL Downloaded measurement data for the device: 13461 and sensor: 87
+2021-03-08 11:06:49,065 INFO aireGDL Downloaded measurement data for the device: 13461 and sensor: 56
+2021-03-08 11:06:49,560 INFO aireGDL Downloaded measurement data for the device: 13461 and sensor: 55
+2021-03-08 11:06:51,327 INFO aireGDL Downloaded measurement data for the device 13462
+2021-03-08 11:06:51,924 INFO aireGDL Downloaded measurement data for the device: 13462 and sensor: 113
+2021-03-08 11:06:52,342 INFO aireGDL Downloaded measurement data for the device: 13462 and sensor: 112
+2021-03-08 11:06:52,792 INFO aireGDL Downloaded measurement data for the device: 13462 and sensor: 14
+2021-03-08 11:06:53,211 INFO aireGDL Downloaded measurement data for the device: 13462 and sensor: 10
+2021-03-08 11:06:53,635 INFO aireGDL Downloaded measurement data for the device: 13462 and sensor: 53
+2021-03-08 11:06:54,071 INFO aireGDL Downloaded measurement data for the device: 13462 and sensor: 58
+2021-03-08 11:06:54,972 INFO aireGDL Downloaded measurement data for the device: 13462 and sensor: 89
+2021-03-08 11:06:55,392 INFO aireGDL Downloaded measurement data for the device: 13462 and sensor: 88
+2021-03-08 11:06:55,808 INFO aireGDL Downloaded measurement data for the device: 13462 and sensor: 87
+2021-03-08 11:06:56,223 INFO aireGDL Downloaded measurement data for the device: 13462 and sensor: 56
+2021-03-08 11:06:56,633 INFO aireGDL Downloaded measurement data for the device: 13462 and sensor: 55
+2021-03-08 11:06:57,036 INFO aireGDL Downloaded measurement data for the device 13463
+2021-03-08 11:06:57,429 INFO aireGDL Downloaded measurement data for the device: 13463 and sensor: 113
+2021-03-08 11:06:57,825 INFO aireGDL Downloaded measurement data for the device: 13463 and sensor: 112
+2021-03-08 11:06:58,246 INFO aireGDL Downloaded measurement data for the device: 13463 and sensor: 14
+2021-03-08 11:06:58,635 INFO aireGDL Downloaded measurement data for the device: 13463 and sensor: 10
+2021-03-08 11:06:59,026 INFO aireGDL Downloaded measurement data for the device: 13463 and sensor: 53
+2021-03-08 11:06:59,429 INFO aireGDL Downloaded measurement data for the device: 13463 and sensor: 58
+2021-03-08 11:06:59,971 INFO aireGDL Downloaded measurement data for the device: 13463 and sensor: 89
+2021-03-08 11:07:00,378 INFO aireGDL Downloaded measurement data for the device: 13463 and sensor: 88
+2021-03-08 11:07:00,787 INFO aireGDL Downloaded measurement data for the device: 13463 and sensor: 87
+2021-03-08 11:07:01,202 INFO aireGDL Downloaded measurement data for the device: 13463 and sensor: 56
+2021-03-08 11:07:01,662 INFO aireGDL Downloaded measurement data for the device: 13463 and sensor: 55
+2021-03-08 11:07:02,224 INFO aireGDL Downloaded measurement data for the device 13464
+2021-03-08 11:07:02,672 INFO aireGDL Downloaded measurement data for the device: 13464 and sensor: 113
+2021-03-08 11:07:03,124 INFO aireGDL Downloaded measurement data for the device: 13464 and sensor: 112
+2021-03-08 11:07:03,594 INFO aireGDL Downloaded measurement data for the device: 13464 and sensor: 14
+2021-03-08 11:07:04,093 INFO aireGDL Downloaded measurement data for the device: 13464 and sensor: 10
+2021-03-08 11:07:04,526 INFO aireGDL Downloaded measurement data for the device: 13464 and sensor: 53
+2021-03-08 11:07:05,036 INFO aireGDL Downloaded measurement data for the device: 13464 and sensor: 58
+2021-03-08 11:07:05,467 INFO aireGDL Downloaded measurement data for the device: 13464 and sensor: 89
+2021-03-08 11:07:05,892 INFO aireGDL Downloaded measurement data for the device: 13464 and sensor: 88
+2021-03-08 11:07:06,311 INFO aireGDL Downloaded measurement data for the device: 13464 and sensor: 87
+2021-03-08 11:07:06,727 INFO aireGDL Downloaded measurement data for the device: 13464 and sensor: 56
+2021-03-08 11:07:07,180 INFO aireGDL Downloaded measurement data for the device: 13464 and sensor: 55
+2021-03-08 11:07:07,695 INFO aireGDL Downloaded measurement data for the device 13466
+2021-03-08 11:07:08,110 INFO aireGDL Downloaded measurement data for the device: 13466 and sensor: 113
+2021-03-08 11:07:08,554 INFO aireGDL Downloaded measurement data for the device: 13466 and sensor: 112
+2021-03-08 11:07:08,971 INFO aireGDL Downloaded measurement data for the device: 13466 and sensor: 14
+2021-03-08 11:07:09,429 INFO aireGDL Downloaded measurement data for the device: 13466 and sensor: 10
+2021-03-08 11:07:09,898 INFO aireGDL Downloaded measurement data for the device: 13466 and sensor: 53
+2021-03-08 11:07:10,353 INFO aireGDL Downloaded measurement data for the device: 13466 and sensor: 58
+2021-03-08 11:07:10,811 INFO aireGDL Downloaded measurement data for the device: 13466 and sensor: 89
+2021-03-08 11:07:11,212 INFO aireGDL Downloaded measurement data for the device: 13466 and sensor: 88
+2021-03-08 11:07:11,612 INFO aireGDL Downloaded measurement data for the device: 13466 and sensor: 87
+2021-03-08 11:07:12,054 INFO aireGDL Downloaded measurement data for the device: 13466 and sensor: 56
+2021-03-08 11:07:12,470 INFO aireGDL Downloaded measurement data for the device: 13466 and sensor: 55
+2021-03-08 11:07:12,979 INFO aireGDL Downloaded measurement data for the device 13483
+2021-03-08 11:07:13,674 INFO aireGDL Downloaded measurement data for the device: 13483 and sensor: 113
+2021-03-08 11:07:14,347 INFO aireGDL Downloaded measurement data for the device: 13483 and sensor: 112
+2021-03-08 11:07:15,022 INFO aireGDL Downloaded measurement data for the device: 13483 and sensor: 14
+2021-03-08 11:07:17,130 INFO aireGDL Downloaded measurement data for the device: 13483 and sensor: 10
+2021-03-08 11:07:17,929 INFO aireGDL Downloaded measurement data for the device: 13483 and sensor: 53
+2021-03-08 11:07:18,614 INFO aireGDL Downloaded measurement data for the device: 13483 and sensor: 58
+2021-03-08 11:07:19,344 INFO aireGDL Downloaded measurement data for the device: 13483 and sensor: 89
+2021-03-08 11:07:21,931 INFO aireGDL Downloaded measurement data for the device: 13483 and sensor: 88
+2021-03-08 11:07:22,679 INFO aireGDL Downloaded measurement data for the device: 13483 and sensor: 87
+2021-03-08 11:07:23,416 INFO aireGDL Downloaded measurement data for the device: 13483 and sensor: 56
+2021-03-08 11:07:24,204 INFO aireGDL Downloaded measurement data for the device: 13483 and sensor: 55
+2021-03-08 11:07:24,626 INFO aireGDL Downloaded measurement data for the device 13492
+2021-03-08 11:07:25,372 INFO aireGDL Downloaded measurement data for the device: 13492 and sensor: 113
+2021-03-08 11:07:26,096 INFO aireGDL Downloaded measurement data for the device: 13492 and sensor: 112
+2021-03-08 11:07:26,847 INFO aireGDL Downloaded measurement data for the device: 13492 and sensor: 14
+2021-03-08 11:07:27,561 INFO aireGDL Downloaded measurement data for the device: 13492 and sensor: 10
+2021-03-08 11:07:28,273 INFO aireGDL Downloaded measurement data for the device: 13492 and sensor: 53
+2021-03-08 11:07:28,957 INFO aireGDL Downloaded measurement data for the device: 13492 and sensor: 58
+2021-03-08 11:07:29,629 INFO aireGDL Downloaded measurement data for the device: 13492 and sensor: 89
+2021-03-08 11:07:30,128 INFO aireGDL Downloaded measurement data for the device: 13492 and sensor: 88
+2021-03-08 11:07:30,590 INFO aireGDL Downloaded measurement data for the device: 13492 and sensor: 87
+2021-03-08 11:07:31,381 INFO aireGDL Downloaded measurement data for the device: 13492 and sensor: 56
+2021-03-08 11:07:32,079 INFO aireGDL Downloaded measurement data for the device: 13492 and sensor: 55
+2021-03-08 11:07:32,631 INFO aireGDL Downloaded measurement data for the device 13507
+2021-03-08 11:07:33,545 INFO aireGDL Downloaded measurement data for the device: 13507 and sensor: 113
+2021-03-08 11:07:34,361 INFO aireGDL Downloaded measurement data for the device: 13507 and sensor: 112
+2021-03-08 11:07:35,190 INFO aireGDL Downloaded measurement data for the device: 13507 and sensor: 14
+2021-03-08 11:07:35,984 INFO aireGDL Downloaded measurement data for the device: 13507 and sensor: 10
+2021-03-08 11:07:36,853 INFO aireGDL Downloaded measurement data for the device: 13507 and sensor: 53
+2021-03-08 11:07:37,740 INFO aireGDL Downloaded measurement data for the device: 13507 and sensor: 58
+2021-03-08 11:07:38,586 INFO aireGDL Downloaded measurement data for the device: 13507 and sensor: 89
+2021-03-08 11:07:39,398 INFO aireGDL Downloaded measurement data for the device: 13507 and sensor: 88
+2021-03-08 11:07:40,471 INFO aireGDL Downloaded measurement data for the device: 13507 and sensor: 87
+2021-03-08 11:07:41,336 INFO aireGDL Downloaded measurement data for the device: 13507 and sensor: 56
+2021-03-08 11:07:42,401 INFO aireGDL Downloaded measurement data for the device: 13507 and sensor: 55
+2021-03-08 11:07:43,025 INFO aireGDL Downloaded measurement data for the device 13545
+2021-03-08 11:07:43,936 INFO aireGDL Downloaded measurement data for the device: 13545 and sensor: 113
+2021-03-08 11:07:44,909 INFO aireGDL Downloaded measurement data for the device: 13545 and sensor: 112
+2021-03-08 11:07:45,891 INFO aireGDL Downloaded measurement data for the device: 13545 and sensor: 14
+2021-03-08 11:07:46,832 INFO aireGDL Downloaded measurement data for the device: 13545 and sensor: 10
+2021-03-08 11:07:47,734 INFO aireGDL Downloaded measurement data for the device: 13545 and sensor: 53
+2021-03-08 11:07:48,735 INFO aireGDL Downloaded measurement data for the device: 13545 and sensor: 58
+2021-03-08 11:07:49,423 INFO aireGDL Downloaded measurement data for the device: 13545 and sensor: 89
+2021-03-08 11:07:50,038 INFO aireGDL Downloaded measurement data for the device: 13545 and sensor: 88
+2021-03-08 11:07:50,626 INFO aireGDL Downloaded measurement data for the device: 13545 and sensor: 87
+2021-03-08 11:07:51,563 INFO aireGDL Downloaded measurement data for the device: 13545 and sensor: 56
+2021-03-08 11:07:52,808 INFO aireGDL Downloaded measurement data for the device: 13545 and sensor: 55
+2021-03-08 11:07:53,754 INFO aireGDL Downloaded measurement data for the device 13548
+2021-03-08 11:07:54,640 INFO aireGDL Downloaded measurement data for the device: 13548 and sensor: 113
+2021-03-08 11:07:55,748 INFO aireGDL Downloaded measurement data for the device: 13548 and sensor: 112
+2021-03-08 11:07:56,760 INFO aireGDL Downloaded measurement data for the device: 13548 and sensor: 14
+2021-03-08 11:07:57,789 INFO aireGDL Downloaded measurement data for the device: 13548 and sensor: 10
+2021-03-08 11:07:59,194 INFO aireGDL Downloaded measurement data for the device: 13548 and sensor: 53
+2021-03-08 11:08:00,209 INFO aireGDL Downloaded measurement data for the device: 13548 and sensor: 58
+2021-03-08 11:08:01,066 INFO aireGDL Downloaded measurement data for the device: 13548 and sensor: 89
+2021-03-08 11:08:02,328 INFO aireGDL Downloaded measurement data for the device: 13548 and sensor: 88
+2021-03-08 11:08:03,603 INFO aireGDL Downloaded measurement data for the device: 13548 and sensor: 87
+2021-03-08 11:08:04,640 INFO aireGDL Downloaded measurement data for the device: 13548 and sensor: 56
+2021-03-08 11:08:05,609 INFO aireGDL Downloaded measurement data for the device: 13548 and sensor: 55
+2021-03-08 11:08:06,072 INFO aireGDL Downloaded measurement data for the device 13573
+2021-03-08 11:08:06,832 INFO aireGDL Downloaded measurement data for the device: 13573 and sensor: 113
+2021-03-08 11:08:07,566 INFO aireGDL Downloaded measurement data for the device: 13573 and sensor: 112
+2021-03-08 11:08:08,355 INFO aireGDL Downloaded measurement data for the device: 13573 and sensor: 14
+2021-03-08 11:08:09,133 INFO aireGDL Downloaded measurement data for the device: 13573 and sensor: 10
+2021-03-08 11:08:09,955 INFO aireGDL Downloaded measurement data for the device: 13573 and sensor: 53
+2021-03-08 11:08:11,251 INFO aireGDL Downloaded measurement data for the device: 13573 and sensor: 58
+2021-03-08 11:08:12,258 INFO aireGDL Downloaded measurement data for the device: 13573 and sensor: 89
+2021-03-08 11:08:13,036 INFO aireGDL Downloaded measurement data for the device: 13573 and sensor: 88
+2021-03-08 11:08:13,894 INFO aireGDL Downloaded measurement data for the device: 13573 and sensor: 87
+2021-03-08 11:08:14,704 INFO aireGDL Downloaded measurement data for the device: 13573 and sensor: 56
+2021-03-08 11:08:15,517 INFO aireGDL Downloaded measurement data for the device: 13573 and sensor: 55
+2021-03-08 11:08:15,956 INFO aireGDL Downloaded measurement data for the device 13574
+2021-03-08 11:08:16,691 INFO aireGDL Downloaded measurement data for the device: 13574 and sensor: 113
+2021-03-08 11:08:17,675 INFO aireGDL Downloaded measurement data for the device: 13574 and sensor: 112
+2021-03-08 11:08:18,810 INFO aireGDL Downloaded measurement data for the device: 13574 and sensor: 14
+2021-03-08 11:08:19,708 INFO aireGDL Downloaded measurement data for the device: 13574 and sensor: 10
+2021-03-08 11:08:20,473 INFO aireGDL Downloaded measurement data for the device: 13574 and sensor: 53
+2021-03-08 11:08:21,726 INFO aireGDL Downloaded measurement data for the device: 13574 and sensor: 58
+2021-03-08 11:08:22,962 INFO aireGDL Downloaded measurement data for the device: 13574 and sensor: 89
+2021-03-08 11:08:23,741 INFO aireGDL Downloaded measurement data for the device: 13574 and sensor: 88
+2021-03-08 11:08:24,640 INFO aireGDL Downloaded measurement data for the device: 13574 and sensor: 87
+2021-03-08 11:08:25,528 INFO aireGDL Downloaded measurement data for the device: 13574 and sensor: 56
+2021-03-08 11:08:26,569 INFO aireGDL Downloaded measurement data for the device: 13574 and sensor: 55
+2021-03-08 11:08:27,519 INFO aireGDL Downloaded measurement data for the device 13598
+2021-03-08 11:08:28,311 INFO aireGDL Downloaded measurement data for the device: 13598 and sensor: 113
+2021-03-08 11:08:29,179 INFO aireGDL Downloaded measurement data for the device: 13598 and sensor: 112
+2021-03-08 11:08:29,878 INFO aireGDL Downloaded measurement data for the device: 13598 and sensor: 14
+2021-03-08 11:08:30,795 INFO aireGDL Downloaded measurement data for the device: 13598 and sensor: 10
+2021-03-08 11:08:31,605 INFO aireGDL Downloaded measurement data for the device: 13598 and sensor: 53
+2021-03-08 11:08:32,329 INFO aireGDL Downloaded measurement data for the device: 13598 and sensor: 58
+2021-03-08 11:08:33,639 INFO aireGDL Downloaded measurement data for the device: 13598 and sensor: 89
+2021-03-08 11:08:34,374 INFO aireGDL Downloaded measurement data for the device: 13598 and sensor: 88
+2021-03-08 11:08:35,089 INFO aireGDL Downloaded measurement data for the device: 13598 and sensor: 87
+2021-03-08 11:08:36,066 INFO aireGDL Downloaded measurement data for the device: 13598 and sensor: 56
+2021-03-08 11:08:37,344 INFO aireGDL Downloaded measurement data for the device: 13598 and sensor: 55
+2021-03-08 11:08:37,778 INFO aireGDL Downloaded measurement data for the device 13647
+2021-03-08 11:08:38,530 INFO aireGDL Downloaded measurement data for the device: 13647 and sensor: 113
+2021-03-08 11:08:39,410 INFO aireGDL Downloaded measurement data for the device: 13647 and sensor: 112
+2021-03-08 11:08:40,138 INFO aireGDL Downloaded measurement data for the device: 13647 and sensor: 14
+2021-03-08 11:08:40,853 INFO aireGDL Downloaded measurement data for the device: 13647 and sensor: 10
+2021-03-08 11:08:41,646 INFO aireGDL Downloaded measurement data for the device: 13647 and sensor: 53
+2021-03-08 11:08:42,387 INFO aireGDL Downloaded measurement data for the device: 13647 and sensor: 58
+2021-03-08 11:08:43,195 INFO aireGDL Downloaded measurement data for the device: 13647 and sensor: 89
+2021-03-08 11:08:44,109 INFO aireGDL Downloaded measurement data for the device: 13647 and sensor: 88
+2021-03-08 11:08:45,043 INFO aireGDL Downloaded measurement data for the device: 13647 and sensor: 87
+2021-03-08 11:08:45,921 INFO aireGDL Downloaded measurement data for the device: 13647 and sensor: 56
+2021-03-08 11:08:46,642 INFO aireGDL Downloaded measurement data for the device: 13647 and sensor: 55
+2021-03-08 11:08:47,277 INFO aireGDL Downloaded measurement data for the device 13689
+2021-03-08 11:08:48,112 INFO aireGDL Downloaded measurement data for the device: 13689 and sensor: 113
+2021-03-08 11:08:49,111 INFO aireGDL Downloaded measurement data for the device: 13689 and sensor: 112
+2021-03-08 11:08:49,831 INFO aireGDL Downloaded measurement data for the device: 13689 and sensor: 14
+2021-03-08 11:08:50,624 INFO aireGDL Downloaded measurement data for the device: 13689 and sensor: 10
+2021-03-08 11:08:51,375 INFO aireGDL Downloaded measurement data for the device: 13689 and sensor: 53
+2021-03-08 11:08:52,258 INFO aireGDL Downloaded measurement data for the device: 13689 and sensor: 58
+2021-03-08 11:08:53,083 INFO aireGDL Downloaded measurement data for the device: 13689 and sensor: 89
+2021-03-08 11:08:53,986 INFO aireGDL Downloaded measurement data for the device: 13689 and sensor: 88
+2021-03-08 11:08:54,853 INFO aireGDL Downloaded measurement data for the device: 13689 and sensor: 87
+2021-03-08 11:08:55,981 INFO aireGDL Downloaded measurement data for the device: 13689 and sensor: 56
+2021-03-08 11:08:57,178 INFO aireGDL Downloaded measurement data for the device: 13689 and sensor: 55
+2021-03-08 11:08:57,957 INFO aireGDL Downloaded measurement data for the device 13702
+2021-03-08 11:08:58,840 INFO aireGDL Downloaded measurement data for the device: 13702 and sensor: 113
+2021-03-08 11:08:59,785 INFO aireGDL Downloaded measurement data for the device: 13702 and sensor: 112
+2021-03-08 11:09:00,556 INFO aireGDL Downloaded measurement data for the device: 13702 and sensor: 14
+2021-03-08 11:09:01,371 INFO aireGDL Downloaded measurement data for the device: 13702 and sensor: 10
+2021-03-08 11:09:02,430 INFO aireGDL Downloaded measurement data for the device: 13702 and sensor: 53
+2021-03-08 11:09:03,217 INFO aireGDL Downloaded measurement data for the device: 13702 and sensor: 58
+2021-03-08 11:09:04,153 INFO aireGDL Downloaded measurement data for the device: 13702 and sensor: 89
+2021-03-08 11:09:05,006 INFO aireGDL Downloaded measurement data for the device: 13702 and sensor: 88
+2021-03-08 11:09:06,127 INFO aireGDL Downloaded measurement data for the device: 13702 and sensor: 87
+2021-03-08 11:09:07,120 INFO aireGDL Downloaded measurement data for the device: 13702 and sensor: 56
+2021-03-08 11:09:07,939 INFO aireGDL Downloaded measurement data for the device: 13702 and sensor: 55
+2021-03-08 11:09:08,589 INFO aireGDL Downloaded measurement data for the device 13770
+2021-03-08 11:09:09,271 INFO aireGDL Downloaded measurement data for the device: 13770 and sensor: 113
+2021-03-08 11:09:09,963 INFO aireGDL Downloaded measurement data for the device: 13770 and sensor: 112
+2021-03-08 11:09:10,679 INFO aireGDL Downloaded measurement data for the device: 13770 and sensor: 14
+2021-03-08 11:09:11,407 INFO aireGDL Downloaded measurement data for the device: 13770 and sensor: 10
+2021-03-08 11:09:12,154 INFO aireGDL Downloaded measurement data for the device: 13770 and sensor: 53
+2021-03-08 11:09:13,921 INFO aireGDL Downloaded measurement data for the device: 13770 and sensor: 58
+2021-03-08 11:09:14,625 INFO aireGDL Downloaded measurement data for the device: 13770 and sensor: 89
+2021-03-08 11:09:15,354 INFO aireGDL Downloaded measurement data for the device: 13770 and sensor: 88
+2021-03-08 11:09:16,121 INFO aireGDL Downloaded measurement data for the device: 13770 and sensor: 87
+2021-03-08 11:09:16,854 INFO aireGDL Downloaded measurement data for the device: 13770 and sensor: 56
+2021-03-08 11:09:17,497 INFO aireGDL Downloaded measurement data for the device: 13770 and sensor: 55
+2021-03-08 11:09:18,147 INFO aireGDL Downloaded measurement data for the device 13771
+2021-03-08 11:09:22,781 INFO aireGDL Downloaded measurement data for the device: 13771 and sensor: 113
+2021-03-08 11:09:25,070 INFO aireGDL Downloaded measurement data for the device: 13771 and sensor: 112
+2021-03-08 11:09:25,586 INFO aireGDL Downloaded measurement data for the device: 13771 and sensor: 14
+2021-03-08 11:09:26,142 INFO aireGDL Downloaded measurement data for the device: 13771 and sensor: 10
+2021-03-08 11:09:26,784 INFO aireGDL Downloaded measurement data for the device: 13771 and sensor: 53
+2021-03-08 11:09:27,396 INFO aireGDL Downloaded measurement data for the device: 13771 and sensor: 58
+2021-03-08 11:09:28,000 INFO aireGDL Downloaded measurement data for the device: 13771 and sensor: 89
+2021-03-08 11:09:28,726 INFO aireGDL Downloaded measurement data for the device: 13771 and sensor: 88
+2021-03-08 11:09:29,341 INFO aireGDL Downloaded measurement data for the device: 13771 and sensor: 87
+2021-03-08 11:09:29,958 INFO aireGDL Downloaded measurement data for the device: 13771 and sensor: 56
+2021-03-08 11:09:30,598 INFO aireGDL Downloaded measurement data for the device: 13771 and sensor: 55
+2021-03-08 11:09:31,080 INFO aireGDL Downloaded measurement data for the device 13772
+2021-03-08 11:09:31,569 INFO aireGDL Downloaded measurement data for the device: 13772 and sensor: 113
+2021-03-08 11:09:32,091 INFO aireGDL Downloaded measurement data for the device: 13772 and sensor: 112
+2021-03-08 11:09:33,039 INFO aireGDL Downloaded measurement data for the device: 13772 and sensor: 14
+2021-03-08 11:09:33,515 INFO aireGDL Downloaded measurement data for the device: 13772 and sensor: 10
+2021-03-08 11:09:34,461 INFO aireGDL Downloaded measurement data for the device: 13772 and sensor: 53
+2021-03-08 11:09:34,963 INFO aireGDL Downloaded measurement data for the device: 13772 and sensor: 58
+2021-03-08 11:09:35,661 INFO aireGDL Downloaded measurement data for the device: 13772 and sensor: 89
+2021-03-08 11:09:36,238 INFO aireGDL Downloaded measurement data for the device: 13772 and sensor: 88
+2021-03-08 11:09:36,779 INFO aireGDL Downloaded measurement data for the device: 13772 and sensor: 87
+2021-03-08 11:09:37,324 INFO aireGDL Downloaded measurement data for the device: 13772 and sensor: 56
+2021-03-08 11:09:37,844 INFO aireGDL Downloaded measurement data for the device: 13772 and sensor: 55
+2021-03-08 11:09:42,069 INFO aireGDL Creating SQL engine
+2021-03-08 11:09:42,086 INFO aireGDL Getting smartcitizen from DB
+2021-03-08 11:10:13,994 INFO aireGDL smartcitizen retrived
+2021-03-08 13:04:30,345 INFO aireGDL Starting script
+2021-03-08 13:04:31,268 INFO aireGDL Downloaded data from Smart Citizen with the tag PIPCiudadFuturo
+2021-03-08 13:04:31,692 INFO aireGDL Downloaded measurement data for the device 13450
+2021-03-08 13:04:32,432 INFO aireGDL Downloaded measurement data for the device: 13450 and sensor: 113
+2021-03-08 13:04:32,865 INFO aireGDL Downloaded measurement data for the device: 13450 and sensor: 112
+2021-03-08 13:04:33,313 INFO aireGDL Downloaded measurement data for the device: 13450 and sensor: 14
+2021-03-08 13:04:34,254 INFO aireGDL Downloaded measurement data for the device: 13450 and sensor: 10
+2021-03-08 13:04:34,722 INFO aireGDL Downloaded measurement data for the device: 13450 and sensor: 53
+2021-03-08 13:04:35,256 INFO aireGDL Downloaded measurement data for the device: 13450 and sensor: 58
+2021-03-08 13:04:35,707 INFO aireGDL Downloaded measurement data for the device: 13450 and sensor: 89
+2021-03-08 13:04:36,789 INFO aireGDL Downloaded measurement data for the device: 13450 and sensor: 88
+2021-03-08 13:04:37,227 INFO aireGDL Downloaded measurement data for the device: 13450 and sensor: 87
+2021-03-08 13:04:37,747 INFO aireGDL Downloaded measurement data for the device: 13450 and sensor: 56
+2021-03-08 13:04:38,271 INFO aireGDL Downloaded measurement data for the device: 13450 and sensor: 55
+2021-03-08 13:04:38,681 INFO aireGDL Downloaded measurement data for the device 13451
+2021-03-08 13:04:39,136 INFO aireGDL Downloaded measurement data for the device: 13451 and sensor: 113
+2021-03-08 13:04:39,552 INFO aireGDL Downloaded measurement data for the device: 13451 and sensor: 112
+2021-03-08 13:04:40,006 INFO aireGDL Downloaded measurement data for the device: 13451 and sensor: 14
+2021-03-08 13:04:40,388 INFO aireGDL Downloaded measurement data for the device: 13451 and sensor: 10
+2021-03-08 13:04:40,901 INFO aireGDL Downloaded measurement data for the device: 13451 and sensor: 53
+2021-03-08 13:04:41,338 INFO aireGDL Downloaded measurement data for the device: 13451 and sensor: 58
+2021-03-08 13:04:41,831 INFO aireGDL Downloaded measurement data for the device: 13451 and sensor: 89
+2021-03-08 13:04:42,735 INFO aireGDL Downloaded measurement data for the device: 13451 and sensor: 88
+2021-03-08 13:04:43,207 INFO aireGDL Downloaded measurement data for the device: 13451 and sensor: 87
+2021-03-08 13:04:43,672 INFO aireGDL Downloaded measurement data for the device: 13451 and sensor: 56
+2021-03-08 13:04:44,270 INFO aireGDL Downloaded measurement data for the device: 13451 and sensor: 55
+2021-03-08 13:04:44,702 INFO aireGDL Downloaded measurement data for the device 13452
+2021-03-08 13:04:46,395 INFO aireGDL Downloaded measurement data for the device: 13452 and sensor: 113
+2021-03-08 13:04:46,819 INFO aireGDL Downloaded measurement data for the device: 13452 and sensor: 112
+2021-03-08 13:04:47,356 INFO aireGDL Downloaded measurement data for the device: 13452 and sensor: 14
+2021-03-08 13:04:47,954 INFO aireGDL Downloaded measurement data for the device: 13452 and sensor: 10
+2021-03-08 13:04:48,476 INFO aireGDL Downloaded measurement data for the device: 13452 and sensor: 53
+2021-03-08 13:04:48,994 INFO aireGDL Downloaded measurement data for the device: 13452 and sensor: 58
+2021-03-08 13:04:49,433 INFO aireGDL Downloaded measurement data for the device: 13452 and sensor: 89
+2021-03-08 13:04:49,924 INFO aireGDL Downloaded measurement data for the device: 13452 and sensor: 88
+2021-03-08 13:04:50,454 INFO aireGDL Downloaded measurement data for the device: 13452 and sensor: 87
+2021-03-08 13:04:50,919 INFO aireGDL Downloaded measurement data for the device: 13452 and sensor: 56
+2021-03-08 13:04:51,335 INFO aireGDL Downloaded measurement data for the device: 13452 and sensor: 55
+2021-03-08 13:04:52,053 INFO aireGDL Downloaded measurement data for the device 13453
+2021-03-08 13:04:52,573 INFO aireGDL Downloaded measurement data for the device: 13453 and sensor: 113
+2021-03-08 13:04:53,170 INFO aireGDL Downloaded measurement data for the device: 13453 and sensor: 112
+2021-03-08 13:04:53,713 INFO aireGDL Downloaded measurement data for the device: 13453 and sensor: 14
+2021-03-08 13:04:54,587 INFO aireGDL Downloaded measurement data for the device: 13453 and sensor: 10
+2021-03-08 13:04:55,651 INFO aireGDL Downloaded measurement data for the device: 13453 and sensor: 53
+2021-03-08 13:04:56,263 INFO aireGDL Downloaded measurement data for the device: 13453 and sensor: 58
+2021-03-08 13:04:56,776 INFO aireGDL Downloaded measurement data for the device: 13453 and sensor: 89
+2021-03-08 13:04:57,320 INFO aireGDL Downloaded measurement data for the device: 13453 and sensor: 88
+2021-03-08 13:04:57,863 INFO aireGDL Downloaded measurement data for the device: 13453 and sensor: 87
+2021-03-08 13:04:58,462 INFO aireGDL Downloaded measurement data for the device: 13453 and sensor: 56
+2021-03-08 13:04:58,978 INFO aireGDL Downloaded measurement data for the device: 13453 and sensor: 55
+2021-03-08 13:04:59,465 INFO aireGDL Downloaded measurement data for the device 13455
+2021-03-08 13:05:00,012 INFO aireGDL Downloaded measurement data for the device: 13455 and sensor: 113
+2021-03-08 13:05:00,586 INFO aireGDL Downloaded measurement data for the device: 13455 and sensor: 112
+2021-03-08 13:05:01,097 INFO aireGDL Downloaded measurement data for the device: 13455 and sensor: 14
+2021-03-08 13:05:01,692 INFO aireGDL Downloaded measurement data for the device: 13455 and sensor: 10
+2021-03-08 13:05:03,234 INFO aireGDL Downloaded measurement data for the device: 13455 and sensor: 53
+2021-03-08 13:05:03,828 INFO aireGDL Downloaded measurement data for the device: 13455 and sensor: 58
+2021-03-08 13:05:04,441 INFO aireGDL Downloaded measurement data for the device: 13455 and sensor: 89
+2021-03-08 13:05:05,149 INFO aireGDL Downloaded measurement data for the device: 13455 and sensor: 88
+2021-03-08 13:05:06,151 INFO aireGDL Downloaded measurement data for the device: 13455 and sensor: 87
+2021-03-08 13:05:07,408 INFO aireGDL Downloaded measurement data for the device: 13455 and sensor: 56
+2021-03-08 13:05:08,398 INFO aireGDL Downloaded measurement data for the device: 13455 and sensor: 55
+2021-03-08 13:05:11,187 INFO aireGDL Downloaded measurement data for the device 13461
+2021-03-08 13:05:11,608 INFO aireGDL Downloaded measurement data for the device: 13461 and sensor: 113
+2021-03-08 13:05:12,138 INFO aireGDL Downloaded measurement data for the device: 13461 and sensor: 112
+2021-03-08 13:05:14,796 INFO aireGDL Downloaded measurement data for the device: 13461 and sensor: 14
+2021-03-08 13:05:15,295 INFO aireGDL Downloaded measurement data for the device: 13461 and sensor: 10
+2021-03-08 13:05:15,816 INFO aireGDL Downloaded measurement data for the device: 13461 and sensor: 53
+2021-03-08 13:05:16,337 INFO aireGDL Downloaded measurement data for the device: 13461 and sensor: 58
+2021-03-08 13:05:16,806 INFO aireGDL Downloaded measurement data for the device: 13461 and sensor: 89
+2021-03-08 13:05:17,374 INFO aireGDL Downloaded measurement data for the device: 13461 and sensor: 88
+2021-03-08 13:05:17,893 INFO aireGDL Downloaded measurement data for the device: 13461 and sensor: 87
+2021-03-08 13:05:18,333 INFO aireGDL Downloaded measurement data for the device: 13461 and sensor: 56
+2021-03-08 13:05:18,798 INFO aireGDL Downloaded measurement data for the device: 13461 and sensor: 55
+2021-03-08 13:05:19,264 INFO aireGDL Downloaded measurement data for the device 13462
+2021-03-08 13:05:19,717 INFO aireGDL Downloaded measurement data for the device: 13462 and sensor: 113
+2021-03-08 13:05:20,120 INFO aireGDL Downloaded measurement data for the device: 13462 and sensor: 112
+2021-03-08 13:05:20,593 INFO aireGDL Downloaded measurement data for the device: 13462 and sensor: 14
+2021-03-08 13:05:21,249 INFO aireGDL Downloaded measurement data for the device: 13462 and sensor: 10
+2021-03-08 13:05:21,726 INFO aireGDL Downloaded measurement data for the device: 13462 and sensor: 53
+2021-03-08 13:05:22,181 INFO aireGDL Downloaded measurement data for the device: 13462 and sensor: 58
+2021-03-08 13:05:22,704 INFO aireGDL Downloaded measurement data for the device: 13462 and sensor: 89
+2021-03-08 13:05:23,243 INFO aireGDL Downloaded measurement data for the device: 13462 and sensor: 88
+2021-03-08 13:05:23,814 INFO aireGDL Downloaded measurement data for the device: 13462 and sensor: 87
+2021-03-08 13:05:24,285 INFO aireGDL Downloaded measurement data for the device: 13462 and sensor: 56
+2021-03-08 13:05:24,755 INFO aireGDL Downloaded measurement data for the device: 13462 and sensor: 55
+2021-03-08 13:05:25,273 INFO aireGDL Downloaded measurement data for the device 13463
+2021-03-08 13:05:25,751 INFO aireGDL Downloaded measurement data for the device: 13463 and sensor: 113
+2021-03-08 13:05:26,214 INFO aireGDL Downloaded measurement data for the device: 13463 and sensor: 112
+2021-03-08 13:05:26,684 INFO aireGDL Downloaded measurement data for the device: 13463 and sensor: 14
+2021-03-08 13:05:27,185 INFO aireGDL Downloaded measurement data for the device: 13463 and sensor: 10
+2021-03-08 13:05:27,686 INFO aireGDL Downloaded measurement data for the device: 13463 and sensor: 53
+2021-03-08 13:05:28,160 INFO aireGDL Downloaded measurement data for the device: 13463 and sensor: 58
+2021-03-08 13:05:28,604 INFO aireGDL Downloaded measurement data for the device: 13463 and sensor: 89
+2021-03-08 13:05:29,088 INFO aireGDL Downloaded measurement data for the device: 13463 and sensor: 88
+2021-03-08 13:05:29,518 INFO aireGDL Downloaded measurement data for the device: 13463 and sensor: 87
+2021-03-08 13:05:30,194 INFO aireGDL Downloaded measurement data for the device: 13463 and sensor: 56
+2021-03-08 13:05:30,651 INFO aireGDL Downloaded measurement data for the device: 13463 and sensor: 55
+2021-03-08 13:05:31,073 INFO aireGDL Downloaded measurement data for the device 13464
+2021-03-08 13:05:31,566 INFO aireGDL Downloaded measurement data for the device: 13464 and sensor: 113
+2021-03-08 13:05:31,963 INFO aireGDL Downloaded measurement data for the device: 13464 and sensor: 112
+2021-03-08 13:05:32,430 INFO aireGDL Downloaded measurement data for the device: 13464 and sensor: 14
+2021-03-08 13:05:32,838 INFO aireGDL Downloaded measurement data for the device: 13464 and sensor: 10
+2021-03-08 13:05:33,333 INFO aireGDL Downloaded measurement data for the device: 13464 and sensor: 53
+2021-03-08 13:05:33,738 INFO aireGDL Downloaded measurement data for the device: 13464 and sensor: 58
+2021-03-08 13:05:34,160 INFO aireGDL Downloaded measurement data for the device: 13464 and sensor: 89
+2021-03-08 13:05:34,630 INFO aireGDL Downloaded measurement data for the device: 13464 and sensor: 88
+2021-03-08 13:05:35,461 INFO aireGDL Downloaded measurement data for the device: 13464 and sensor: 87
+2021-03-08 13:05:36,015 INFO aireGDL Downloaded measurement data for the device: 13464 and sensor: 56
+2021-03-08 13:05:36,480 INFO aireGDL Downloaded measurement data for the device: 13464 and sensor: 55
+2021-03-08 13:05:37,239 INFO aireGDL Downloaded measurement data for the device 13466
+2021-03-08 13:05:37,666 INFO aireGDL Downloaded measurement data for the device: 13466 and sensor: 113
+2021-03-08 13:05:38,144 INFO aireGDL Downloaded measurement data for the device: 13466 and sensor: 112
+2021-03-08 13:05:38,644 INFO aireGDL Downloaded measurement data for the device: 13466 and sensor: 14
+2021-03-08 13:05:39,163 INFO aireGDL Downloaded measurement data for the device: 13466 and sensor: 10
+2021-03-08 13:05:39,639 INFO aireGDL Downloaded measurement data for the device: 13466 and sensor: 53
+2021-03-08 13:05:40,051 INFO aireGDL Downloaded measurement data for the device: 13466 and sensor: 58
+2021-03-08 13:05:40,550 INFO aireGDL Downloaded measurement data for the device: 13466 and sensor: 89
+2021-03-08 13:05:40,995 INFO aireGDL Downloaded measurement data for the device: 13466 and sensor: 88
+2021-03-08 13:05:41,480 INFO aireGDL Downloaded measurement data for the device: 13466 and sensor: 87
+2021-03-08 13:05:41,865 INFO aireGDL Downloaded measurement data for the device: 13466 and sensor: 56
+2021-03-08 13:05:42,265 INFO aireGDL Downloaded measurement data for the device: 13466 and sensor: 55
+2021-03-08 13:05:42,683 INFO aireGDL Downloaded measurement data for the device 13483
+2021-03-08 13:05:45,028 INFO aireGDL Downloaded measurement data for the device: 13483 and sensor: 113
+2021-03-08 13:05:47,674 INFO aireGDL Downloaded measurement data for the device: 13483 and sensor: 112
+2021-03-08 13:05:48,450 INFO aireGDL Downloaded measurement data for the device: 13483 and sensor: 14
+2021-03-08 13:05:49,202 INFO aireGDL Downloaded measurement data for the device: 13483 and sensor: 10
+2021-03-08 13:05:50,024 INFO aireGDL Downloaded measurement data for the device: 13483 and sensor: 53
+2021-03-08 13:05:50,750 INFO aireGDL Downloaded measurement data for the device: 13483 and sensor: 58
+2021-03-08 13:05:51,481 INFO aireGDL Downloaded measurement data for the device: 13483 and sensor: 89
+2021-03-08 13:05:52,285 INFO aireGDL Downloaded measurement data for the device: 13483 and sensor: 88
+2021-03-08 13:05:53,469 INFO aireGDL Downloaded measurement data for the device: 13483 and sensor: 87
+2021-03-08 13:05:54,240 INFO aireGDL Downloaded measurement data for the device: 13483 and sensor: 56
+2021-03-08 13:05:55,038 INFO aireGDL Downloaded measurement data for the device: 13483 and sensor: 55
+2021-03-08 13:05:55,654 INFO aireGDL Downloaded measurement data for the device 13492
+2021-03-08 13:05:56,639 INFO aireGDL Downloaded measurement data for the device: 13492 and sensor: 113
+2021-03-08 13:05:57,589 INFO aireGDL Downloaded measurement data for the device: 13492 and sensor: 112
+2021-03-08 13:05:58,497 INFO aireGDL Downloaded measurement data for the device: 13492 and sensor: 14
+2021-03-08 13:05:59,635 INFO aireGDL Downloaded measurement data for the device: 13492 and sensor: 10
+2021-03-08 13:06:00,831 INFO aireGDL Downloaded measurement data for the device: 13492 and sensor: 53
+2021-03-08 13:06:01,681 INFO aireGDL Downloaded measurement data for the device: 13492 and sensor: 58
+2021-03-08 13:06:02,297 INFO aireGDL Downloaded measurement data for the device: 13492 and sensor: 89
+2021-03-08 13:06:02,843 INFO aireGDL Downloaded measurement data for the device: 13492 and sensor: 88
+2021-03-08 13:06:03,349 INFO aireGDL Downloaded measurement data for the device: 13492 and sensor: 87
+2021-03-08 13:06:04,254 INFO aireGDL Downloaded measurement data for the device: 13492 and sensor: 56
+2021-03-08 13:06:05,010 INFO aireGDL Downloaded measurement data for the device: 13492 and sensor: 55
+2021-03-08 13:06:05,481 INFO aireGDL Downloaded measurement data for the device 13507
+2021-03-08 13:06:06,299 INFO aireGDL Downloaded measurement data for the device: 13507 and sensor: 113
+2021-03-08 13:06:07,144 INFO aireGDL Downloaded measurement data for the device: 13507 and sensor: 112
+2021-03-08 13:06:07,909 INFO aireGDL Downloaded measurement data for the device: 13507 and sensor: 14
+2021-03-08 13:06:08,621 INFO aireGDL Downloaded measurement data for the device: 13507 and sensor: 10
+2021-03-08 13:06:09,366 INFO aireGDL Downloaded measurement data for the device: 13507 and sensor: 53
+2021-03-08 13:06:10,217 INFO aireGDL Downloaded measurement data for the device: 13507 and sensor: 58
+2021-03-08 13:06:11,038 INFO aireGDL Downloaded measurement data for the device: 13507 and sensor: 89
+2021-03-08 13:06:12,786 INFO aireGDL Downloaded measurement data for the device: 13507 and sensor: 88
+2021-03-08 13:06:13,495 INFO aireGDL Downloaded measurement data for the device: 13507 and sensor: 87
+2021-03-08 13:06:14,206 INFO aireGDL Downloaded measurement data for the device: 13507 and sensor: 56
+2021-03-08 13:06:15,384 INFO aireGDL Downloaded measurement data for the device: 13507 and sensor: 55
+2021-03-08 13:06:15,855 INFO aireGDL Downloaded measurement data for the device 13545
+2021-03-08 13:06:16,662 INFO aireGDL Downloaded measurement data for the device: 13545 and sensor: 113
+2021-03-08 13:06:17,360 INFO aireGDL Downloaded measurement data for the device: 13545 and sensor: 112
+2021-03-08 13:06:18,079 INFO aireGDL Downloaded measurement data for the device: 13545 and sensor: 14
+2021-03-08 13:06:18,790 INFO aireGDL Downloaded measurement data for the device: 13545 and sensor: 10
+2021-03-08 13:06:19,500 INFO aireGDL Downloaded measurement data for the device: 13545 and sensor: 53
+2021-03-08 13:06:20,228 INFO aireGDL Downloaded measurement data for the device: 13545 and sensor: 58
+2021-03-08 13:06:21,041 INFO aireGDL Downloaded measurement data for the device: 13545 and sensor: 89
+2021-03-08 13:06:21,464 INFO aireGDL Downloaded measurement data for the device: 13545 and sensor: 88
+2021-03-08 13:06:21,988 INFO aireGDL Downloaded measurement data for the device: 13545 and sensor: 87
+2021-03-08 13:06:22,823 INFO aireGDL Downloaded measurement data for the device: 13545 and sensor: 56
+2021-03-08 13:06:27,223 INFO aireGDL Downloaded measurement data for the device: 13545 and sensor: 55
+2021-03-08 13:06:28,216 INFO aireGDL Downloaded measurement data for the device 13548
+2021-03-08 13:06:28,988 INFO aireGDL Downloaded measurement data for the device: 13548 and sensor: 113
+2021-03-08 13:06:29,682 INFO aireGDL Downloaded measurement data for the device: 13548 and sensor: 112
+2021-03-08 13:06:30,374 INFO aireGDL Downloaded measurement data for the device: 13548 and sensor: 14
+2021-03-08 13:06:31,102 INFO aireGDL Downloaded measurement data for the device: 13548 and sensor: 10
+2021-03-08 13:06:31,997 INFO aireGDL Downloaded measurement data for the device: 13548 and sensor: 53
+2021-03-08 13:06:33,221 INFO aireGDL Downloaded measurement data for the device: 13548 and sensor: 58
+2021-03-08 13:06:34,069 INFO aireGDL Downloaded measurement data for the device: 13548 and sensor: 89
+2021-03-08 13:06:34,934 INFO aireGDL Downloaded measurement data for the device: 13548 and sensor: 88
+2021-03-08 13:06:35,811 INFO aireGDL Downloaded measurement data for the device: 13548 and sensor: 87
+2021-03-08 13:06:36,534 INFO aireGDL Downloaded measurement data for the device: 13548 and sensor: 56
+2021-03-08 13:06:37,337 INFO aireGDL Downloaded measurement data for the device: 13548 and sensor: 55
+2021-03-08 13:06:38,138 INFO aireGDL Downloaded measurement data for the device 13573
+2021-03-08 13:06:38,996 INFO aireGDL Downloaded measurement data for the device: 13573 and sensor: 113
+2021-03-08 13:06:39,660 INFO aireGDL Downloaded measurement data for the device: 13573 and sensor: 112
+2021-03-08 13:06:40,386 INFO aireGDL Downloaded measurement data for the device: 13573 and sensor: 14
+2021-03-08 13:06:41,415 INFO aireGDL Downloaded measurement data for the device: 13573 and sensor: 10
+2021-03-08 13:06:42,072 INFO aireGDL Downloaded measurement data for the device: 13573 and sensor: 53
+2021-03-08 13:06:42,791 INFO aireGDL Downloaded measurement data for the device: 13573 and sensor: 58
+2021-03-08 13:06:43,557 INFO aireGDL Downloaded measurement data for the device: 13573 and sensor: 89
+2021-03-08 13:06:44,294 INFO aireGDL Downloaded measurement data for the device: 13573 and sensor: 88
+2021-03-08 13:06:45,021 INFO aireGDL Downloaded measurement data for the device: 13573 and sensor: 87
+2021-03-08 13:06:45,763 INFO aireGDL Downloaded measurement data for the device: 13573 and sensor: 56
+2021-03-08 13:06:46,743 INFO aireGDL Downloaded measurement data for the device: 13573 and sensor: 55
+2021-03-08 13:06:47,237 INFO aireGDL Downloaded measurement data for the device 13574
+2021-03-08 13:06:47,991 INFO aireGDL Downloaded measurement data for the device: 13574 and sensor: 113
+2021-03-08 13:06:49,947 INFO aireGDL Downloaded measurement data for the device: 13574 and sensor: 112
+2021-03-08 13:06:50,836 INFO aireGDL Downloaded measurement data for the device: 13574 and sensor: 14
+2021-03-08 13:06:51,665 INFO aireGDL Downloaded measurement data for the device: 13574 and sensor: 10
+2021-03-08 13:06:52,493 INFO aireGDL Downloaded measurement data for the device: 13574 and sensor: 53
+2021-03-08 13:06:53,398 INFO aireGDL Downloaded measurement data for the device: 13574 and sensor: 58
+2021-03-08 13:06:54,361 INFO aireGDL Downloaded measurement data for the device: 13574 and sensor: 89
+2021-03-08 13:06:55,160 INFO aireGDL Downloaded measurement data for the device: 13574 and sensor: 88
+2021-03-08 13:06:56,253 INFO aireGDL Downloaded measurement data for the device: 13574 and sensor: 87
+2021-03-08 13:06:57,051 INFO aireGDL Downloaded measurement data for the device: 13574 and sensor: 56
+2021-03-08 13:06:58,003 INFO aireGDL Downloaded measurement data for the device: 13574 and sensor: 55
+2021-03-08 13:06:58,445 INFO aireGDL Downloaded measurement data for the device 13598
+2021-03-08 13:06:59,162 INFO aireGDL Downloaded measurement data for the device: 13598 and sensor: 113
+2021-03-08 13:06:59,980 INFO aireGDL Downloaded measurement data for the device: 13598 and sensor: 112
+2021-03-08 13:07:00,758 INFO aireGDL Downloaded measurement data for the device: 13598 and sensor: 14
+2021-03-08 13:07:01,520 INFO aireGDL Downloaded measurement data for the device: 13598 and sensor: 10
+2021-03-08 13:07:02,482 INFO aireGDL Downloaded measurement data for the device: 13598 and sensor: 53
+2021-03-08 13:07:03,332 INFO aireGDL Downloaded measurement data for the device: 13598 and sensor: 58
+2021-03-08 13:07:04,168 INFO aireGDL Downloaded measurement data for the device: 13598 and sensor: 89
+2021-03-08 13:07:05,066 INFO aireGDL Downloaded measurement data for the device: 13598 and sensor: 88
+2021-03-08 13:07:05,924 INFO aireGDL Downloaded measurement data for the device: 13598 and sensor: 87
+2021-03-08 13:07:08,158 INFO aireGDL Downloaded measurement data for the device: 13598 and sensor: 56
+2021-03-08 13:07:09,075 INFO aireGDL Downloaded measurement data for the device: 13598 and sensor: 55
+2021-03-08 13:07:09,511 INFO aireGDL Downloaded measurement data for the device 13647
+2021-03-08 13:07:10,371 INFO aireGDL Downloaded measurement data for the device: 13647 and sensor: 113
+2021-03-08 13:07:11,181 INFO aireGDL Downloaded measurement data for the device: 13647 and sensor: 112
+2021-03-08 13:07:12,113 INFO aireGDL Downloaded measurement data for the device: 13647 and sensor: 14
+2021-03-08 13:07:14,895 INFO aireGDL Downloaded measurement data for the device: 13647 and sensor: 10
+2021-03-08 13:07:15,754 INFO aireGDL Downloaded measurement data for the device: 13647 and sensor: 53
+2021-03-08 13:07:16,780 INFO aireGDL Downloaded measurement data for the device: 13647 and sensor: 58
+2021-03-08 13:07:17,563 INFO aireGDL Downloaded measurement data for the device: 13647 and sensor: 89
+2021-03-08 13:07:18,319 INFO aireGDL Downloaded measurement data for the device: 13647 and sensor: 88
+2021-03-08 13:07:21,080 INFO aireGDL Downloaded measurement data for the device: 13647 and sensor: 87
+2021-03-08 13:07:24,365 INFO aireGDL Downloaded measurement data for the device: 13647 and sensor: 56
+2021-03-08 13:07:27,191 INFO aireGDL Downloaded measurement data for the device: 13647 and sensor: 55
+2021-03-08 13:07:27,677 INFO aireGDL Downloaded measurement data for the device 13689
+2021-03-08 13:07:28,549 INFO aireGDL Downloaded measurement data for the device: 13689 and sensor: 113
+2021-03-08 13:07:31,347 INFO aireGDL Downloaded measurement data for the device: 13689 and sensor: 112
+2021-03-08 13:07:31,995 INFO aireGDL Downloaded measurement data for the device: 13689 and sensor: 14
+2021-03-08 13:07:34,674 INFO aireGDL Downloaded measurement data for the device: 13689 and sensor: 10
+2021-03-08 13:07:35,462 INFO aireGDL Downloaded measurement data for the device: 13689 and sensor: 53
+2021-03-08 13:07:36,259 INFO aireGDL Downloaded measurement data for the device: 13689 and sensor: 58
+2021-03-08 13:07:37,050 INFO aireGDL Downloaded measurement data for the device: 13689 and sensor: 89
+2021-03-08 13:07:37,956 INFO aireGDL Downloaded measurement data for the device: 13689 and sensor: 88
+2021-03-08 13:07:38,628 INFO aireGDL Downloaded measurement data for the device: 13689 and sensor: 87
+2021-03-08 13:07:39,502 INFO aireGDL Downloaded measurement data for the device: 13689 and sensor: 56
+2021-03-08 13:07:40,213 INFO aireGDL Downloaded measurement data for the device: 13689 and sensor: 55
+2021-03-08 13:07:40,676 INFO aireGDL Downloaded measurement data for the device 13702
+2021-03-08 13:07:41,319 INFO aireGDL Downloaded measurement data for the device: 13702 and sensor: 113
+2021-03-08 13:07:42,152 INFO aireGDL Downloaded measurement data for the device: 13702 and sensor: 112
+2021-03-08 13:07:46,764 INFO aireGDL Downloaded measurement data for the device: 13702 and sensor: 14
+2021-03-08 13:07:47,494 INFO aireGDL Downloaded measurement data for the device: 13702 and sensor: 10
+2021-03-08 13:07:48,245 INFO aireGDL Downloaded measurement data for the device: 13702 and sensor: 53
+2021-03-08 13:07:48,975 INFO aireGDL Downloaded measurement data for the device: 13702 and sensor: 58
+2021-03-08 13:07:49,727 INFO aireGDL Downloaded measurement data for the device: 13702 and sensor: 89
+2021-03-08 13:07:52,199 INFO aireGDL Downloaded measurement data for the device: 13702 and sensor: 88
+2021-03-08 13:07:52,929 INFO aireGDL Downloaded measurement data for the device: 13702 and sensor: 87
+2021-03-08 13:07:53,782 INFO aireGDL Downloaded measurement data for the device: 13702 and sensor: 56
+2021-03-08 13:07:54,547 INFO aireGDL Downloaded measurement data for the device: 13702 and sensor: 55
+2021-03-08 13:07:55,062 INFO aireGDL Downloaded measurement data for the device 13770
+2021-03-08 13:07:55,864 INFO aireGDL Downloaded measurement data for the device: 13770 and sensor: 113
+2021-03-08 13:07:56,372 INFO aireGDL Downloaded measurement data for the device: 13770 and sensor: 112
+2021-03-08 13:07:56,897 INFO aireGDL Downloaded measurement data for the device: 13770 and sensor: 14
+2021-03-08 13:07:57,674 INFO aireGDL Downloaded measurement data for the device: 13770 and sensor: 10
+2021-03-08 13:07:58,234 INFO aireGDL Downloaded measurement data for the device: 13770 and sensor: 53
+2021-03-08 13:07:58,765 INFO aireGDL Downloaded measurement data for the device: 13770 and sensor: 58
+2021-03-08 13:07:59,274 INFO aireGDL Downloaded measurement data for the device: 13770 and sensor: 89
+2021-03-08 13:07:59,718 INFO aireGDL Downloaded measurement data for the device: 13770 and sensor: 88
+2021-03-08 13:08:00,189 INFO aireGDL Downloaded measurement data for the device: 13770 and sensor: 87
+2021-03-08 13:08:00,663 INFO aireGDL Downloaded measurement data for the device: 13770 and sensor: 56
+2021-03-08 13:08:01,118 INFO aireGDL Downloaded measurement data for the device: 13770 and sensor: 55
+2021-03-08 13:08:01,589 INFO aireGDL Downloaded measurement data for the device 13771
+2021-03-08 13:08:02,204 INFO aireGDL Downloaded measurement data for the device: 13771 and sensor: 113
+2021-03-08 13:08:02,902 INFO aireGDL Downloaded measurement data for the device: 13771 and sensor: 112
+2021-03-08 13:08:05,972 INFO aireGDL Downloaded measurement data for the device: 13771 and sensor: 14
+2021-03-08 13:08:06,808 INFO aireGDL Downloaded measurement data for the device: 13771 and sensor: 10
+2021-03-08 13:08:10,006 INFO aireGDL Downloaded measurement data for the device: 13771 and sensor: 53
+2021-03-08 13:08:11,189 INFO aireGDL Downloaded measurement data for the device: 13771 and sensor: 58
+2021-03-08 13:08:12,582 INFO aireGDL Downloaded measurement data for the device: 13771 and sensor: 89
+2021-03-08 13:08:13,586 INFO aireGDL Downloaded measurement data for the device: 13771 and sensor: 88
+2021-03-08 13:08:15,327 INFO aireGDL Downloaded measurement data for the device: 13771 and sensor: 87
+2021-03-08 13:08:15,965 INFO aireGDL Downloaded measurement data for the device: 13771 and sensor: 56
+2021-03-08 13:08:16,611 INFO aireGDL Downloaded measurement data for the device: 13771 and sensor: 55
+2021-03-08 13:08:17,150 INFO aireGDL Downloaded measurement data for the device 13772
+2021-03-08 13:08:17,609 INFO aireGDL Downloaded measurement data for the device: 13772 and sensor: 113
+2021-03-08 13:08:18,144 INFO aireGDL Downloaded measurement data for the device: 13772 and sensor: 112
+2021-03-08 13:08:18,631 INFO aireGDL Downloaded measurement data for the device: 13772 and sensor: 14
+2021-03-08 13:08:19,149 INFO aireGDL Downloaded measurement data for the device: 13772 and sensor: 10
+2021-03-08 13:08:19,938 INFO aireGDL Downloaded measurement data for the device: 13772 and sensor: 53
+2021-03-08 13:08:20,408 INFO aireGDL Downloaded measurement data for the device: 13772 and sensor: 58
+2021-03-08 13:08:20,920 INFO aireGDL Downloaded measurement data for the device: 13772 and sensor: 89
+2021-03-08 13:08:23,704 INFO aireGDL Downloaded measurement data for the device: 13772 and sensor: 88
+2021-03-08 13:08:25,555 INFO aireGDL Downloaded measurement data for the device: 13772 and sensor: 87
+2021-03-08 13:08:26,367 INFO aireGDL Downloaded measurement data for the device: 13772 and sensor: 56
+2021-03-08 13:08:29,059 INFO aireGDL Downloaded measurement data for the device: 13772 and sensor: 55
+2021-03-08 13:08:34,368 INFO aireGDL Creating SQL engine
+2021-03-08 13:08:34,390 INFO aireGDL Getting smartcitizen from DB
+2021-03-08 13:09:58,656 INFO aireGDL smartcitizen retrived

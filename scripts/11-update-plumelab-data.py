@@ -3,6 +3,7 @@ import sys
 import geopandas as gpd
 import pandas as pd
 import numpy as np
+import datetime
 
 module_path = os.path.abspath(os.path.join('..'))
 if module_path not in sys.path:
@@ -16,12 +17,30 @@ def main():
                  14823, 13597, 14811, 13593, 13703, 14829, 14204, 14834, 13093, 14618,
                  13595, 13638, 14709, 13949, 14616, 14794, 13360, 13946, 14669, 14700]
 
+    gdf_db = aqiGDL.gdf_from_db('plumbe', 'public')
+
+    aqiGDL.log(
+            f'Downloaded gdf from database') 
+
+    sensor_db = list(gdf_db.sensor_id.unique().astype('int'))
+
+    sensor_dif = list(set(sensor_id) - set(sensor_db))
+
+    last_download_date = max(gdf_db.date)
+
     gdf_all = gpd.GeoDataFrame()
+
+    tf = round(datetime.datetime.now().timestamp())
 
     for s in sensor_id:
         s = str(s)
-        ti = str(1590987600)
-        tf = str(1612850399)
+        
+        if s in sensor_dif:
+            ti = str(1590987600)
+
+        else:
+            ti = last_download_date
+
         register = 'measures', 'positions'
 
         url = (
@@ -179,7 +198,7 @@ def main():
             gdf_aq['sensor_id'] = s
 
             gdf_all = gdf_all.append(gdf_aq)
-            
+
     aqiGDL.log('Done with download')
     aqiGDL.gdf_to_db(gdf_all, 'plumbe',
                         schema='public', if_exists='append')
