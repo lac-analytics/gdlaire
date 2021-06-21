@@ -12,6 +12,7 @@ if module_path not in sys.path:
 
 def main(start='2013/12/31', end='2019/12/31', save=False):
 
+    #donwload data from databases
     query = f"SELECT * FROM data.simaj_data_day WHERE \"FECHA\" between \'{start}\' and \'{end}\'"
     df = aqiGDL.df_from_query(query)
     df['FECHA'] = pd.to_datetime(df['FECHA']).dt.date
@@ -28,23 +29,24 @@ def main(start='2013/12/31', end='2019/12/31', save=False):
 
     df_estaciones.drop(columns=['geometry'], inplace=True)
 
-    for i in range(0, len(df)):
-        df_estaciones['pos'] = df_estaciones.Name.str.find('.')
-        df_estaciones.EST_MIMACRO = df_estaciones.apply(
-            lambda x: x.Name[0:x['pos']], axis=1)
-
-    df_estaciones.drop(columns=['pos'], inplace=True)
+    # avoid numbers and spaces in station names
+    df_estaciones['EST_MIMACRO'] = df_estaciones['Name'].str.split(" ", n=1, expand=True)[
+        1]
 
     aqiGDL.log('Created id column by MiMacro station database')
 
+    empty0 = ''  # string used for logging empty values
+
     i = 0
 
+    #interpolation
     for d in df.FECHA.unique():
 
         for p in df.PARAM.unique():
 
             for est in df_estaciones.EST_MIMACRO.unique():
-
+                
+                # coordinates for interpolation
                 long_int = df_estaciones.loc[df_estaciones.EST_MIMACRO ==
                                              est]['x'].iloc[0]
                 lat_int = df_estaciones.loc[df_estaciones.EST_MIMACRO ==
@@ -52,25 +54,28 @@ def main(start='2013/12/31', end='2019/12/31', save=False):
 
                 simaj = df.loc[(df.FECHA == d) & (df.PARAM == p)]
 
+                # interpolate concentration
                 c = aqiGDL.interpolate_atpoint(
                     long_int, lat_int, simaj)
 
                 if c == -1:
 
-                    aqiGDL.log(
-                        f'Empty value at parameter: {p}, date: {d} and iteration: {i}')
+                    empty1 = (f'Empty value at parameter: {p}, date: {d}')
 
-                    df_mimacro.loc[i] = [d, p, est, np.nan,
-                                         long_int,
-                                         lat_int
-                                         ]
+                    # checks if a parameter for a specified date is empty, so it doesn't repeat the log
+                    if empty0 != empty1:
 
-                else:
+                        empty0 = empty1
 
-                    df_mimacro.loc[i] = [d, p, est, c,
-                                         long_int,
-                                         lat_int
-                                         ]
+                        aqiGDL.log(
+                            f'Empty value at parameter: {p}, date: {d} and iteration: {i}')
+
+                        c = np.nan
+
+                df_mimacro.loc[i] = [d, p, est, c,
+                                        long_int,
+                                        lat_int
+                                        ]
 
                 if (i % 10000) == 0:
 
