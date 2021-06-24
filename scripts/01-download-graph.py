@@ -11,7 +11,7 @@ if module_path not in sys.path:
 
 
 def main(city, save=False):
-    polygon = gpd.read_file('../data/raw/Guadalajara_area.geojson')
+    polygon = gpd.read_file(f'../data/raw/{city}_area.geojson')
     aqiGDL.log('Polygon loaded')
     polygon = polygon['geometry'][0]
     G = aqiGDL.download_graph(polygon, network_type='all_private')
