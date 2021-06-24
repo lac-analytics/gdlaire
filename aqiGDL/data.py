@@ -336,72 +336,31 @@ def restructure_database(interval='hour'):
     return (simaj_reestructurado_all)
 
 
-def week_average (df, station, interval = 7, year_start=2014, year_end=2019):
+def week_average (df, station, year_start=2014, year_end=2019):
 
     station_column = 'EST_'+station
 
-    df_week = pd.DataFrame(columns=['S_ID','S_YEAR','PARAM',station_column,'CONC','DESV_EST','LONG','LAT'])
+    df_week = pd.DataFrame(columns=['CONC', 'LONG', 'LAT', 'PARAM',
+                                station_column,'S_ID','S_YEAR','STD'])
     
     year = [y for y in range (year_start, year_end+1)]
 
-    i=0
-
-    for y in year:
-        
-        for s in range(1,53):
-            
-            for p in df.PARAM.unique():
-                
-                for est in df[station_column].unique():
-                
-                    df_week.loc[i]=['S'+str(s),'S'+str(s)+'-'+str(y), p,
-                                    est, np.nan, np.nan, 
-                                    df.loc[df[station_column]==est]['LONG'].iloc[0],
-                                    df.loc[df[station_column]==est]['LAT'].iloc[0],
-                                    ]
-
-                    i+=1
-                    
-
-    interval = 7
-
     for p in df.PARAM.unique():
+        
+        for est in df[station_column].unique(): 
             
-        for est in df[station_column].unique():
+            for y in year:
                         
-            df_analysis = df.loc[(df.PARAM==p)&(df[station_column]==est)]
+                df_analysis = df.loc[(df.PARAM==p)&(df[station_column]==est)&(df.index.year==y)]
 
-            divide = int(round((len(df_analysis)/interval),0))
-
-            s = 1
-
-            for i in range(0, divide):
-
-                mean_conc = df_analysis.iloc[i*interval:i*interval+interval]['CONC'].mean()
-
-                std_conc = df_analysis.iloc[i*interval:i*interval+interval]['CONC'].std()
-
-                day_year = i*interval+int((((i*interval+interval)-(i*interval))/2)-0.5)
+                df_mean = df_analysis.resample("W").mean()
+                df_mean['PARAM'] = p
+                df_mean[station_column] = est
+                df_mean['S_ID'] = ['S'+str(x) for x in range(1,len(df_mean)+1)]
+                df_mean['S_YEAR'] = ['S'+str(x)+'-'+str(y) for x in range(1,len(df_mean)+1)]
+                df_mean['STD'] = df_analysis[['CONC']].resample('W').std()
                 
-                year_df = df_analysis['FECHA'].iloc[day_year].year
-                
-                df_week.loc[(df_week.S_ID=='S'+str(s)) & 
-                        (df_week.S_YEAR=='S'+str(s)+'-'+str(year_df)) & 
-                        (df_week.PARAM==p) &
-                            (df_week[station_column]==est),
-                            'CONC'] = mean_conc
-
-                df_week.loc[(df_week.S_ID=='S'+str(s)) & 
-                        (df_week.S_YEAR=='S'+str(s)+'-'+str(year_df)) & 
-                        (df_week.PARAM==p) &
-                            (df_week[station_column]==est),
-                            'DESV_EST'] = std_conc
-
-                s += 1
-
-                if s > 52:
-
-                    s = 0
+                df_week = df_week.append(df_mean)
 
     return (df_week)
 
