@@ -12,14 +12,8 @@ log_level = lg.INFO
 log_name = "aireGDL"
 log_filename = "aireGDL"
 
-# Database settings old
-url = 'airegdlpip.cptlhu1n34ei.us-west-1.rds.amazonaws.com'
-user = 'postgres'
-pw = 'pipguadalajara'
-db = 'postgres'
-
 # Database settings
-# url = 'pip-gdl.cxkuumj8eis0.us-west-2.rds.amazonaws.com'
-# user = 'pipderive'
-# pw = 'aireGuadalajara'
-# db = 'postgres'
+url = 'pip-gdl.cxkuumj8eis0.us-west-2.rds.amazonaws.com'
+user = 'pipderive'
+pw = 'aireGuadalajara'
+db = 'postgres'
