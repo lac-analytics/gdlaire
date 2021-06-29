@@ -13,3 +13,13 @@
 2021-06-29 15:37:50,122 INFO aireGDL Nodes loaded
 2021-06-29 15:40:22,475 INFO aireGDL Edges loaded
 2021-06-29 15:41:04,166 INFO aireGDL Graph created
+2021-06-29 18:13:29,054 INFO aireGDL Creating SQL engine
+2021-06-29 18:13:35,789 INFO aireGDL Getting DB connection
+2021-06-29 18:13:35,789 INFO aireGDL Creating SQL engine
+2021-06-29 18:13:35,790 INFO aireGDL Uploading table estaciones to database
+2021-06-29 18:13:42,751 INFO aireGDL Table estaciones in DB
+2021-06-29 18:24:02,899 INFO aireGDL Creating SQL engine
+2021-06-29 18:24:12,324 INFO aireGDL Getting DB connection
+2021-06-29 18:24:12,325 INFO aireGDL Creating SQL engine
+2021-06-29 18:24:12,326 INFO aireGDL Uploading table puntos_pip to database
+2021-06-29 18:24:20,718 INFO aireGDL Table puntos_pip in DB
