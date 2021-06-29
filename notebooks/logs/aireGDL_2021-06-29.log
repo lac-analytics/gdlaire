@@ -1,0 +1,15 @@
+2021-06-29 11:42:32,410 INFO aireGDL Creating SQL engine
+2021-06-29 11:43:25,165 INFO aireGDL Creating SQL engine
+2021-06-29 11:44:03,908 INFO aireGDL Nodes loaded
+2021-06-29 11:46:01,667 INFO aireGDL Edges loaded
+2021-06-29 11:46:47,097 INFO aireGDL Graph created
+2021-06-29 15:09:44,959 INFO aireGDL Creating SQL engine
+2021-06-29 15:11:03,546 INFO aireGDL Nodes loaded
+2021-06-29 15:15:34,012 INFO aireGDL Edges loaded
+2021-06-29 15:19:11,403 INFO aireGDL Graph created
+2021-06-29 15:36:57,630 INFO aireGDL Creating SQL engine
+2021-06-29 15:36:57,633 INFO aireGDL Getting estaciones_gdl from DB
+2021-06-29 15:37:25,174 INFO aireGDL Creating SQL engine
+2021-06-29 15:37:50,122 INFO aireGDL Nodes loaded
+2021-06-29 15:40:22,475 INFO aireGDL Edges loaded
+2021-06-29 15:41:04,166 INFO aireGDL Graph created

@@ -11,17 +11,17 @@ if module_path not in sys.path:
 
 
 def main():
-
-    sensor_id = [13164, 13335, 13954, 13920, 14835, 13178, 14002, 13116, 13684, 15602,
-                 14823, 13597, 14811, 13593, 13703, 14829, 14204, 14834, 13093, 14618,
+    # 13164, 13335, 13954, 13920, 14835, 13178, 14002, 13116, 13684, 15602,
+    #                  14823, 13597, 14811, 13593, 13703,14829, 14204,14834,
+    sensor_id = [13093, 14618,
                  13595, 13638, 14709, 13949, 14616, 14794, 13360, 13946, 14669, 14700]
 
     gdf_all = gpd.GeoDataFrame()
 
     for s in sensor_id:
         s = str(s)
-        ti = str(1590987600)
-        tf = str(1612850399)
+        ti = str(1615148556)
+        tf = str(1624971598)
         register = 'measures', 'positions'
 
         url = (
@@ -43,16 +43,17 @@ def main():
             df_mes = df_mes.append(df_mes_t)
 
             while len(df_mes_t) == 2000:
+                try:
+                    o += 1
 
-                o += 1
+                    url = (
+                        f'https://api.plumelabs.com/2.0/organizations/58/sensors/{register[0]}?token=pNogJHPUrTzuBFhElACiZkdV&sensor_id={s}&start_date={ti}&end_date={tf}&offset={2000*o}')
 
-                url = (
-                    f'https://api.plumelabs.com/2.0/organizations/58/sensors/{register[0]}?token=pNogJHPUrTzuBFhElACiZkdV&sensor_id={s}&start_date={ti}&end_date={tf}&offset={2000*o}')
+                    df_mes_t = aqiGDL.plume_data(url, register[0])
 
-                df_mes_t = aqiGDL.plume_data(url, register[0])
-
-                df_mes = df_mes.append(df_mes_t)
-
+                    df_mes = df_mes.append(df_mes_t)
+                except Exception as e:
+                    aqiGDL.log(f'Issue with {s}: {e}')
         df_mes.reset_index(inplace=True)
         df_mes.drop(columns=['index'], inplace=True)
 

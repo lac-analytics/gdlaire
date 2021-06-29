@@ -1,0 +1,177 @@
+2021-06-29 15:03:13,728 INFO aireGDL Starting script
+2021-06-29 15:03:14,168 INFO aireGDL Downloaded a total of 0 for measures for 13164
+2021-06-29 15:03:14,496 INFO aireGDL Downloaded a total of 0 for positions for 13164
+2021-06-29 15:03:25,688 INFO aireGDL Downloaded a total of 10255 for measures for 13335
+2021-06-29 15:03:26,331 INFO aireGDL Downloaded a total of 460 for positions for 13335
+2021-06-29 15:03:32,493 INFO aireGDL Interpolated position data for moving measurements for 13335
+2021-06-29 15:07:02,726 INFO aireGDL Interpolated position data for stationary measurements for 13335
+2021-06-29 15:07:03,184 INFO aireGDL Changed timezone for 13335
+2021-06-29 15:07:03,926 INFO aireGDL Interpolated air quality data for position measurements for 13335
+2021-06-29 15:07:04,370 INFO aireGDL Done with download
+2021-06-29 15:07:04,370 INFO aireGDL Creating SQL engine
+2021-06-29 15:07:11,727 INFO aireGDL Getting DB connection
+2021-06-29 15:07:11,728 INFO aireGDL Creating SQL engine
+2021-06-29 15:07:11,730 INFO aireGDL Uploading table plumbe to database
+2021-06-29 15:07:16,968 INFO aireGDL Starting script
+2021-06-29 15:07:25,506 INFO aireGDL Downloaded data from Smart Citizen with the tag PIPCiudadFuturo
+2021-06-29 15:07:25,948 INFO aireGDL Downloaded measurement data for the device 13450
+2021-06-29 15:07:27,916 INFO aireGDL Downloaded measurement data for the device: 13450 and sensor: 113
+2021-06-29 15:07:30,336 INFO aireGDL Table plumbe in DB
+2021-06-29 15:07:30,336 INFO aireGDL Data in DB
+2021-06-29 15:07:30,740 INFO aireGDL Downloaded a total of 0 for measures for 13954
+2021-06-29 15:07:31,066 INFO aireGDL Downloaded a total of 0 for positions for 13954
+2021-06-29 15:07:31,391 INFO aireGDL Downloaded a total of 0 for measures for 13920
+2021-06-29 15:07:31,748 INFO aireGDL Downloaded a total of 0 for positions for 13920
+2021-06-29 15:07:32,971 INFO aireGDL Downloaded measurement data for the device: 13450 and sensor: 112
+2021-06-29 15:07:34,185 INFO aireGDL Downloaded measurement data for the device: 13450 and sensor: 14
+2021-06-29 15:07:37,582 INFO aireGDL Downloaded a total of 5773 for measures for 14835
+2021-06-29 15:07:37,602 INFO aireGDL Downloaded measurement data for the device: 13450 and sensor: 10
+2021-06-29 15:07:38,277 INFO aireGDL Downloaded a total of 848 for positions for 14835
+2021-06-29 15:07:39,083 INFO aireGDL Downloaded measurement data for the device: 13450 and sensor: 53
+2021-06-29 15:07:51,069 INFO aireGDL Interpolated position data for moving measurements for 14835
+2021-06-29 15:11:03,825 INFO aireGDL Interpolated position data for stationary measurements for 14835
+2021-06-29 15:11:03,970 INFO aireGDL Changed timezone for 14835
+2021-06-29 15:11:04,356 INFO aireGDL Interpolated air quality data for position measurements for 14835
+2021-06-29 15:11:04,720 INFO aireGDL Done with download
+2021-06-29 15:11:04,722 INFO aireGDL Creating SQL engine
+2021-06-29 15:11:09,702 INFO aireGDL Getting DB connection
+2021-06-29 15:11:09,702 INFO aireGDL Creating SQL engine
+2021-06-29 15:11:09,703 INFO aireGDL Uploading table plumbe to database
+2021-06-29 15:11:37,563 INFO aireGDL Table plumbe in DB
+2021-06-29 15:11:37,564 INFO aireGDL Data in DB
+2021-06-29 15:11:38,258 INFO aireGDL Downloaded a total of 0 for measures for 13178
+2021-06-29 15:11:38,594 INFO aireGDL Downloaded a total of 0 for positions for 13178
+2021-06-29 15:13:16,227 INFO aireGDL Downloaded a total of 34969 for measures for 14002
+2021-06-29 15:13:44,599 INFO aireGDL Downloaded a total of 27121 for positions for 14002
+2021-06-29 15:22:11,539 INFO aireGDL Interpolated position data for moving measurements for 14002
+2021-06-29 15:36:40,314 INFO aireGDL Interpolated position data for stationary measurements for 14002
+2021-06-29 15:36:41,235 INFO aireGDL Changed timezone for 14002
+2021-06-29 15:36:41,782 INFO aireGDL Interpolated air quality data for position measurements for 14002
+2021-06-29 15:36:42,700 INFO aireGDL Done with download
+2021-06-29 15:36:42,700 INFO aireGDL Creating SQL engine
+2021-06-29 15:36:49,768 INFO aireGDL Getting DB connection
+2021-06-29 15:36:49,769 INFO aireGDL Creating SQL engine
+2021-06-29 15:36:49,770 INFO aireGDL Uploading table plumbe to database
+2021-06-29 15:38:17,627 INFO aireGDL Table plumbe in DB
+2021-06-29 15:38:17,628 INFO aireGDL Data in DB
+2021-06-29 15:38:18,830 INFO aireGDL Downloaded a total of 0 for measures for 13116
+2021-06-29 15:38:19,916 INFO aireGDL Downloaded a total of 0 for positions for 13116
+2021-06-29 15:38:20,729 INFO aireGDL Downloaded a total of 0 for measures for 13684
+2021-06-29 15:38:21,844 INFO aireGDL Downloaded a total of 0 for positions for 13684
+2021-06-29 15:38:33,808 INFO aireGDL Downloaded a total of 2811 for measures for 15602
+2021-06-29 15:38:36,478 INFO aireGDL Downloaded a total of 2612 for positions for 15602
+2021-06-29 15:38:39,804 INFO aireGDL Interpolated position data for moving measurements for 15602
+2021-06-29 15:39:03,892 INFO aireGDL Interpolated position data for stationary measurements for 15602
+2021-06-29 15:39:03,941 INFO aireGDL Changed timezone for 15602
+2021-06-29 15:39:04,114 INFO aireGDL Interpolated air quality data for position measurements for 15602
+2021-06-29 15:39:04,273 INFO aireGDL Done with download
+2021-06-29 15:39:04,273 INFO aireGDL Creating SQL engine
+2021-06-29 15:39:14,342 INFO aireGDL Getting DB connection
+2021-06-29 15:39:14,342 INFO aireGDL Creating SQL engine
+2021-06-29 15:39:14,343 INFO aireGDL Uploading table plumbe to database
+2021-06-29 15:39:52,438 INFO aireGDL Table plumbe in DB
+2021-06-29 15:39:52,439 INFO aireGDL Data in DB
+2021-06-29 15:39:53,010 INFO aireGDL Downloaded a total of 0 for measures for 14823
+2021-06-29 15:39:53,793 INFO aireGDL Downloaded a total of 0 for positions for 14823
+2021-06-29 15:39:54,336 INFO aireGDL Downloaded a total of 0 for measures for 13597
+2021-06-29 15:39:54,826 INFO aireGDL Downloaded a total of 0 for positions for 13597
+2021-06-29 15:40:00,570 INFO aireGDL Downloaded a total of 3234 for measures for 14811
+2021-06-29 15:40:01,067 INFO aireGDL Downloaded a total of 55 for positions for 14811
+2021-06-29 15:40:01,469 INFO aireGDL Interpolated position data for moving measurements for 14811
+2021-06-29 15:40:30,951 INFO aireGDL Interpolated position data for stationary measurements for 14811
+2021-06-29 15:40:31,003 INFO aireGDL Changed timezone for 14811
+2021-06-29 15:40:31,109 INFO aireGDL Interpolated air quality data for position measurements for 14811
+2021-06-29 15:40:31,275 INFO aireGDL Done with download
+2021-06-29 15:40:31,275 INFO aireGDL Creating SQL engine
+2021-06-29 15:40:39,142 INFO aireGDL Getting DB connection
+2021-06-29 15:40:39,142 INFO aireGDL Creating SQL engine
+2021-06-29 15:40:39,143 INFO aireGDL Uploading table plumbe to database
+2021-06-29 15:41:38,555 INFO aireGDL Table plumbe in DB
+2021-06-29 15:41:38,555 INFO aireGDL Data in DB
+2021-06-29 15:41:38,973 INFO aireGDL Downloaded a total of 0 for measures for 13593
+2021-06-29 15:41:39,326 INFO aireGDL Downloaded a total of 0 for positions for 13593
+2021-06-29 15:41:40,844 INFO aireGDL Downloaded a total of 953 for measures for 13703
+2021-06-29 15:41:41,249 INFO aireGDL Downloaded a total of 95 for positions for 13703
+2021-06-29 15:41:41,557 INFO aireGDL Interpolated position data for moving measurements for 13703
+2021-06-29 15:41:46,132 INFO aireGDL Interpolated position data for stationary measurements for 13703
+2021-06-29 15:41:46,146 INFO aireGDL Changed timezone for 13703
+2021-06-29 15:41:46,176 INFO aireGDL Interpolated air quality data for position measurements for 13703
+2021-06-29 15:41:46,233 INFO aireGDL Done with download
+2021-06-29 15:41:46,234 INFO aireGDL Creating SQL engine
+2021-06-29 15:41:51,156 INFO aireGDL Getting DB connection
+2021-06-29 15:41:51,157 INFO aireGDL Creating SQL engine
+2021-06-29 15:41:51,157 INFO aireGDL Uploading table plumbe to database
+2021-06-29 15:42:21,655 INFO aireGDL Table plumbe in DB
+2021-06-29 15:42:21,655 INFO aireGDL Data in DB
+2021-06-29 15:42:22,072 INFO aireGDL Downloaded a total of 0 for measures for 14829
+2021-06-29 15:42:22,395 INFO aireGDL Downloaded a total of 0 for positions for 14829
+2021-06-29 15:53:42,196 INFO aireGDL Starting script
+2021-06-29 15:54:38,931 INFO aireGDL Starting script
+2021-06-29 15:59:07,016 INFO aireGDL Starting script
+2021-06-29 16:01:49,708 INFO aireGDL Starting script
+2021-06-29 16:01:57,497 INFO aireGDL Issue with 13093: 'NoneType' object has no attribute 'keys'
+2021-06-29 16:01:59,152 INFO aireGDL Issue with 13093: 'NoneType' object has no attribute 'keys'
+2021-06-29 16:02:13,626 INFO aireGDL Downloaded a total of 26276 for measures for 13093
+2021-06-29 16:02:17,962 INFO aireGDL Downloaded a total of 7166 for positions for 13093
+2021-06-29 16:03:15,105 INFO aireGDL Starting script
+2021-06-29 16:03:21,542 INFO aireGDL Issue with 14204: 'NoneType' object has no attribute 'keys'
+2021-06-29 16:03:23,104 INFO aireGDL Issue with 14204: 'NoneType' object has no attribute 'keys'
+2021-06-29 16:03:27,068 INFO aireGDL Downloaded a total of 10087 for measures for 14204
+2021-06-29 16:03:29,033 INFO aireGDL Downloaded a total of 3086 for positions for 14204
+2021-06-29 16:03:40,842 INFO aireGDL Interpolated position data for moving measurements for 14204
+2021-06-29 16:04:38,817 INFO aireGDL Interpolated position data for stationary measurements for 14204
+2021-06-29 16:04:39,008 INFO aireGDL Changed timezone for 14204
+2021-06-29 16:04:39,118 INFO aireGDL Interpolated air quality data for position measurements for 14204
+2021-06-29 16:04:39,262 INFO aireGDL Done with download
+2021-06-29 16:04:39,263 INFO aireGDL Creating SQL engine
+2021-06-29 16:04:45,739 INFO aireGDL Getting DB connection
+2021-06-29 16:04:45,739 INFO aireGDL Creating SQL engine
+2021-06-29 16:04:45,740 INFO aireGDL Uploading table plumbe to database
+2021-06-29 16:05:10,716 INFO aireGDL Table plumbe in DB
+2021-06-29 16:05:10,716 INFO aireGDL Data in DB
+2021-06-29 16:05:15,872 INFO aireGDL Issue with 14834: 'NoneType' object has no attribute 'keys'
+2021-06-29 16:05:23,533 INFO aireGDL Downloaded a total of 11785 for measures for 14834
+2021-06-29 16:05:24,982 INFO aireGDL Downloaded a total of 2683 for positions for 14834
+2021-06-29 16:05:34,268 INFO aireGDL Interpolated position data for moving measurements for 14834
+2021-06-29 17:20:37,452 INFO aireGDL Starting script
+2021-06-29 17:20:41,564 INFO aireGDL Issue with 14834: 'NoneType' object has no attribute 'keys'
+2021-06-29 17:20:47,289 INFO aireGDL Downloaded a total of 11785 for measures for 14834
+2021-06-29 17:20:48,824 INFO aireGDL Downloaded a total of 2683 for positions for 14834
+2021-06-29 17:20:58,406 INFO aireGDL Interpolated position data for moving measurements for 14834
+2021-06-29 17:52:08,237 INFO aireGDL Creating SQL engine
+2021-06-29 17:52:08,303 INFO aireGDL Getting mimacro_data_day from DB
+2021-06-29 18:03:47,171 INFO aireGDL Creating SQL engine
+2021-06-29 18:03:47,240 INFO aireGDL Getting mimacro_data_day from DB
+2021-06-29 18:04:35,414 INFO aireGDL mimacro_data_day retrived
+2021-06-29 18:04:35,414 INFO aireGDL Creating SQL engine
+2021-06-29 18:04:42,109 INFO aireGDL Getting DB connection
+2021-06-29 18:04:42,109 INFO aireGDL Creating SQL engine
+2021-06-29 18:04:42,110 INFO aireGDL Uploading table mimacro_data_day to database
+2021-06-29 18:04:45,583 INFO aireGDL Starting script
+2021-06-29 18:04:59,430 INFO aireGDL Issue with 13093: 'NoneType' object has no attribute 'keys'
+2021-06-29 18:05:00,569 INFO aireGDL Issue with 13093: 'NoneType' object has no attribute 'keys'
+2021-06-29 18:05:13,085 INFO aireGDL Downloaded a total of 26276 for measures for 13093
+2021-06-29 18:05:16,943 INFO aireGDL Downloaded a total of 7166 for positions for 13093
+2021-06-29 18:06:13,966 INFO aireGDL Interpolated position data for moving measurements for 13093
+2021-06-29 18:07:31,233 INFO aireGDL Table mimacro_data_day in DB
+2021-06-29 18:07:31,233 INFO aireGDL data.mimacro_data_day migrated
+2021-06-29 18:07:31,310 INFO aireGDL Creating SQL engine
+2021-06-29 18:07:31,310 INFO aireGDL Getting mimacro_data_week from DB
+2021-06-29 18:07:47,750 INFO aireGDL mimacro_data_week retrived
+2021-06-29 18:07:47,751 INFO aireGDL Creating SQL engine
+2021-06-29 18:07:54,000 INFO aireGDL Getting DB connection
+2021-06-29 18:07:54,000 INFO aireGDL Creating SQL engine
+2021-06-29 18:07:54,001 INFO aireGDL Uploading table mimacro_data_week to database
+2021-06-29 18:08:48,396 INFO aireGDL Table mimacro_data_week in DB
+2021-06-29 18:08:48,396 INFO aireGDL data.mimacro_data_week migrated
+2021-06-29 18:08:48,424 INFO aireGDL Creating SQL engine
+2021-06-29 18:08:48,425 INFO aireGDL Getting simaj_data_day from DB
+2021-06-29 18:09:11,570 INFO aireGDL simaj_data_day retrived
+2021-06-29 18:09:11,570 INFO aireGDL Creating SQL engine
+2021-06-29 18:09:16,856 INFO aireGDL Getting DB connection
+2021-06-29 18:09:16,857 INFO aireGDL Creating SQL engine
+2021-06-29 18:09:16,858 INFO aireGDL Uploading table simaj_data_day to database
+2021-06-29 18:10:17,508 INFO aireGDL Table simaj_data_day in DB
+2021-06-29 18:10:17,508 INFO aireGDL data.simaj_data_day migrated
+2021-06-29 18:10:17,530 INFO aireGDL Creating SQL engine
+2021-06-29 18:10:17,531 INFO aireGDL Getting simaj_data_hour from DB
