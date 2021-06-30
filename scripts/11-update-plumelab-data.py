@@ -20,7 +20,7 @@ def main():
     gdf_db = aqiGDL.gdf_from_db('plumbe', 'public')
 
     aqiGDL.log(
-            f'Downloaded gdf from database') 
+        f'Downloaded gdf from database')
 
     sensor_db = list(gdf_db.sensor_id.unique().astype('int'))
 
@@ -34,7 +34,7 @@ def main():
 
     for s in sensor_id:
         s = str(s)
-        
+
         if s in sensor_dif:
             ti = str(1590987600)
 
@@ -201,7 +201,7 @@ def main():
 
     aqiGDL.log('Done with download')
     aqiGDL.gdf_to_db(gdf_all, 'plumbe',
-                        schema='public', if_exists='append')
+                     schema='public', if_exists='append')
     aqiGDL.log('Data in DB')
 
 
