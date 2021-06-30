@@ -1,0 +1,16 @@
+2021-06-30 00:48:34,604 INFO aireGDL Creating SQL engine
+2021-06-30 00:48:34,651 INFO aireGDL Getting plumbe from DB
+2021-06-30 00:49:39,021 INFO aireGDL plumbe retrived
+2021-06-30 01:03:09,409 INFO aireGDL Creating SQL engine
+2021-06-30 01:03:11,167 INFO aireGDL Getting DB connection
+2021-06-30 01:03:11,168 INFO aireGDL Creating SQL engine
+2021-06-30 01:03:11,169 INFO aireGDL Uploading table plumbe to database
+2021-06-30 01:04:36,167 INFO aireGDL Table plumbe in DB
+2021-06-30 01:32:12,277 INFO aireGDL Creating SQL engine
+2021-06-30 01:32:12,279 INFO aireGDL Getting plumbe from DB
+2021-06-30 01:32:50,038 INFO aireGDL plumbe retrived
+2021-06-30 01:48:40,981 INFO aireGDL Creating SQL engine
+2021-06-30 01:48:42,771 INFO aireGDL Getting DB connection
+2021-06-30 01:48:42,771 INFO aireGDL Creating SQL engine
+2021-06-30 01:48:42,772 INFO aireGDL Uploading table plumbe to database
+2021-06-30 01:49:56,343 INFO aireGDL Table plumbe in DB

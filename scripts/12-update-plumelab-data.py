@@ -127,7 +127,7 @@ def main():
             gdf.drop(columns=['index'], inplace=True)
 
             gdf = gdf.set_crs("EPSG:4326")
-            gdf = gdf.to_crs("EPSG:32613")
+            gdf = gdf.to_crs("EPSG:6372")
 
             gdf.longitude = gdf.geometry.x
             gdf.latitude = gdf.geometry.y
@@ -175,7 +175,7 @@ def main():
             # Interpolate measures into positions
             gdf_mes = gpd.GeoDataFrame(df_mes, geometry=gpd.points_from_xy(
                 df_mes.longitude, df_mes.latitude))
-            gdf_mes = gdf_mes.set_crs("EPSG:32613")
+            gdf_mes = gdf_mes.set_crs("EPSG:6372")
 
             df_merge.interpolate(
                 method='linear', limit_direction='forward', axis=0, inplace=True)
@@ -188,7 +188,7 @@ def main():
             gdf_aq = gpd.GeoDataFrame(df_merge, geometry=gpd.points_from_xy(
                 df_merge.longitude, df_merge.latitude))
 
-            gdf_aq = gdf_aq.set_crs("EPSG:32613")
+            gdf_aq = gdf_aq.set_crs("EPSG:6372")
 
             gdf_aq.set_index('datetime', inplace=True)
 
