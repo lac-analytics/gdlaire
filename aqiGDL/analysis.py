@@ -211,19 +211,35 @@ def stationary_measure(df_mes, gdf):
     for i in range(len(df_mes)):
     
         traj = mpd.Trajectory(gdf,1)
+
+        if 'longitude' in df_mes.columns:
         
-        if math.isnan(df_mes.iloc[i]['longitude']):
-            
+            if math.isnan(df_mes.iloc[i]['longitude']):
+                
+                pos = (traj.get_position_at(datetime(df_mes.iloc[i]['datetime'].year,
+                                                        df_mes.iloc[i]['datetime'].month,
+                                                        df_mes.iloc[i]['datetime'].day,
+                                                        df_mes.iloc[i]['datetime'].hour,
+                                                        df_mes.iloc[i]['datetime'].minute,
+                                                        df_mes.iloc[i]['datetime'].second), method='nearest'))
+
+                df_mes.loc[i,'latitude'] = pos.y
+                df_mes.loc[i,'longitude'] = pos.x
+                df_mes.loc[i,'type'] = 'stationary'
+                df_mes.loc[i,'group'] = 0
+
+        else:
             pos = (traj.get_position_at(datetime(df_mes.iloc[i]['datetime'].year,
-                                                    df_mes.iloc[i]['datetime'].month,
-                                                    df_mes.iloc[i]['datetime'].day,
-                                                    df_mes.iloc[i]['datetime'].hour,
-                                                    df_mes.iloc[i]['datetime'].minute,
-                                                    df_mes.iloc[i]['datetime'].second), method='nearest'))
+                                                        df_mes.iloc[i]['datetime'].month,
+                                                        df_mes.iloc[i]['datetime'].day,
+                                                        df_mes.iloc[i]['datetime'].hour,
+                                                        df_mes.iloc[i]['datetime'].minute,
+                                                        df_mes.iloc[i]['datetime'].second), method='nearest'))
 
             df_mes.loc[i,'latitude'] = pos.y
             df_mes.loc[i,'longitude'] = pos.x
             df_mes.loc[i,'type'] = 'stationary'
             df_mes.loc[i,'group'] = 0
+
 
     return df_mes
