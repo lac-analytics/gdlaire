@@ -70,7 +70,7 @@ def main(start='2013/12/31', end='2019/12/31', save=False):
                         aqiGDL.log(
                             f'Empty value at parameter: {p}, date: {d} and iteration: {i}')
 
-                        c = np.nan
+                    c = np.nan
 
                 df_mimacro.loc[i] = [d, p, est, c,
                                         long_int,
