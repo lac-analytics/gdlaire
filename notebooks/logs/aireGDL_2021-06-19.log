@@ -1,0 +1,6 @@
+2021-06-19 18:11:30,634 INFO aireGDL Creating SQL engine
+2021-06-19 18:11:30,684 INFO aireGDL Getting estaciones_gdl from DB
+2021-06-19 18:22:02,825 INFO aireGDL Creating SQL engine
+2021-06-19 18:22:02,826 INFO aireGDL Getting data from DB
+2021-06-19 18:28:37,690 INFO aireGDL Creating SQL engine
+2021-06-19 18:28:37,717 INFO aireGDL Getting simaj_datahour from DB

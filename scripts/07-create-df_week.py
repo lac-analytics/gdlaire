@@ -14,8 +14,11 @@ def main(station, start='2013/12/31', end='2019/12/31', save=False):
 
     query = f"SELECT * FROM data.{station.lower()}_data_day WHERE \"FECHA\" between \'{start}\' and \'{end}\'"
     df = aqiGDL.df_from_query(query)
-    df['FECHA'] = pd.to_datetime(df['FECHA']).dt.date
+    
+    df.loc['FECHA'] = pd.to_datetime(df.FECHA, format='%Y-%m-%d')
     df.sort_values(by=['FECHA'], inplace=True)
+    df.set_index("FECHA", inplace=True)
+    df.index = pd.to_datetime(df.index)
 
     aqiGDL.log('Loaded air quality by day database')
 

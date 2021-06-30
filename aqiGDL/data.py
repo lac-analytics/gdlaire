@@ -336,79 +336,41 @@ def restructure_database(interval='hour'):
     return (simaj_reestructurado_all)
 
 
-def week_average (df, station, interval = 7, year_start=2014, year_end=2019):
+def week_average(df, station, year_start=2014, year_end=2019):
 
     station_column = 'EST_'+station
 
-    df_week = pd.DataFrame(columns=['S_ID','S_YEAR','PARAM',station_column,'CONC','DESV_EST','LONG','LAT'])
-    
-    year = [y for y in range (year_start, year_end+1)]
+    df_week = pd.DataFrame(columns=['CONC', 'LONG', 'LAT', 'PARAM',
+                                    station_column, 'S_ID', 'S_YEAR', 'STD'])
 
-    i=0
-
-    for y in year:
-        
-        for s in range(1,53):
-            
-            for p in df.PARAM.unique():
-                
-                for est in df[station_column].unique():
-                
-                    df_week.loc[i]=['S'+str(s),'S'+str(s)+'-'+str(y), p,
-                                    est, np.nan, np.nan, 
-                                    df.loc[df[station_column]==est]['LONG'].iloc[0],
-                                    df.loc[df[station_column]==est]['LAT'].iloc[0],
-                                    ]
-
-                    i+=1
-                    
-
-    interval = 7
+    year = [y for y in range(year_start, year_end+1)]
 
     for p in df.PARAM.unique():
-            
+
         for est in df[station_column].unique():
-                        
-            df_analysis = df.loc[(df.PARAM==p)&(df[station_column]==est)]
 
-            divide = int(round((len(df_analysis)/interval),0))
+            for y in year:
 
-            s = 1
+                df_analysis = df.loc[(df.PARAM == p) & (
+                    df[station_column] == est) & (df.index.year == y)]
 
-            for i in range(0, divide):
+                df_mean = df_analysis.resample("W").mean()
+                df_mean['PARAM'] = p
+                df_mean[station_column] = est
+                df_mean['S_ID'] = ['S'+str(x)
+                                   for x in range(1, len(df_mean)+1)]
+                df_mean['S_YEAR'] = ['S'+str(x)+'-'+str(y)
+                                     for x in range(1, len(df_mean)+1)]
+                df_mean['STD'] = df_analysis[['CONC']].resample('W').std()
 
-                mean_conc = df_analysis.iloc[i*interval:i*interval+interval]['CONC'].mean()
-
-                std_conc = df_analysis.iloc[i*interval:i*interval+interval]['CONC'].std()
-
-                day_year = i*interval+int((((i*interval+interval)-(i*interval))/2)-0.5)
-                
-                year_df = df_analysis['FECHA'].iloc[day_year].year
-                
-                df_week.loc[(df_week.S_ID=='S'+str(s)) & 
-                        (df_week.S_YEAR=='S'+str(s)+'-'+str(year_df)) & 
-                        (df_week.PARAM==p) &
-                            (df_week[station_column]==est),
-                            'CONC'] = mean_conc
-
-                df_week.loc[(df_week.S_ID=='S'+str(s)) & 
-                        (df_week.S_YEAR=='S'+str(s)+'-'+str(year_df)) & 
-                        (df_week.PARAM==p) &
-                            (df_week[station_column]==est),
-                            'DESV_EST'] = std_conc
-
-                s += 1
-
-                if s > 52:
-
-                    s = 0
+                df_week = df_week.append(df_mean)
 
     return (df_week)
 
 
 def plume_data(url, register):
     """Function that downloads data from the PlumeLabs api and returns it as a DataFrame
-    
+
     Arguments:
             url {str} -- url string for the plumelab api
             type {str} -- type of data, it can be measures or positions
@@ -422,6 +384,7 @@ def plume_data(url, register):
     df = pd.json_normalize(response, register)
 
     return df
+
 
 def time_break_trips(df_pos, time_break=5):
     """Function that creates groups according to the time between position registers
@@ -440,19 +403,20 @@ def time_break_trips(df_pos, time_break=5):
 
     g = 1
 
-    df_pos.loc[0,'group'] = 1
+    df_pos.loc[0, 'group'] = 1
 
     for i in range(1, len(df_pos)):
-        
-        if df_pos.loc[i,'diff'] <= 60 * time_break:
-            df_pos.loc[i,'group'] = g
-            
+
+        if df_pos.loc[i, 'diff'] <= 60 * time_break:
+            df_pos.loc[i, 'group'] = g
+
         else:
             g += 1
-            
-            df_pos.loc[i,'group'] = g
+
+            df_pos.loc[i, 'group'] = g
 
     return df_pos
+
 
 def download_graph(polygon, network_type='walk'):
     """Download a graph from a bounding box, and saves it to disk
@@ -485,6 +449,7 @@ def save_graph(G, city):
     utils.log('Nodes and eges loaded')
     engine = utils.db_engine()
     utils.log('Uploading nodes')
+    create_schema('networks')
     nodes.to_postgis(name=f'{city.lower()}_nodes', con=engine,
                      if_exists='fail',  schema="networks", index=False)
     utils.log('Nodes uploaded')
@@ -517,7 +482,6 @@ def graph_from_db(city):
 
 def create_schema(schema):
     engine = utils.db_engine()
-
     # Create schema; if it already exists, skip this
     try:
         engine.execute(f'CREATE SCHEMA IF NOT EXISTS {schema.lower()}')
@@ -592,18 +556,12 @@ def gdf_to_db(gdf, name, schema, if_exists='fail'):
         if_exists (str): Behaivor if the table already exists in the database ('fail', 'replace', 'append') 'fail' by default. 
 
     """
-
     create_schema(schema)
-
     utils.log('Getting DB connection')
-
     engine = utils.db_engine()
-
     utils.log(f'Uploading table {name} to database')
-
     gdf.to_postgis(name=name.lower(), con=engine,
                    if_exists=if_exists, index=False, schema=schema.lower())
-
     utils.log(f'Table {name} in DB')
 
 
