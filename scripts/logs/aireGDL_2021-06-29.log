@@ -274,3 +274,74 @@
 2021-06-29 18:32:03,355 INFO aireGDL Downloaded a total of 1897 for measures for 14669
 2021-06-29 18:32:09,344 INFO aireGDL Downloaded a total of 11373 for positions for 14669
 2021-06-29 18:32:18,908 INFO aireGDL Interpolated position data for moving measurements for 14669
+2021-06-29 22:47:11,966 INFO aireGDL Creating SQL engine
+2021-06-29 22:47:12,055 INFO aireGDL Getting data from DB
+2021-06-29 22:47:16,676 INFO aireGDL Data retrived
+2021-06-29 22:47:17,365 INFO aireGDL Loaded air quality by day database
+2021-06-29 22:47:17,374 INFO aireGDL Creating SQL engine
+2021-06-29 22:47:17,376 INFO aireGDL Getting puntos_pip from DB
+2021-06-29 22:47:19,363 INFO aireGDL puntos_pip retrived
+2021-06-29 22:47:19,364 INFO aireGDL Loaded PIP stations
+2021-06-29 22:47:19,369 INFO aireGDL Created id column by PIP station database
+2021-06-29 22:47:19,622 INFO aireGDL Checkpoint, 0 iterations
+2021-06-29 22:57:47,716 INFO aireGDL Checkpoint, 10000 iterations
+2021-06-29 23:06:33,471 INFO aireGDL Checkpoint, 20000 iterations
+2021-06-29 23:06:51,994 INFO aireGDL Empty value at parameter: PM10, date: 2016-10-13 and iteration: 20320
+2021-06-29 23:06:52,494 INFO aireGDL Empty value at parameter: NO2, date: 2016-10-13 and iteration: 20328
+2021-06-29 23:06:52,817 INFO aireGDL Empty value at parameter: SO2, date: 2016-10-13 and iteration: 20332
+2021-06-29 23:06:53,048 INFO aireGDL Empty value at parameter: O3, date: 2016-10-13 and iteration: 20336
+2021-06-29 23:06:53,283 INFO aireGDL Empty value at parameter: PM10, date: 2016-10-14 and iteration: 20340
+2021-06-29 23:06:53,697 INFO aireGDL Empty value at parameter: NO2, date: 2016-10-14 and iteration: 20348
+2021-06-29 23:06:53,997 INFO aireGDL Empty value at parameter: SO2, date: 2016-10-14 and iteration: 20352
+2021-06-29 23:06:54,260 INFO aireGDL Empty value at parameter: O3, date: 2016-10-14 and iteration: 20356
+2021-06-29 23:06:54,483 INFO aireGDL Empty value at parameter: PM10, date: 2016-10-15 and iteration: 20360
+2021-06-29 23:06:54,937 INFO aireGDL Empty value at parameter: NO2, date: 2016-10-15 and iteration: 20368
+2021-06-29 23:06:55,195 INFO aireGDL Empty value at parameter: SO2, date: 2016-10-15 and iteration: 20372
+2021-06-29 23:06:55,407 INFO aireGDL Empty value at parameter: O3, date: 2016-10-15 and iteration: 20376
+2021-06-29 23:06:55,636 INFO aireGDL Empty value at parameter: PM10, date: 2016-10-16 and iteration: 20380
+2021-06-29 23:06:56,000 INFO aireGDL Empty value at parameter: NO2, date: 2016-10-16 and iteration: 20388
+2021-06-29 23:06:56,185 INFO aireGDL Empty value at parameter: SO2, date: 2016-10-16 and iteration: 20392
+2021-06-29 23:06:56,360 INFO aireGDL Empty value at parameter: O3, date: 2016-10-16 and iteration: 20396
+2021-06-29 23:06:56,521 INFO aireGDL Empty value at parameter: PM10, date: 2016-10-17 and iteration: 20400
+2021-06-29 23:06:56,827 INFO aireGDL Empty value at parameter: NO2, date: 2016-10-17 and iteration: 20408
+2021-06-29 23:06:56,978 INFO aireGDL Empty value at parameter: SO2, date: 2016-10-17 and iteration: 20412
+2021-06-29 23:06:57,200 INFO aireGDL Empty value at parameter: O3, date: 2016-10-17 and iteration: 20416
+2021-06-29 23:06:57,462 INFO aireGDL Empty value at parameter: PM10, date: 2016-10-18 and iteration: 20420
+2021-06-29 23:06:57,887 INFO aireGDL Empty value at parameter: NO2, date: 2016-10-18 and iteration: 20428
+2021-06-29 23:06:58,098 INFO aireGDL Empty value at parameter: SO2, date: 2016-10-18 and iteration: 20432
+2021-06-29 23:06:58,328 INFO aireGDL Empty value at parameter: O3, date: 2016-10-18 and iteration: 20436
+2021-06-29 23:06:58,597 INFO aireGDL Empty value at parameter: PM10, date: 2016-10-19 and iteration: 20440
+2021-06-29 23:06:59,031 INFO aireGDL Empty value at parameter: NO2, date: 2016-10-19 and iteration: 20448
+2021-06-29 23:06:59,198 INFO aireGDL Empty value at parameter: SO2, date: 2016-10-19 and iteration: 20452
+2021-06-29 23:06:59,369 INFO aireGDL Empty value at parameter: O3, date: 2016-10-19 and iteration: 20456
+2021-06-29 23:06:59,999 INFO aireGDL Empty value at parameter: NO2, date: 2016-10-20 and iteration: 20468
+2021-06-29 23:07:00,223 INFO aireGDL Empty value at parameter: SO2, date: 2016-10-20 and iteration: 20472
+2021-06-29 23:07:00,459 INFO aireGDL Empty value at parameter: O3, date: 2016-10-20 and iteration: 20476
+2021-06-29 23:07:01,119 INFO aireGDL Empty value at parameter: NO2, date: 2016-10-21 and iteration: 20488
+2021-06-29 23:07:01,360 INFO aireGDL Empty value at parameter: SO2, date: 2016-10-21 and iteration: 20492
+2021-06-29 23:07:01,589 INFO aireGDL Empty value at parameter: O3, date: 2016-10-21 and iteration: 20496
+2021-06-29 23:07:01,815 INFO aireGDL Empty value at parameter: PM10, date: 2016-10-22 and iteration: 20500
+2021-06-29 23:07:02,267 INFO aireGDL Empty value at parameter: NO2, date: 2016-10-22 and iteration: 20508
+2021-06-29 23:07:02,488 INFO aireGDL Empty value at parameter: SO2, date: 2016-10-22 and iteration: 20512
+2021-06-29 23:07:02,700 INFO aireGDL Empty value at parameter: O3, date: 2016-10-22 and iteration: 20516
+2021-06-29 23:07:02,947 INFO aireGDL Empty value at parameter: PM10, date: 2016-10-23 and iteration: 20520
+2021-06-29 23:07:03,391 INFO aireGDL Empty value at parameter: NO2, date: 2016-10-23 and iteration: 20528
+2021-06-29 23:07:03,604 INFO aireGDL Empty value at parameter: SO2, date: 2016-10-23 and iteration: 20532
+2021-06-29 23:07:03,820 INFO aireGDL Empty value at parameter: O3, date: 2016-10-23 and iteration: 20536
+2021-06-29 23:07:04,041 INFO aireGDL Empty value at parameter: PM10, date: 2016-10-24 and iteration: 20540
+2021-06-29 23:07:04,361 INFO aireGDL Empty value at parameter: NO2, date: 2016-10-24 and iteration: 20548
+2021-06-29 23:07:04,520 INFO aireGDL Empty value at parameter: SO2, date: 2016-10-24 and iteration: 20552
+2021-06-29 23:07:04,672 INFO aireGDL Empty value at parameter: O3, date: 2016-10-24 and iteration: 20556
+2021-06-29 23:07:36,896 INFO aireGDL Empty value at parameter: PM10, date: 2016-11-26 and iteration: 21200
+2021-06-29 23:07:37,353 INFO aireGDL Empty value at parameter: NO2, date: 2016-11-26 and iteration: 21208
+2021-06-29 23:07:37,595 INFO aireGDL Empty value at parameter: SO2, date: 2016-11-26 and iteration: 21212
+2021-06-29 23:07:37,805 INFO aireGDL Empty value at parameter: O3, date: 2016-11-26 and iteration: 21216
+2021-06-29 23:15:03,157 INFO aireGDL Checkpoint, 30000 iterations
+2021-06-29 23:23:45,798 INFO aireGDL Checkpoint, 40000 iterations
+2021-06-29 23:27:05,969 INFO aireGDL Created MiMacro DataFrame with interpolations
+2021-06-29 23:27:05,969 INFO aireGDL Creating SQL engine
+2021-06-29 23:27:07,818 INFO aireGDL Getting DB connection
+2021-06-29 23:27:07,818 INFO aireGDL Creating SQL engine
+2021-06-29 23:27:07,819 INFO aireGDL Uploading table pip_data_day to database
+2021-06-29 23:27:26,035 INFO aireGDL Table pip_data_day in DB
+2021-06-29 23:27:26,035 INFO aireGDL Uploaded database for PIP by day
