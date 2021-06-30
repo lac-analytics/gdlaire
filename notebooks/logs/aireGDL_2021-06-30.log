@@ -1,16 +1,50 @@
-2021-06-30 00:48:34,604 INFO aireGDL Creating SQL engine
-2021-06-30 00:48:34,651 INFO aireGDL Getting plumbe from DB
-2021-06-30 00:49:39,021 INFO aireGDL plumbe retrived
-2021-06-30 01:03:09,409 INFO aireGDL Creating SQL engine
-2021-06-30 01:03:11,167 INFO aireGDL Getting DB connection
-2021-06-30 01:03:11,168 INFO aireGDL Creating SQL engine
-2021-06-30 01:03:11,169 INFO aireGDL Uploading table plumbe to database
-2021-06-30 01:04:36,167 INFO aireGDL Table plumbe in DB
-2021-06-30 01:32:12,277 INFO aireGDL Creating SQL engine
-2021-06-30 01:32:12,279 INFO aireGDL Getting plumbe from DB
-2021-06-30 01:32:50,038 INFO aireGDL plumbe retrived
-2021-06-30 01:48:40,981 INFO aireGDL Creating SQL engine
-2021-06-30 01:48:42,771 INFO aireGDL Getting DB connection
-2021-06-30 01:48:42,771 INFO aireGDL Creating SQL engine
-2021-06-30 01:48:42,772 INFO aireGDL Uploading table plumbe to database
-2021-06-30 01:49:56,343 INFO aireGDL Table plumbe in DB
+2021-06-30 00:13:33,385 INFO aireGDL Creating SQL engine
+2021-06-30 00:13:33,430 INFO aireGDL Getting data from DB
+2021-06-30 00:14:11,855 INFO aireGDL Creating SQL engine
+2021-06-30 00:14:11,857 INFO aireGDL Getting data from DB
+2021-06-30 00:15:20,430 INFO aireGDL Creating SQL engine
+2021-06-30 00:15:20,433 INFO aireGDL Getting pip_data_week from DB
+2021-06-30 00:15:22,846 INFO aireGDL pip_data_week retrived
+2021-06-30 00:15:44,620 INFO aireGDL Creating SQL engine
+2021-06-30 00:15:44,621 INFO aireGDL Getting pip_data_week from DB
+2021-06-30 00:15:47,143 INFO aireGDL pip_data_week retrived
+2021-06-30 00:16:52,026 INFO aireGDL Creating SQL engine
+2021-06-30 00:16:52,028 INFO aireGDL Getting pip_data_week from DB
+2021-06-30 00:16:54,639 INFO aireGDL pip_data_week retrived
+2021-06-30 00:20:35,178 INFO aireGDL Creating SQL engine
+2021-06-30 00:20:35,180 INFO aireGDL Getting pip_data_day from DB
+2021-06-30 00:20:38,189 INFO aireGDL pip_data_day retrived
+2021-06-30 00:21:52,158 INFO aireGDL Creating SQL engine
+2021-06-30 00:21:52,160 INFO aireGDL Getting mimacro_data_day from DB
+2021-06-30 00:22:01,706 INFO aireGDL mimacro_data_day retrived
+2021-06-30 00:25:11,015 INFO aireGDL Creating SQL engine
+2021-06-30 00:25:12,611 INFO aireGDL Getting DB connection
+2021-06-30 00:25:12,611 INFO aireGDL Creating SQL engine
+2021-06-30 00:25:12,612 INFO aireGDL Uploading table mimacro_data_day to database
+2021-06-30 00:26:47,943 INFO aireGDL Table mimacro_data_day in DB
+2021-06-30 00:27:02,599 INFO aireGDL Creating SQL engine
+2021-06-30 00:27:02,601 INFO aireGDL Getting mimacro_data_day from DB
+2021-06-30 00:27:11,474 INFO aireGDL mimacro_data_day retrived
+2021-06-30 00:27:24,867 INFO aireGDL Creating SQL engine
+2021-06-30 00:27:24,868 INFO aireGDL Getting pip_data_day from DB
+2021-06-30 00:27:27,911 INFO aireGDL pip_data_day retrived
+2021-06-30 00:27:37,766 INFO aireGDL Creating SQL engine
+2021-06-30 00:27:39,445 INFO aireGDL Getting DB connection
+2021-06-30 00:27:39,445 INFO aireGDL Creating SQL engine
+2021-06-30 00:27:39,446 INFO aireGDL Uploading table pip_data_day to database
+2021-06-30 00:27:52,682 INFO aireGDL Table pip_data_day in DB
+2021-06-30 00:28:14,210 INFO aireGDL Creating SQL engine
+2021-06-30 00:28:14,212 INFO aireGDL Getting pip_data_day from DB
+2021-06-30 00:28:21,346 INFO aireGDL pip_data_day retrived
+2021-06-30 00:29:58,112 INFO aireGDL Creating SQL engine
+2021-06-30 00:29:58,113 INFO aireGDL Getting pip_data_week from DB
+2021-06-30 00:30:00,590 INFO aireGDL pip_data_week retrived
+2021-06-30 00:36:07,432 INFO aireGDL Creating SQL engine
+2021-06-30 00:36:07,436 INFO aireGDL Getting estaciones_gdl from DB
+2021-06-30 00:36:09,406 INFO aireGDL estaciones_gdl retrived
+2021-06-30 00:36:09,494 INFO aireGDL Creating SQL engine
+2021-06-30 00:36:09,494 INFO aireGDL Getting estaciones_simaj from DB
+2021-06-30 00:36:11,412 INFO aireGDL estaciones_simaj retrived
+2021-06-30 00:36:11,476 INFO aireGDL Creating SQL engine
+2021-06-30 00:36:11,476 INFO aireGDL Getting puntos_pip from DB
+2021-06-30 00:36:13,286 INFO aireGDL puntos_pip retrived
