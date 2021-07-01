@@ -48,3 +48,17 @@
 2021-06-30 00:36:11,476 INFO aireGDL Creating SQL engine
 2021-06-30 00:36:11,476 INFO aireGDL Getting puntos_pip from DB
 2021-06-30 00:36:13,286 INFO aireGDL puntos_pip retrived
+2021-06-30 21:03:00,074 INFO aireGDL Creating SQL engine
+2021-06-30 21:03:00,098 INFO aireGDL Getting pip_puntos from DB
+2021-06-30 21:04:10,861 INFO aireGDL Creating SQL engine
+2021-06-30 21:04:10,864 INFO aireGDL Getting puntos_pip from DB
+2021-06-30 21:04:12,953 INFO aireGDL puntos_pip retrived
+2021-06-30 21:53:09,740 INFO aireGDL Creating SQL engine
+2021-06-30 21:53:09,757 INFO aireGDL Getting puntos_pii from DB
+2021-06-30 21:53:24,268 INFO aireGDL Creating SQL engine
+2021-06-30 21:53:24,269 INFO aireGDL Getting puntos_pip from DB
+2021-06-30 21:53:26,363 INFO aireGDL puntos_pip retrived
+2021-06-30 22:14:05,774 INFO aireGDL Creating SQL engine
+2021-06-30 22:14:05,802 INFO aireGDL Getting municipios_amg from DB
+2021-06-30 22:14:08,437 INFO aireGDL Creating SQL engine
+2021-06-30 22:14:08,438 INFO aireGDL Getting guadalajara_edges from DB
