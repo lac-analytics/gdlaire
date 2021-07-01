@@ -31,3 +31,191 @@
 2021-06-30 00:36:16,108 INFO aireGDL Uploading table mimacro_data_week to database
 2021-06-30 00:36:39,337 INFO aireGDL Table mimacro_data_week in DB
 2021-06-30 00:36:39,337 INFO aireGDL Uploaded database for station: MIMACRO
+2021-06-30 10:43:05,979 INFO aireGDL Starting script
+2021-06-30 10:43:05,980 INFO aireGDL Creating SQL engine
+2021-06-30 10:43:06,009 INFO aireGDL Getting plumbe from DB
+2021-06-30 10:43:36,132 INFO aireGDL plumbe retrived
+2021-06-30 10:43:36,132 INFO aireGDL Downloaded gdf from database
+2021-06-30 10:43:37,229 INFO aireGDL Downloaded a total of 0 for measures for 13164
+2021-06-30 10:43:38,495 INFO aireGDL Downloaded a total of 0 for positions for 13164
+2021-06-30 10:43:39,302 INFO aireGDL Downloaded a total of 0 for measures for 13335
+2021-06-30 10:43:41,044 INFO aireGDL Downloaded a total of 0 for positions for 13335
+2021-06-30 10:43:42,151 INFO aireGDL Downloaded a total of 0 for measures for 13954
+2021-06-30 10:43:42,962 INFO aireGDL Downloaded a total of 0 for positions for 13954
+2021-06-30 10:43:43,774 INFO aireGDL Downloaded a total of 0 for measures for 13920
+2021-06-30 10:43:44,581 INFO aireGDL Downloaded a total of 0 for positions for 13920
+2021-06-30 10:43:45,386 INFO aireGDL Downloaded a total of 0 for measures for 14835
+2021-06-30 10:43:46,198 INFO aireGDL Downloaded a total of 0 for positions for 14835
+2021-06-30 10:43:47,582 INFO aireGDL Downloaded a total of 484 for measures for 13178
+2021-06-30 10:43:48,931 INFO aireGDL Downloaded a total of 233 for positions for 13178
+2021-06-30 10:43:49,800 INFO aireGDL Interpolated position data for moving measurements for 13178
+2021-06-30 10:43:51,663 INFO aireGDL Interpolated position data for stationary measurements for 13178
+2021-06-30 10:43:51,704 INFO aireGDL Changed timezone for 13178
+2021-06-30 10:43:51,723 INFO aireGDL Interpolated air quality data for position measurements for 13178
+2021-06-30 10:43:53,805 INFO aireGDL Downloaded a total of 0 for measures for 14002
+2021-06-30 10:43:55,462 INFO aireGDL Downloaded a total of 0 for positions for 14002
+2021-06-30 10:43:56,813 INFO aireGDL Downloaded a total of 0 for measures for 13116
+2021-06-30 10:43:57,640 INFO aireGDL Downloaded a total of 0 for positions for 13116
+2021-06-30 10:44:00,540 INFO aireGDL Downloaded a total of 518 for measures for 13684
+2021-06-30 10:44:02,365 INFO aireGDL Downloaded a total of 300 for positions for 13684
+2021-06-30 10:44:03,497 INFO aireGDL Interpolated position data for moving measurements for 13684
+2021-06-30 10:44:05,341 INFO aireGDL Interpolated position data for stationary measurements for 13684
+2021-06-30 10:44:05,356 INFO aireGDL Changed timezone for 13684
+2021-06-30 10:44:05,375 INFO aireGDL Interpolated air quality data for position measurements for 13684
+2021-06-30 10:44:06,714 INFO aireGDL Downloaded a total of 0 for measures for 15602
+2021-06-30 10:44:07,545 INFO aireGDL Downloaded a total of 0 for positions for 15602
+2021-06-30 10:44:08,654 INFO aireGDL Downloaded a total of 0 for measures for 14823
+2021-06-30 10:44:09,946 INFO aireGDL Downloaded a total of 0 for positions for 14823
+2021-06-30 10:44:11,048 INFO aireGDL Downloaded a total of 184 for measures for 13597
+2021-06-30 10:44:12,294 INFO aireGDL Downloaded a total of 559 for positions for 13597
+2021-06-30 10:44:13,059 INFO aireGDL Interpolated position data for moving measurements for 13597
+2021-06-30 10:44:13,617 INFO aireGDL Interpolated position data for stationary measurements for 13597
+2021-06-30 10:44:13,632 INFO aireGDL Changed timezone for 13597
+2021-06-30 10:44:13,648 INFO aireGDL Interpolated air quality data for position measurements for 13597
+2021-06-30 10:44:14,709 INFO aireGDL Downloaded a total of 145 for measures for 14811
+2021-06-30 10:44:15,723 INFO aireGDL Downloaded a total of 145 for positions for 14811
+2021-06-30 10:44:16,315 INFO aireGDL Interpolated position data for moving measurements for 14811
+2021-06-30 10:44:16,727 INFO aireGDL Interpolated position data for stationary measurements for 14811
+2021-06-30 10:44:16,740 INFO aireGDL Changed timezone for 14811
+2021-06-30 10:44:16,754 INFO aireGDL Interpolated air quality data for position measurements for 14811
+2021-06-30 10:44:17,628 INFO aireGDL Downloaded a total of 0 for measures for 13593
+2021-06-30 10:44:18,446 INFO aireGDL Downloaded a total of 0 for positions for 13593
+2021-06-30 10:44:19,254 INFO aireGDL Downloaded a total of 0 for measures for 13703
+2021-06-30 10:44:20,720 INFO aireGDL Downloaded a total of 559 for positions for 13703
+2021-06-30 10:44:21,556 INFO aireGDL Downloaded a total of 0 for measures for 14829
+2021-06-30 10:44:23,602 INFO aireGDL Downloaded a total of 0 for positions for 14829
+2021-06-30 10:44:25,106 INFO aireGDL Downloaded a total of 0 for measures for 14204
+2021-06-30 10:44:26,547 INFO aireGDL Downloaded a total of 0 for positions for 14204
+2021-06-30 10:44:27,382 INFO aireGDL Downloaded a total of 0 for measures for 14834
+2021-06-30 10:44:29,173 INFO aireGDL Downloaded a total of 0 for positions for 14834
+2021-06-30 10:44:31,049 INFO aireGDL Downloaded a total of 0 for measures for 13093
+2021-06-30 10:44:32,578 INFO aireGDL Downloaded a total of 0 for positions for 13093
+2021-06-30 10:44:33,402 INFO aireGDL Downloaded a total of 0 for measures for 14618
+2021-06-30 10:44:34,542 INFO aireGDL Downloaded a total of 0 for positions for 14618
+2021-06-30 10:44:35,710 INFO aireGDL Downloaded a total of 0 for measures for 13595
+2021-06-30 10:44:36,658 INFO aireGDL Downloaded a total of 0 for positions for 13595
+2021-06-30 10:44:38,135 INFO aireGDL Downloaded a total of 0 for measures for 13638
+2021-06-30 10:44:39,661 INFO aireGDL Downloaded a total of 0 for positions for 13638
+2021-06-30 10:44:40,975 INFO aireGDL Downloaded a total of 0 for measures for 14709
+2021-06-30 10:44:41,784 INFO aireGDL Downloaded a total of 0 for positions for 14709
+2021-06-30 10:44:42,613 INFO aireGDL Downloaded a total of 0 for measures for 13949
+2021-06-30 10:44:43,418 INFO aireGDL Downloaded a total of 0 for positions for 13949
+2021-06-30 10:44:44,234 INFO aireGDL Downloaded a total of 0 for measures for 14616
+2021-06-30 10:44:45,035 INFO aireGDL Downloaded a total of 0 for positions for 14616
+2021-06-30 10:44:46,484 INFO aireGDL Downloaded a total of 526 for measures for 14794
+2021-06-30 10:44:47,466 INFO aireGDL Downloaded a total of 131 for positions for 14794
+2021-06-30 10:44:48,035 INFO aireGDL Interpolated position data for moving measurements for 14794
+2021-06-30 10:44:50,180 INFO aireGDL Interpolated position data for stationary measurements for 14794
+2021-06-30 10:44:50,194 INFO aireGDL Changed timezone for 14794
+2021-06-30 10:44:50,212 INFO aireGDL Interpolated air quality data for position measurements for 14794
+2021-06-30 10:44:51,032 INFO aireGDL Downloaded a total of 0 for measures for 13360
+2021-06-30 10:44:52,555 INFO aireGDL Downloaded a total of 0 for positions for 13360
+2021-06-30 10:44:54,073 INFO aireGDL Downloaded a total of 560 for measures for 13946
+2021-06-30 10:44:55,114 INFO aireGDL Downloaded a total of 327 for positions for 13946
+2021-06-30 10:44:56,290 INFO aireGDL Interpolated position data for moving measurements for 13946
+2021-06-30 10:44:58,255 INFO aireGDL Interpolated position data for stationary measurements for 13946
+2021-06-30 10:44:58,270 INFO aireGDL Changed timezone for 13946
+2021-06-30 10:44:58,288 INFO aireGDL Interpolated air quality data for position measurements for 13946
+2021-06-30 10:45:00,107 INFO aireGDL Downloaded a total of 518 for measures for 14669
+2021-06-30 10:45:02,066 INFO aireGDL Downloaded a total of 1812 for positions for 14669
+2021-06-30 10:45:03,478 INFO aireGDL Interpolated position data for moving measurements for 14669
+2021-06-30 10:45:05,584 INFO aireGDL Interpolated position data for stationary measurements for 14669
+2021-06-30 10:45:05,604 INFO aireGDL Changed timezone for 14669
+2021-06-30 10:45:05,624 INFO aireGDL Interpolated air quality data for position measurements for 14669
+2021-06-30 10:45:06,963 INFO aireGDL Downloaded a total of 527 for measures for 14700
+2021-06-30 10:45:08,494 INFO aireGDL Downloaded a total of 1613 for positions for 14700
+2021-06-30 10:45:09,643 INFO aireGDL Interpolated position data for moving measurements for 14700
+2021-06-30 10:45:11,870 INFO aireGDL Interpolated position data for stationary measurements for 14700
+2021-06-30 10:45:11,889 INFO aireGDL Changed timezone for 14700
+2021-06-30 10:45:11,909 INFO aireGDL Interpolated air quality data for position measurements for 14700
+2021-06-30 10:45:11,942 INFO aireGDL Done with download
+2021-06-30 10:45:11,942 INFO aireGDL Creating SQL engine
+2021-06-30 10:45:13,510 INFO aireGDL Getting DB connection
+2021-06-30 10:45:13,510 INFO aireGDL Creating SQL engine
+2021-06-30 10:45:13,512 INFO aireGDL Uploading table plumbe to database
+2021-06-30 10:45:16,922 INFO aireGDL Table plumbe in DB
+2021-06-30 10:45:16,923 INFO aireGDL Data in DB
+2021-06-30 10:57:09,827 INFO aireGDL Starting script
+2021-06-30 10:57:09,827 INFO aireGDL Creating SQL engine
+2021-06-30 10:57:09,850 INFO aireGDL Getting plumbe from DB
+2021-06-30 10:57:46,134 INFO aireGDL plumbe retrived
+2021-06-30 10:57:46,135 INFO aireGDL Downloaded gdf from database
+2021-06-30 10:57:47,321 INFO aireGDL Downloaded a total of 0 for measures for 13164
+2021-06-30 10:57:48,147 INFO aireGDL Downloaded a total of 0 for positions for 13164
+2021-06-30 10:57:49,697 INFO aireGDL Downloaded a total of 0 for measures for 13335
+2021-06-30 10:57:51,327 INFO aireGDL Downloaded a total of 0 for positions for 13335
+2021-06-30 10:57:52,926 INFO aireGDL Downloaded a total of 0 for measures for 13954
+2021-06-30 10:57:54,515 INFO aireGDL Downloaded a total of 0 for positions for 13954
+2021-06-30 10:57:55,342 INFO aireGDL Downloaded a total of 0 for measures for 13920
+2021-06-30 10:57:56,852 INFO aireGDL Downloaded a total of 0 for positions for 13920
+2021-06-30 10:57:57,648 INFO aireGDL Downloaded a total of 0 for measures for 14835
+2021-06-30 10:57:59,355 INFO aireGDL Downloaded a total of 0 for positions for 14835
+2021-06-30 10:58:01,169 INFO aireGDL Downloaded a total of 0 for measures for 13178
+2021-06-30 10:58:01,988 INFO aireGDL Downloaded a total of 0 for positions for 13178
+2021-06-30 10:58:02,806 INFO aireGDL Downloaded a total of 0 for measures for 14002
+2021-06-30 10:58:04,714 INFO aireGDL Downloaded a total of 0 for positions for 14002
+2021-06-30 10:58:06,126 INFO aireGDL Downloaded a total of 0 for measures for 13116
+2021-06-30 10:58:07,232 INFO aireGDL Downloaded a total of 0 for positions for 13116
+2021-06-30 10:58:08,045 INFO aireGDL Downloaded a total of 0 for measures for 13684
+2021-06-30 10:58:10,642 INFO aireGDL Downloaded a total of 0 for positions for 13684
+2021-06-30 10:58:11,635 INFO aireGDL Downloaded a total of 0 for measures for 15602
+2021-06-30 10:58:12,663 INFO aireGDL Downloaded a total of 0 for positions for 15602
+2021-06-30 10:58:13,494 INFO aireGDL Downloaded a total of 0 for measures for 14823
+2021-06-30 10:58:14,600 INFO aireGDL Downloaded a total of 0 for positions for 14823
+2021-06-30 10:58:15,431 INFO aireGDL Downloaded a total of 3 for measures for 13597
+2021-06-30 10:58:16,603 INFO aireGDL Downloaded a total of 4 for positions for 13597
+2021-06-30 10:58:16,684 INFO aireGDL Interpolated position data for moving measurements for 13597
+2021-06-30 10:58:16,702 INFO aireGDL Interpolated position data for stationary measurements for 13597
+2021-06-30 10:58:16,730 INFO aireGDL Changed timezone for 13597
+2021-06-30 10:58:16,744 INFO aireGDL Interpolated air quality data for position measurements for 13597
+2021-06-30 10:58:17,722 INFO aireGDL Downloaded a total of 7 for measures for 14811
+2021-06-30 10:58:18,535 INFO aireGDL Downloaded a total of 12 for positions for 14811
+2021-06-30 10:58:18,650 INFO aireGDL Interpolated position data for moving measurements for 14811
+2021-06-30 10:58:18,663 INFO aireGDL Interpolated position data for stationary measurements for 14811
+2021-06-30 10:58:18,676 INFO aireGDL Changed timezone for 14811
+2021-06-30 10:58:18,688 INFO aireGDL Interpolated air quality data for position measurements for 14811
+2021-06-30 10:58:19,800 INFO aireGDL Downloaded a total of 0 for measures for 13593
+2021-06-30 10:58:21,542 INFO aireGDL Downloaded a total of 0 for positions for 13593
+2021-06-30 10:58:22,618 INFO aireGDL Downloaded a total of 0 for measures for 13703
+2021-06-30 10:58:23,522 INFO aireGDL Downloaded a total of 4 for positions for 13703
+2021-06-30 10:58:24,437 INFO aireGDL Downloaded a total of 0 for measures for 14829
+2021-06-30 10:58:25,578 INFO aireGDL Downloaded a total of 0 for positions for 14829
+2021-06-30 10:58:27,232 INFO aireGDL Downloaded a total of 0 for measures for 14204
+2021-06-30 10:58:29,058 INFO aireGDL Downloaded a total of 0 for positions for 14204
+2021-06-30 10:58:29,878 INFO aireGDL Downloaded a total of 0 for measures for 14834
+2021-06-30 10:58:31,442 INFO aireGDL Downloaded a total of 0 for positions for 14834
+2021-06-30 10:58:32,878 INFO aireGDL Downloaded a total of 0 for measures for 13093
+2021-06-30 10:58:33,693 INFO aireGDL Downloaded a total of 0 for positions for 13093
+2021-06-30 10:58:34,629 INFO aireGDL Downloaded a total of 0 for measures for 14618
+2021-06-30 10:58:35,496 INFO aireGDL Downloaded a total of 0 for positions for 14618
+2021-06-30 10:58:36,376 INFO aireGDL Downloaded a total of 0 for measures for 13595
+2021-06-30 10:58:37,612 INFO aireGDL Downloaded a total of 0 for positions for 13595
+2021-06-30 10:58:39,544 INFO aireGDL Downloaded a total of 0 for measures for 13638
+2021-06-30 10:58:41,036 INFO aireGDL Downloaded a total of 0 for positions for 13638
+2021-06-30 10:58:42,553 INFO aireGDL Downloaded a total of 0 for measures for 14709
+2021-06-30 10:58:43,381 INFO aireGDL Downloaded a total of 0 for positions for 14709
+2021-06-30 10:58:45,429 INFO aireGDL Downloaded a total of 0 for measures for 13949
+2021-06-30 10:58:46,922 INFO aireGDL Downloaded a total of 0 for positions for 13949
+2021-06-30 10:58:48,910 INFO aireGDL Downloaded a total of 0 for measures for 14616
+2021-06-30 10:58:50,186 INFO aireGDL Downloaded a total of 0 for positions for 14616
+2021-06-30 10:58:51,014 INFO aireGDL Downloaded a total of 0 for measures for 14794
+2021-06-30 10:58:52,215 INFO aireGDL Downloaded a total of 0 for positions for 14794
+2021-06-30 10:58:53,016 INFO aireGDL Downloaded a total of 0 for measures for 13360
+2021-06-30 10:58:53,826 INFO aireGDL Downloaded a total of 0 for positions for 13360
+2021-06-30 10:58:55,173 INFO aireGDL Downloaded a total of 6 for measures for 13946
+2021-06-30 10:58:56,002 INFO aireGDL Downloaded a total of 7 for positions for 13946
+2021-06-30 10:58:56,114 INFO aireGDL Interpolated position data for moving measurements for 13946
+2021-06-30 10:58:56,122 INFO aireGDL Interpolated position data for stationary measurements for 13946
+2021-06-30 10:58:56,134 INFO aireGDL Changed timezone for 13946
+2021-06-30 10:58:56,147 INFO aireGDL Interpolated air quality data for position measurements for 13946
+2021-06-30 10:58:57,362 INFO aireGDL Downloaded a total of 0 for measures for 14669
+2021-06-30 10:58:58,567 INFO aireGDL Downloaded a total of 0 for positions for 14669
+2021-06-30 10:58:59,385 INFO aireGDL Downloaded a total of 0 for measures for 14700
+2021-06-30 10:59:00,897 INFO aireGDL Downloaded a total of 0 for positions for 14700
+2021-06-30 10:59:00,898 INFO aireGDL Done with download
+2021-06-30 10:59:00,898 INFO aireGDL Creating SQL engine
+2021-06-30 10:59:02,503 INFO aireGDL Getting DB connection
+2021-06-30 10:59:02,504 INFO aireGDL Creating SQL engine
+2021-06-30 10:59:02,505 INFO aireGDL Uploading table plumbe to database
+2021-06-30 10:59:04,552 INFO aireGDL Table plumbe in DB
+2021-06-30 10:59:04,553 INFO aireGDL Data in DB
