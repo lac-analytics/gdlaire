@@ -1,0 +1,6 @@
+2021-07-01 12:40:06,646 INFO aireGDL Creating SQL engine
+2021-07-01 12:40:06,802 INFO aireGDL Getting puntos_pip from DB
+2021-07-01 12:40:19,025 INFO aireGDL puntos_pip retrived
+2021-07-01 12:40:31,351 INFO aireGDL Creating SQL engine
+2021-07-01 12:40:31,351 INFO aireGDL Getting guadalajara_edges from DB
+2021-07-01 12:42:06,578 INFO aireGDL guadalajara_edges retrived
