@@ -4,3 +4,19 @@
 2021-07-01 12:40:31,351 INFO aireGDL Creating SQL engine
 2021-07-01 12:40:31,351 INFO aireGDL Getting guadalajara_edges from DB
 2021-07-01 12:42:06,578 INFO aireGDL guadalajara_edges retrived
+2021-07-01 15:34:26,081 INFO aireGDL Creating SQL engine
+2021-07-01 15:34:26,178 INFO aireGDL Getting puntos_pip from DB
+2021-07-01 15:34:28,362 INFO aireGDL puntos_pip retrived
+2021-07-01 15:34:28,396 INFO aireGDL Creating SQL engine
+2021-07-01 15:34:28,397 INFO aireGDL Getting guadalajara_edges from DB
+2021-07-01 15:34:53,952 INFO aireGDL guadalajara_edges retrived
+2021-07-01 15:55:13,612 INFO aireGDL Creating SQL engine
+2021-07-01 15:55:13,747 INFO aireGDL Getting puntos_pip from DB
+2021-07-01 15:55:15,753 INFO aireGDL puntos_pip retrived
+2021-07-01 16:04:50,968 INFO aireGDL Creating SQL engine
+2021-07-01 16:04:51,006 INFO aireGDL Getting puntos_pip from DB
+2021-07-01 16:04:52,995 INFO aireGDL puntos_pip retrived
+2021-07-01 16:05:11,891 INFO aireGDL Creating SQL engine
+2021-07-01 16:05:18,020 INFO aireGDL Nodes loaded
+2021-07-01 16:05:36,529 INFO aireGDL Edges loaded
+2021-07-01 16:05:47,365 INFO aireGDL Graph created
