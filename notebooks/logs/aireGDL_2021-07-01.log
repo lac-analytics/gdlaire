@@ -1,0 +1,10 @@
+2021-07-01 15:29:03,769 INFO aireGDL Creating SQL engine
+2021-07-01 15:29:03,859 INFO aireGDL Getting puntos_pip from DB
+2021-07-01 15:29:10,354 INFO aireGDL puntos_pip retrived
+2021-07-01 15:35:37,981 INFO aireGDL Creating SQL engine
+2021-07-01 15:36:18,611 INFO aireGDL Nodes loaded
+2021-07-01 15:38:13,464 INFO aireGDL Edges loaded
+2021-07-01 15:38:30,846 INFO aireGDL Graph created
+2021-07-01 16:05:00,535 INFO aireGDL Creating SQL engine
+2021-07-01 16:05:00,609 INFO aireGDL Getting puntos_pip from DB
+2021-07-01 16:05:07,166 INFO aireGDL puntos_pip retrived
