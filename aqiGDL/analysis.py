@@ -192,7 +192,7 @@ def moving_measure(df_mes, gdf):
 
                 df_mes.loc[(df_mes.date==df_mes_pos.iloc[i]['date']),'latitude'] = pos.y
                 df_mes.loc[(df_mes.date==df_mes_pos.iloc[i]['date']),'longitude'] = pos.x
-                df_mes.loc[(df_mes.date==df_mes_pos.iloc[i]['date']),'type'] = 'moving'
+                df_mes.loc[(df_mes.date==df_mes_pos.iloc[i]['date']),'trip_type'] = 'moving'
                 df_mes.loc[(df_mes.date==df_mes_pos.iloc[i]['date']),'group'] = g
 
     return df_mes
@@ -216,30 +216,37 @@ def stationary_measure(df_mes, gdf):
         
             if math.isnan(df_mes.iloc[i]['longitude']):
                 
-                pos = (traj.get_position_at(datetime(df_mes.iloc[i]['datetime'].year,
-                                                        df_mes.iloc[i]['datetime'].month,
-                                                        df_mes.iloc[i]['datetime'].day,
-                                                        df_mes.iloc[i]['datetime'].hour,
-                                                        df_mes.iloc[i]['datetime'].minute,
-                                                        df_mes.iloc[i]['datetime'].second), method='nearest'))
+                pos = (traj.get_position_at(datetime(int(df_mes.iloc[i]['datetime'].year),
+                                                        int(df_mes.iloc[i]['datetime'].month),
+                                                        int(df_mes.iloc[i]['datetime'].day),
+                                                        int(df_mes.iloc[i]['datetime'].hour),
+                                                        int(df_mes.iloc[i]['datetime'].minute),
+                                                        int(df_mes.iloc[i]['datetime'].second)), method='nearest'))
 
                 df_mes.loc[i,'latitude'] = pos.y
                 df_mes.loc[i,'longitude'] = pos.x
-                df_mes.loc[i,'type'] = 'stationary'
+                df_mes.loc[i,'trip_type'] = 'stationary'
                 df_mes.loc[i,'group'] = 0
 
         else:
-            pos = (traj.get_position_at(datetime(df_mes.iloc[i]['datetime'].year,
-                                                        df_mes.iloc[i]['datetime'].month,
-                                                        df_mes.iloc[i]['datetime'].day,
-                                                        df_mes.iloc[i]['datetime'].hour,
-                                                        df_mes.iloc[i]['datetime'].minute,
-                                                        df_mes.iloc[i]['datetime'].second), method='nearest'))
+            try:
+                pos = (traj.get_position_at(datetime(int(df_mes.iloc[i]['datetime'].year),
+                                                            int(df_mes.iloc[i]['datetime'].month),
+                                                            int(df_mes.iloc[i]['datetime'].day),
+                                                            int(df_mes.iloc[i]['datetime'].hour),
+                                                            int(df_mes.iloc[i]['datetime'].minute),
+                                                            int(df_mes.iloc[i]['datetime'].second)), method='nearest'))
 
-            df_mes.loc[i,'latitude'] = pos.y
-            df_mes.loc[i,'longitude'] = pos.x
-            df_mes.loc[i,'type'] = 'stationary'
-            df_mes.loc[i,'group'] = 0
+                df_mes.loc[i,'latitude'] = pos.y
+                df_mes.loc[i,'longitude'] = pos.x
+                df_mes.loc[i,'trip_type'] = 'stationary'
+                df_mes.loc[i,'group'] = 0
+
+            except:
+                df_mes.loc[i,'latitude'] = np.nan
+                df_mes.loc[i,'longitude'] = np.nan
+                df_mes.loc[i,'trip_type'] = 'stationary'
+                df_mes.loc[i,'group'] = 0
 
 
     return df_mes
