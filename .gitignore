@@ -19,6 +19,7 @@ settings.json
 .ipynb_checkpoints
 scripts/:
 */:
+*:* 
 
 # Data
 data/*
