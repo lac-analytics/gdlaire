@@ -1,0 +1,35 @@
+2021-07-06 19:43:51,958 INFO aireGDL Creating SQL engine
+2021-07-06 19:43:52,044 INFO aireGDL Getting data from DB
+2021-07-06 19:44:19,573 INFO aireGDL Data retrived
+2021-07-06 19:44:19,767 INFO aireGDL Loaded air quality by day database
+2021-07-06 19:44:46,541 INFO aireGDL Creating SQL engine
+2021-07-06 19:44:46,543 INFO aireGDL Getting data from DB
+2021-07-06 19:44:52,687 INFO aireGDL Data retrived
+2021-07-06 19:44:52,902 INFO aireGDL Loaded air quality by day database
+2021-07-06 19:46:05,956 INFO aireGDL Creating SQL engine
+2021-07-06 19:46:05,959 INFO aireGDL Getting data from DB
+2021-07-06 19:46:19,273 INFO aireGDL Data retrived
+2021-07-06 19:46:19,442 INFO aireGDL Loaded air quality by day database
+2021-07-06 19:46:19,493 INFO aireGDL Loaded MiMacro stations
+2021-07-06 19:47:32,534 INFO aireGDL Creating SQL engine
+2021-07-06 19:47:32,536 INFO aireGDL Getting data from DB
+2021-07-06 19:47:43,898 INFO aireGDL Data retrived
+2021-07-06 19:47:44,034 INFO aireGDL Loaded air quality by day database
+2021-07-06 19:47:44,136 INFO aireGDL Loaded MiMacro stations
+2021-07-06 19:47:44,140 INFO aireGDL Created id column by MiMacro station database
+2021-07-06 19:50:37,172 INFO aireGDL Creating SQL engine
+2021-07-06 19:50:37,177 INFO aireGDL Getting data from DB
+2021-07-06 19:50:43,569 INFO aireGDL Data retrived
+2021-07-06 19:50:43,814 INFO aireGDL Loaded air quality by day database
+2021-07-06 19:50:43,872 INFO aireGDL Loaded MiMacro stations
+2021-07-06 19:50:43,876 INFO aireGDL Created id column by MiMacro station database
+2021-07-06 19:50:43,951 INFO aireGDL Checkpoint, 0 iterations
+2021-07-06 19:55:13,795 INFO aireGDL Empty value at parameter: PM10, date: 2016-10-13 and iteration: 5080
+2021-07-06 19:56:53,098 INFO aireGDL Creating SQL engine
+2021-07-06 19:56:53,100 INFO aireGDL Getting data from DB
+2021-07-06 19:57:00,635 INFO aireGDL Data retrived
+2021-07-06 19:57:00,780 INFO aireGDL Loaded air quality by day database
+2021-07-06 19:57:00,831 INFO aireGDL Loaded MiMacro stations
+2021-07-06 19:57:00,834 INFO aireGDL Created id column by MiMacro station database
+2021-07-06 19:57:00,919 INFO aireGDL Checkpoint, 0 iterations
+2021-07-06 20:00:58,390 INFO aireGDL Empty value at parameter: PM10, date: 2016-10-13 and iteration: 5080
