@@ -369,7 +369,7 @@ def week_average(df, station, year_start=2014, year_end=2019):
     return df_week
 
 
-def plume_data(url, register):
+def plume_data(url, register, data_columns):
     """Function that downloads data from the PlumeLabs api and returns it as a DataFrame
 
     Arguments:
@@ -382,18 +382,24 @@ def plume_data(url, register):
 
     response = requests.get(url).json()
 
-    df = pd.json_normalize(response, register)
+    try:
+    
+        df = pd.json_normalize(response, register)
+    
+    except:
+        df = pd.DataFrame(columns=data_columns)
 
     return df
 
 
-def time_break_trips(df_pos, time_break=5):
+def time_break_trips(df_pos, g=1, time_break=5):
     """Function that creates groups according to the time between position registers
 
     Args:
         df_pos {DataFrame} -- DataFrame for positions from the PlumeLabs api
 
     KwrdArgs:
+        g {float} -- float with baseline group so they don't repeat
         time_break {int} -- integer for the minutes to break into a new trip. Defaults to 5.
 
     Returns:
@@ -402,9 +408,7 @@ def time_break_trips(df_pos, time_break=5):
 
     df_pos['diff'] = df_pos.date.diff()
 
-    g = 1
-
-    df_pos.loc[0, 'group'] = 1
+    df_pos.loc[0, 'group'] = g
 
     for i in range(1, len(df_pos)):
 

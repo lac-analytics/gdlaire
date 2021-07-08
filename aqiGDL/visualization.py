@@ -8,6 +8,16 @@ import os
 from math import sqrt
 
 
+import pandas as pd
+import matplotlib.pyplot as plt
+import matplotlib as mpl
+import datetime
+import textwrap
+
+import numpy as np
+
+
+
 def p_limits(param):
     """Function that returns a limit value for a bad air quality
 
@@ -143,3 +153,39 @@ def symbology_gdf(gdf, param):
         gdf.loc[gdf.index == i, 'Size'] = c_symbol
 
     return gdf
+
+
+def graph_smartcitizen(device, param, gdf, gdf_est, edges, save=False):
+
+    fig, axes = plt.subplots(1,2,figsize=(24,8), sharex=True)
+
+    df_temp = gdf[(gdf['device_id']==device) & (gdf['param']==param)].copy()
+    df_temp['date'] = pd.to_datetime(df_temp['date'])
+    df_temp.set_index('date',inplace=True)
+    df_temp = df_temp.resample('D').mean()
+    axes[1].scatter(df_temp.index, df_temp['value'], label=param)
+
+    title = textwrap.fill(param, 35)
+    axes[1].set_title(title,fontsize=20)
+    axes[1].tick_params(axis='x',labelrotation=45)
+
+
+    x_ticks = np.arange(0, len(df_temp.index),15)
+
+    a00 = axes[0]
+    shax = a00.get_shared_x_axes()
+    shax.remove(a00)
+    edges.plot(ax=axes[0], color='#e8e9eb',linewidth=0.1, zorder=-1)
+    edges[(edges['highway']=='primary') | (edges['highway']=='secondary')].plot(ax=axes[0], color='#e8e9eb',linewidth=0.5, zorder=0)
+    gdf_est.plot(ax=axes[0], color='k', alpha=0.85, zorder=1)
+    gdf_est[gdf_est.index==device].plot(ax=axes[0], color='#ba0d38', alpha=0.85, zorder=2, markersize=90)
+    axes[0].axis('off')
+    estacion = device
+    fecha_1 = df_temp.index.min().strftime("%Y-%m-%d")
+    fecha_2 = df_temp.index.max().strftime("%Y-%m-%d")
+    fig.suptitle(f'Device: {estacion}\n{fecha_1} -- {fecha_2}', fontsize=30)
+
+    if save==True:
+        plt.savefig(f'{device}_{fecha_1}_{fecha_2}.png',dpi=300)
+
+    return plt.show()

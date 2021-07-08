@@ -15,8 +15,24 @@ def main():
 
     sensor_id = [13164, 13335, 13954, 13920, 14835, 13178, 14002, 13116, 13684, 15602,
                  14823, 13597, 14811, 13593, 13703, 14829, 14204, 14834, 13093, 14618,
-                 13595, 13638, 14709, 13949, 14616, 14794, 13360, 13946, 14669, 14700]
+                 13595, 14709, 13949, 14616, 14794, 13360, 13946, 14669, 14700]
 
+    #pending: 13638
+
+    mes_column = ['date',
+                'pollutants.no2.value',
+                'pollutants.no2.pi',
+                'pollutants.voc.value',
+                'pollutants.voc.pi',
+                'pollutants.pm25.value',
+                'pollutants.pm25.pi',
+                'pollutants.pm10.value',
+                'pollutants.pm10.pi',
+                'pollutants.pm1.value',
+                'pollutants.pm1.pi']
+
+    pos_column = ['horizontal_accuracy', 'longitude', 'latitude', 'date', 'diff', 'group']
+    
     gdf_db = aqiGDL.gdf_from_db('plumbe', 'public')
 
     aqiGDL.log(
@@ -41,6 +57,8 @@ def main():
         else:
             ti = last_download_date
 
+         #### Gathering measures and positions data for each sensor   
+
         register = 'measures', 'positions'
 
         url = (
@@ -48,7 +66,7 @@ def main():
 
         # Download data from the PlumeLabs api
 
-        df_mes = aqiGDL.plume_data(url, register[0])
+        df_mes = aqiGDL.plume_data(url, register[0], mes_column)
 
         if len(df_mes) == 2000:
 
@@ -57,10 +75,11 @@ def main():
             url = (
                 f'https://api.plumelabs.com/2.0/organizations/58/sensors/{register[0]}?token=pNogJHPUrTzuBFhElACiZkdV&sensor_id={s}&start_date={ti}&end_date={tf}&offset={2000*o}')
 
-            df_mes_t = aqiGDL.plume_data(url, register[0])
+            df_mes_t = aqiGDL.plume_data(url, register[0], mes_column)
 
             df_mes = df_mes.append(df_mes_t)
 
+            # If the limit for the api is reached (2000) it sets an offset 
             while len(df_mes_t) == 2000:
 
                 o += 1
@@ -68,7 +87,7 @@ def main():
                 url = (
                     f'https://api.plumelabs.com/2.0/organizations/58/sensors/{register[0]}?token=pNogJHPUrTzuBFhElACiZkdV&sensor_id={s}&start_date={ti}&end_date={tf}&offset={2000*o}')
 
-                df_mes_t = aqiGDL.plume_data(url, register[0])
+                df_mes_t = aqiGDL.plume_data(url, register[0], mes_column)
 
                 df_mes = df_mes.append(df_mes_t)
 
@@ -81,7 +100,7 @@ def main():
         url = (
             f'https://api.plumelabs.com/2.0/organizations/58/sensors/{register[1]}?token=pNogJHPUrTzuBFhElACiZkdV&sensor_id={s}&start_date={ti}&end_date={tf}')
 
-        df_pos = aqiGDL.plume_data(url, register[1])
+        df_pos = aqiGDL.plume_data(url, register[1], pos_column)
 
         if len(df_pos) == 2000:
 
@@ -90,10 +109,11 @@ def main():
             url = (
                 f'https://api.plumelabs.com/2.0/organizations/58/sensors/{register[1]}?token=pNogJHPUrTzuBFhElACiZkdV&sensor_id={s}&start_date={ti}&end_date={tf}&offset={2000*o}')
 
-            df_pos_t = aqiGDL.plume_data(url, register[1])
+            df_pos_t = aqiGDL.plume_data(url, register[1], pos_column)
 
             df_pos = df_pos.append(df_pos_t)
 
+            # If the limit for the api is reached (2000) it sets an offset 
             while len(df_pos_t) == 2000:
 
                 o += 1
@@ -101,7 +121,7 @@ def main():
                 url = (
                     f'https://api.plumelabs.com/2.0/organizations/58/sensors/{register[1]}?token=pNogJHPUrTzuBFhElACiZkdV&sensor_id={s}&start_date={ti}&end_date={tf}&offset={2000*o}')
 
-                df_pos_t = aqiGDL.plume_data(url, register[1])
+                df_pos_t = aqiGDL.plume_data(url, register[1], pos_column)
 
                 df_pos = df_pos.append(df_pos_t)
 
@@ -111,11 +131,19 @@ def main():
         aqiGDL.log(
             f'Downloaded a total of {len(df_pos)} for {register[1]} for {s}')
 
+        ###
+
+        # Checks if data for positions and measures was found
         if len(df_pos) > 0 and len(df_mes) > 0:
 
             # Create groups for trips
+            #Uses previous groups so they don't repeat
+            g = 1
 
-            df_pos = aqiGDL.time_break_trips(df_pos)
+            if int(s) not in sensor_dif:
+                g = gdf_db.loc[(gdf_db.trip_type=='moving')&(gdf_db.sensor_id==s)].iloc[-1]['group']+1
+
+            df_pos = aqiGDL.time_break_trips(df_pos, g=g)
 
             # Passes positions DataFrame as a GeoDataFrame and prepares it for Moving Pandas
 
@@ -132,7 +160,7 @@ def main():
             gdf.longitude = gdf.geometry.x
             gdf.latitude = gdf.geometry.y
 
-            gdf['type'] = 'moving'
+            gdf['trip_type'] = 'moving'
 
             gdf['datetime'] = pd.to_datetime(gdf['date'],
                                              errors='coerce', unit='s')
@@ -199,9 +227,14 @@ def main():
 
             gdf_all = gdf_all.append(gdf_aq)
 
+    gdf_all.drop_duplicates(inplace=True)
+
+    gdf_all['date'] = gdf_all['date'].astype('int')
+
     aqiGDL.log('Done with download')
     aqiGDL.gdf_to_db(gdf_all, 'plumbe',
                      schema='public', if_exists='append')
+    
     aqiGDL.log('Data in DB')
 
 
