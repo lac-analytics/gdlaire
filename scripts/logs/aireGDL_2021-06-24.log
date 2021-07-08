@@ -1,7 +1,0 @@
-2021-06-24 18:03:19,853 INFO aireGDL Polygon loaded
-2021-06-24 18:03:19,854 INFO aireGDL Downloading graph
-2021-06-24 18:13:25,941 INFO aireGDL Graph downloaded
-2021-06-24 18:13:25,942 INFO aireGDL Getting nodes and edges
-2021-06-24 18:14:30,109 INFO aireGDL Nodes and eges loaded
-2021-06-24 18:14:30,109 INFO aireGDL Creating SQL engine
-2021-06-24 18:14:30,307 INFO aireGDL Uploading nodes
