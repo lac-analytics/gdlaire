@@ -171,9 +171,6 @@ def graph_smartcitizen(device, param, gdf, gdf_est, edges, save=False):
 
 
     x_ticks = np.arange(0, len(df_temp.index),15)
-    #for i in range(0,3):
-    #    plt.sca(axes[1, i])
-    #    plt.xticks(x_ticks, horizontalalignment="right");
 
     a00 = axes[0]
     shax = a00.get_shared_x_axes()
