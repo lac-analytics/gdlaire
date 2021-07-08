@@ -338,7 +338,8 @@ def restructure_database(interval='hour'):
 
 def week_average(df, station, year_start=2014, year_end=2019):
 
-    station_column = 'EST_'+station
+    #station_column = 'EST_'+station
+    station_column = station
 
     df_week = pd.DataFrame(columns=['CONC', 'LONG', 'LAT', 'PARAM',
                                     station_column, 'S_ID', 'S_YEAR', 'STD'])
@@ -365,7 +366,7 @@ def week_average(df, station, year_start=2014, year_end=2019):
 
                 df_week = df_week.append(df_mean)
 
-    return (df_week)
+    return df_week
 
 
 def plume_data(url, register, data_columns):
@@ -585,3 +586,20 @@ def gdf_from_db(name, schema):
         f"SELECT * FROM {schema.lower()}.{name.lower()}", engine, geom_col='geometry')
     utils.log(f'{name} retrived')
     return gdf
+
+
+def download_simaj_clean_data(start='2013/12/31', end='2019/12/31'):
+    """Downlad from PIP database the SIMAJ dataset from the specified date range
+
+    Args:
+        start (str, optional): Start date for the data. Defaults to '2013/12/31'.
+        end (str, optional): End date for the data. Defaults to '2019/12/31'.
+
+    Returns:
+        pandas.DataFrame: DataFrame with the air quality data for the requested date range.
+    """
+    query = f"SELECT * FROM data.simaj_data_day WHERE \"FECHA\" between \'{start}\' and \'{end}\'"
+    df = df_from_query(query)
+    df['FECHA'] = pd.to_datetime(df['FECHA']).dt.date
+    df.sort_values(by=['FECHA'], inplace=True)
+    return df
