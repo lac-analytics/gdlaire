@@ -7,3 +7,9 @@
 2021-07-07 08:22:22,572 INFO aireGDL Creating SQL engine
 2021-07-07 08:22:22,594 INFO aireGDL Getting smartcitizen from DB
 2021-07-07 08:22:33,212 INFO aireGDL smartcitizen retrived
+2021-07-07 22:20:29,840 INFO aireGDL Creating SQL engine
+2021-07-07 22:20:29,869 INFO aireGDL Getting plumbe from DB
+2021-07-07 22:20:52,983 INFO aireGDL plumbe retrived
+2021-07-07 22:24:20,786 INFO aireGDL Creating SQL engine
+2021-07-07 22:24:20,888 INFO aireGDL Getting plumbe from DB
+2021-07-07 22:24:45,541 INFO aireGDL plumbe retrived
