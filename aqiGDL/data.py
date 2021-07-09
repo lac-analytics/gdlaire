@@ -12,7 +12,7 @@ import geopandas as gpd
 import xlrd
 import urllib.request
 import math
-from datosgobmx import client
+#from datosgobmx import client
 from . import utils
 import requests
 
