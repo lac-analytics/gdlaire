@@ -12,7 +12,7 @@ import geopandas as gpd
 import xlrd
 import urllib.request
 import math
-from datosgobmx import client
+#from datosgobmx import client
 from . import utils
 import requests
 
@@ -588,17 +588,18 @@ def gdf_from_db(name, schema):
     return gdf
 
 
-def download_simaj_clean_data(start='2013/12/31', end='2019/12/31'):
-    """Downlad from PIP database the SIMAJ dataset from the specified date range
+def download_simaj_clean_data(time_period='day', start='2013/12/31', end='2019/12/31'):
+    """Download from PIP database the SIMAJ dataset from the specified date range
 
     Args:
+        time_period (str, optional): Time period for data (hour, day, week). Defaults to day.
         start (str, optional): Start date for the data. Defaults to '2013/12/31'.
         end (str, optional): End date for the data. Defaults to '2019/12/31'.
 
     Returns:
         pandas.DataFrame: DataFrame with the air quality data for the requested date range.
     """
-    query = f"SELECT * FROM data.simaj_data_day WHERE \"FECHA\" between \'{start}\' and \'{end}\'"
+    query = (f"SELECT * FROM data.simaj_data_{time_period} WHERE \"FECHA\" between \'{start}\' and \'{end}\'")
     df = df_from_query(query)
     df['FECHA'] = pd.to_datetime(df['FECHA']).dt.date
     df.sort_values(by=['FECHA'], inplace=True)
