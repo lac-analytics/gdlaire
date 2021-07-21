@@ -171,7 +171,7 @@ En el mapa de la izquierda se puede observar la localización del sensor Smart C
 
 En las gráficas resultantes es posible observar que hay dos formatos, uno que contiene solo una gráfica con valores de CO<sub>2</sub> y otra con dos. Esto se debe a que, al analizar los datos pudimos notar que casi todos los sensores dejan de registrar valores a partir de marzo 2021, sin embargo, algunos de estos retoman registros en junio 2021. Esto hizo que hubiera un hueco en los registros y, además de que fuera visualmente confuso, reducía el espacio de la gráfica y no permitía leerla claramente. Para atender esta circunstancia se dividieron los formatos, en las figuras que se muestran dos gráficas de dispersión se retomaron las mediciones en junio y son las que se muestran a la derecha, si solo hay una gráfica el sensor no retomó mediciones. Esta información se puede corroborar en los títulos de lagr gráficas que indican las fechas que se están mostrando y en las etiquetas de las x en la gráfica.
 
-![Línea base de CO<sub>2</sub>_v1Graph](../figures/co2_smartcitizen/13483_2021-01-20_2021-03-03)
+![Línea base de CO<sub>2</sub>_v1Graph](../figures/co2_smartcitizen/13483_2021-01-20_2021-03-03.png)
 
 
 #### 5.1.1.- Limitantes
@@ -234,5 +234,5 @@ La solicitud y el acceso a los datos 2021 por parte de la Semadet permitiría ha
 ***
 Anterior: [Datos](data.md)
 
-Siguiente: [Equipo](Equipo.md)
+Siguiente: [Equipo](equipo.md)
 ***
