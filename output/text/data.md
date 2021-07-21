@@ -52,6 +52,22 @@ Para generar la base de datos fue necesario identificar y corregir los huecos en
 
 Las tablas se unieron con las bases de datos de las estaciones del Sistema Nacional de Información de la Calidad del Aire (Sinaica) para integrar las coordenadas de las estaciones. Para hacer esto se unieron las claves únicas de las estaciones en ambas bases de datos. Posteriormente, se reestructuraron los DataFrames y se unieron todos los años en una sola tabla, esta tiene una estructura de fecha, hora, parámetro (contaminante), concentración, longitud y latitud. 
 
+### Acceso a la base de datos
+
+Los datos tratados y procesados de la Semadet se encuentran disponibles en la base de datos de PIP. Se puede acceder a estos en periodos horarios, diarios y semanales, en esta misma base de datos se guarda la información de los sensores de Smart Citizen y Plume Labs adquiridos para el proyecto. Los primeros son sensores estacionarios que se colocan en las casas de los usarios mientras que los segundos se pueden utilizar para recorridos y evaluar la exposición a lo largo de estos.
+
+## Semadet
+
+Para el acceso a los datos de la Semadet se puede utilizar la función **download_simaj_clean_data** que se encuentra en este repositorio. En esta función se puede determinar el periodo de tiempo que se desea de los datos (hour, day, week) y las fechas de inicio y fin de la información. Lo que se obtiene es un DataFrame.
+
+## Smart Citizen Kit
+
+Los datos de Smart Citizen Kit tienen menos opciones de filtrado para su acceso. Utilizando la función **gdf_from_db('smartcitizen', 'public')** del repositorio se descargan estos datos, como se observa en el ejemplo se debe de especificar que es la tabla 'smartcitizen' en el schema 'public'. La tabla contiene información de la geometría (puntos) de las estaciones, por lo que se obtienen GeoDataFrames.
+
+## Plume Labs
+
+El acceso a los datos de Plume Labs es similar al de Smart Citizen, de nuevo se accede a ellos usando la función **gdf_from_db('plumbe', 'public')** que se encuentra en este repositorio con la tabla 'plumbe' y el schema 'public'. Al igual que en Smart Citizen, se obtiene un GeoDataFrame ya que se descargan puntos con información de geometría. Sin embargo, estos no son estacionarios y se puede utilizar la librería [MovingPandas](https://anitagraser.github.io/movingpandas/) para convertirlos en trayectos.
+
 ***
 Anterior: [Inicio](../../README.md)
 
