@@ -77,7 +77,7 @@ def main():
     aqiGDL.log('Done with download')
 
     aqiGDL.gdf_to_db(gdf_sck, 'smartcitizen',
-                     schema='public', if_exists='append')
+                     schema='public', if_exists='replace')
     aqiGDL.log('Data in DB')
 
 
