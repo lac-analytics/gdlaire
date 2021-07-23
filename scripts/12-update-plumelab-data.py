@@ -226,16 +226,17 @@ def main():
             gdf_aq['sensor_id'] = s
 
             gdf_all = gdf_all.append(gdf_aq)
-
-    gdf_all.drop_duplicates(inplace=True)
-
-    gdf_all['date'] = gdf_all['date'].astype('int')
-
-    aqiGDL.log('Done with download')
-    aqiGDL.gdf_to_db(gdf_all, 'plumbe',
-                     schema='public', if_exists='append')
     
-    aqiGDL.log('Data in DB')
+    if len(gdf_all) > 0:
+        gdf_all.drop_duplicates(inplace=True)
+
+        gdf_all['date'] = gdf_all['date'].astype('int')
+
+        aqiGDL.log('Done with download')
+        aqiGDL.gdf_to_db(gdf_all, 'plumbe',
+                        schema='public', if_exists='append')
+        
+        aqiGDL.log('Data in DB')
 
 
 if __name__ == "__main__":
